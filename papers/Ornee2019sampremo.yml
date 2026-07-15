@@ -3,7 +3,7 @@ authors: Tasmeen Zaman Ornee and Yin Sun, accepted by
 labels:
 - sampling / updating
 publications:
-- name: Other
+- name: WiOpt
   year: 2019
   url: http://dl.ifip.org/db/conf/wiopt/wiopt2019/1570516672.pdf
 - name: IEEE/ACM Transactions on Networking

@@ -4,7 +4,7 @@ authors: Yin Sun, Yury Polyanskiy, and Elif Uysal-Biyikoglu, 2017. /-->
 labels:
 - sampling / updating
 publications:
-- name: Other
+- name: arXiv (Cornell University)
   year: 2017
   url: ./paper/journal/sampling_Wiener.pdf
 year: 2017

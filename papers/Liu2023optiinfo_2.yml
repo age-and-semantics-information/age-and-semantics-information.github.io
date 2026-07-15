@@ -4,7 +4,7 @@ authors: Jingwei Liu, Qian Wang, He Chen
 labels:
 - scheduling / optimization
 publications:
-- name: Other
+- name: WiOpt
   year: 2023
   url: https://doi.org/10.23919/wiopt58741.2023.10349810
 year: 2023

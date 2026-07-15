@@ -7,7 +7,7 @@ labels:
 - learning / RL
 - sampling / updating
 publications:
-- name: Other
+- name: ACM
   year: 2023
   url: https://doi.org/10.1145/3603781.3603924
 year: 2023

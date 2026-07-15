@@ -5,7 +5,7 @@ labels:
 - VoI / AoII / QAoI
 - edge / IoT / UAV
 publications:
-- name: Other
+- name: IEEE
   year: 2025
   url: https://doi.org/10.1109/metacom65502.2025.00062
 - name: arXiv (Cornell University)

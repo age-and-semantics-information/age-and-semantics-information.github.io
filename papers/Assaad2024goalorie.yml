@@ -6,7 +6,7 @@ labels:
 - semantics / goal-oriented
 - theory / fundamentals
 publications:
-- name: Other
+- name: IEEE
   year: 2024
   url: https://doi.org/10.1109/spawc60668.2024.10694557
 - name: arXiv (Cornell University)

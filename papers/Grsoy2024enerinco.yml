@@ -6,10 +6,10 @@ labels:
 - energy harvesting
 - estimation / control
 publications:
-- name: Other
+- name: TechRxiv
   year: 2024
   url: http://dx.doi.org/10.36227/techrxiv.172503953.39448282/v1
-- name: Other
+- name: IEEE
   year: 2025
   url: https://doi.org/10.1109/pimrc62392.2025.11275475
 year: 2024

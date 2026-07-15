@@ -6,7 +6,7 @@ labels:
 - sampling / updating
 - scheduling / optimization
 publications:
-- name: Other
+- name: ACM
   year: 2025
   url: https://doi.org/10.1145/3704413.3764413
 year: 2025

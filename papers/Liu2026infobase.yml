@@ -5,7 +5,7 @@ labels:
 - estimation / control
 - scheduling / optimization
 publications:
-- name: Other
+- name: WiOpt
   year: 2026
   url: https://doi.org/10.23919/wiopt71098.2026.11568250
 year: 2026

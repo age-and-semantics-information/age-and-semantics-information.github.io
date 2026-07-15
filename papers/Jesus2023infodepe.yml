@@ -5,7 +5,7 @@ authors: Gabriel Germino Martins de Jesus, João Luiz Rebelatto, Richard Demo So
 labels:
 - scheduling / optimization
 publications:
-- name: Other
+- name: IEEE
   year: 2023
   url: https://doi.org/10.1109/eucnc/6gsummit58263.2023.10188336
 - name: arXiv (Cornell University)

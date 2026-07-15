@@ -6,7 +6,7 @@ labels:
 - scheduling / optimization
 - security / privacy
 publications:
-- name: Other
+- name: IEEE
   year: 2023
   url: https://doi.org/10.1109/cscn60443.2023.10453168
 - name: arXiv (Cornell University)

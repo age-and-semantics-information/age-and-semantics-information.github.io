@@ -3,7 +3,7 @@ authors: Xiaoning Wang, Kexun Chen, Ke Li, and Qiang Yang
 labels:
 - theory / fundamentals
 publications:
-- name: Other
+- name: SIGCOMM
   year: 2022
   url: https://conferences.sigcomm.org/events/apnet2022/posters/AoI-aware%20Data%20Propagation%20in%20Edge%20Computing%20Assisted%20NR-V2X%20Networks.pdf
 year: 2022

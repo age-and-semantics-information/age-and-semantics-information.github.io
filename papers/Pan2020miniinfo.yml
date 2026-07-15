@@ -3,7 +3,7 @@ authors: Jiayu Pan, Ahmed M. Bedewy, Yin Sun, and Ness B. Shroff
 labels:
 - scheduling / optimization
 publications:
-- name: Other
+- name: ACM
   year: 2020
   url: https://doi.org/10.1145/3466772.3467040
 year: 2020

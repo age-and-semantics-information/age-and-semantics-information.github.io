@@ -8,7 +8,7 @@ publications:
 - name: IEEE
   year: 2023
   url: https://ieeexplore.ieee.org/abstract/document/10229041
-- name: Other
+- name: INFOCOM
   year: 2023
   url: https://doi.org/10.1109/infocom53939.2023.10229041
 - name: IEEE Transactions on Networking

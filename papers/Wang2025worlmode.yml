@@ -7,7 +7,7 @@ labels:
 - scheduling / optimization
 - theory / fundamentals
 publications:
-- name: Other
+- name: IEEE
   year: 2025
   url: https://doi.org/10.1109/globecom59602.2025.11431797
 - name: arXiv (Cornell University)

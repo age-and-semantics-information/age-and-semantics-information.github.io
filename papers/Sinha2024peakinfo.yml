@@ -4,7 +4,7 @@ labels:
 - queueing analysis
 - scheduling / optimization
 publications:
-- name: Other
+- name: IEEE
   year: 2024
   url: https://doi.org/10.1109/isit57864.2024.10619621
 - name: arXiv (Cornell University)

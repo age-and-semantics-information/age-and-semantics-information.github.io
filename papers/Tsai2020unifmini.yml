@@ -4,7 +4,7 @@ authors: Cho-Hsin Tsai and Chih-Chun Wang
 labels:
 - sampling / updating
 publications:
-- name: Other
+- name: IEEE/ACM Transactions on Networking
   year: 2020
   url: https://engineering.purdue.edu/~chihw/pub_pdf/20C_INFOCOM_AoI_RE.pdf
 year: 2020

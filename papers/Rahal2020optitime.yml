@@ -4,7 +4,7 @@ authors: Jean Abou Rahal, Gustavo de Veciana, Takayuki Ahimizu, and Hongsheng Lu
 labels:
 - queueing analysis
 publications:
-- name: Other
+- name: IEEE Transactions on Control of Network Systems
   year: 2020
   url: http://users.ece.utexas.edu/~gustavo/papers/RDS20.pdf
 - name: IEEE

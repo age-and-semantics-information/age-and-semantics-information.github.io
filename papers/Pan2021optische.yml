@@ -4,7 +4,7 @@ labels:
 - scheduling / optimization
 - theory / fundamentals
 publications:
-- name: Other
+- name: IEEE Transactions on Mobile Computing
   year: 2021
   url: ./AoI_hybrid_channels.pdf
 - name: IEEE

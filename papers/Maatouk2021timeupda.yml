@@ -3,7 +3,7 @@ authors: Ali Maatouk, Yin Sun, Anthony Ephremides, and Mohamad Assaad
 labels:
 - queueing analysis
 publications:
-- name: Other
+- name: IEEE Transactions on Communications
   year: 2021
   url: ./TCOM paper.pdf
 - name: IEEE

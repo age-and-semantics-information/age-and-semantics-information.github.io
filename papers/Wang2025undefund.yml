@@ -5,7 +5,7 @@ labels:
 - scheduling / optimization
 - theory / fundamentals
 publications:
-- name: Other
+- name: ACM
   year: 2025
   url: https://doi.org/10.1145/3704413.3764415
 - name: arXiv (Cornell University)

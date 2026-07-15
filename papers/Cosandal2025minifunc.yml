@@ -4,7 +4,7 @@ labels:
 - VoI / AoII / QAoI
 - estimation / control
 publications:
-- name: Other
+- name: IEEE
   year: 2025
   url: https://doi.org/10.1109/globecom59602.2025.11431782
 - name: arXiv (Cornell University)

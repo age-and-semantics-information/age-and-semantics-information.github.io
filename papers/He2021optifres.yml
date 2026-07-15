@@ -4,7 +4,7 @@ authors: "Junyi He, Qian Ma, Meng Zhang, and Jianwei Huang, 2021. \n[ Best Paper
 labels:
 - game theory / pricing
 publications:
-- name: Other
+- name: WiOpt
   year: 2021
   url: http://dl.ifip.org/db/conf/wiopt/wiopt2021/WiOpt_2021_paper_9.pdf
 year: 2021
