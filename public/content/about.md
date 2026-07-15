@@ -15,14 +15,19 @@ We curate:
 
 ## Hosting
 
-- **Repo**: [`Zhongdong1994/age-and-semantics-information`](https://github.com/Zhongdong1994/age-and-semantics-information) or org `age-and-semantics-information/age-and-semantics-information.github.io`
-- **Live**: `https://age-and-semantics-information.github.io` (if org pages) or `https://zhongdong1994.github.io/age-and-semantics-information/` (if project pages) — both supported via `VITE_BASE` env.
+- **Primary repo**: [`age-and-semantics-information/age-and-semantics-information.github.io`](https://github.com/age-and-semantics-information/age-and-semantics-information.github.io)
+- **Live site**: **https://age-and-semantics-information.github.io/**
+- **Build**: GitHub Actions → GitHub Pages (workflow), `VITE_BASE=/`
 - Inspired by ALPS (Alexander Lindermayr & Nicole Megow) — we thank them for open-sourcing.
 
 ## Maintainers
 
-Initiated by Zhongdong Liu and community contributors — PRs welcome!
+Initiated by Zhongdong Liu and community contributors — PRs welcome! Contact via GitHub Issues.
 
 ## Tech
 
-Vite + React 19 + MUI v7 + TypeScript + GitHub Pages. Papers as YAML → JSON.
+Vite 6 + React 19 + MUI v7 + TypeScript + GitHub Pages. Papers as YAML → JSON (`scripts/composeData.js`). Features: searchable list, year timeline, venue chart, author collaboration graph (react-force-graph-2d + d3-force).
+
+## Citation
+
+If this resource helps your research, please star the repo and cite the community site. Individual papers should be cited via their own venues/bibtex (click venue link on each paper card).

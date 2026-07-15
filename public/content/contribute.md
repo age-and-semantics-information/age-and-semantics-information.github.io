@@ -2,6 +2,10 @@
 
 This site is **open-source, community-driven**. Inspired by ALPS.
 
+## Primary Repo
+
+**https://github.com/age-and-semantics-information/age-and-semantics-information.github.io** — all PRs go here. Live site: **https://age-and-semantics-information.github.io/**.
+
 ## Adding / Editing Papers
 
 Papers live as YAML in `papers/`. Example:
@@ -19,36 +23,42 @@ publications:
 year: 2012
 ```
 
-- `labels`: pick from primary categories in `src/constants.ts` — we now include `semantics / goal-oriented` and `VoI / AoII / QAoI`
-- Secondary free-form tags allowed: e.g., `V2X`, `UAV`, `Whittle`, `DeepSC`, `goal-oriented`
+- `labels`: pick from primary categories in `src/constants.ts` — includes `semantics / goal-oriented` and `VoI / AoII / QAoI`
+- Secondary free-form tags allowed: e.g., `V2X`, `UAV`, `Whittle`, `DeepSC`, `goal-oriented`, `QAoI`
 - Filename convention: `FirstAuthorYearKeyword.yml` e.g. `Yates21survey.yml`
+- Please check `public/papers.json` duplicate titles before PR (handled by compose script)
 
-### PR Flow
+### PR Flow (recommended)
 
-1. Fork `Zhongdong1994/age-and-semantics-information` or `age-and-semantics-information/age-and-semantics-information.github.io`
+1. Fork `age-and-semantics-information/age-and-semantics-information.github.io`
 2. Add YAML file to `papers/`
-3. `npm install; npm run dev` — check at localhost:3000
-4. Commit and create PR with short description
+3. `npm install; npm run dev` — check at http://localhost:3000
+4. Commit and create PR with short description + source link (arXiv/DOI)
 
-### Email
+### Via Issue
 
-Send PDF link / YAML to maintainer if you prefer — we will add.
+Open an Issue with PDF link / bibtex — we will add it.
+
+### What makes a good contribution?
+
+- Foundational surveys/tutorials we missed
+- Recent (2024-2026) semantics/goal-oriented papers, AoII, VoI
+- Corrections to labels/venues/URLs
 
 ## Other Contributions
 
-- Improve categories, labels, add missing surveys
-- Add content to `material.md` (workshops, tutorials)
-- UI features: year histogram, author graph (like ALPS), BibTeX export, CSV export
-- Automation: scripts to fetch from DBLP/OpenAlex
+- Improve categories, labels, add missing surveys to `material.md`
+- UI features: BibTeX export, CSV export, bulk import from OpenAlex/DBLP
+- Bulk import automation: scripts to fetch from DBLP/OpenAlex (see roadmap)
 
-## Dev
+## Local Dev
 
 ```bash
 npm install
 npm run dev   # http://localhost:3000
-npm run build # dist/
+npm run build # dist/ - auto-deployed via GitHub Actions to Pages
 ```
 
-Deploy: GitHub Actions workflow `.github/workflows/deploy.yml` builds to Pages. Set repo variable `VITE_BASE` to `/` for org pages (`age-and-semantics-information.github.io`) or `/age-and-semantics-information/` for project pages under personal account.
+No `VITE_BASE` needed for org pages (defaults to `/`). Workflow is at `.github/workflows/deploy.yml`.
 
-Thank you!
+Thank you for helping keep AoI + Semantics literature organized!
