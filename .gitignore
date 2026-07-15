@@ -5,3 +5,7 @@ public/papers.json
 *.log
 .env
 .vercel
+.claude-memory.md
+audit_report.md
+.tmp/
+CLAUDE.md
