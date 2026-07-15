@@ -4,6 +4,7 @@ import { Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 const pages = [
   { name: 'Papers', href: '/' },
+  { name: 'Authors', href: '/authors' },
   { name: 'Material', href: '/material' },
   { name: 'Contribute', href: '/contribute' },
   { name: 'About', href: '/about' },
