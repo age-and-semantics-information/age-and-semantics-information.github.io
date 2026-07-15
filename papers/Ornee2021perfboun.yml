@@ -1,0 +1,10 @@
+title: Performance Bounds for Sampling and Remote Estimation of Gauss-Markov Processes
+  over a Noisy Channel with Random Delay
+authors: Tasmeen Zaman Ornee and Yin Sun, accepted by  2021. [Errata]
+labels:
+- sampling / updating
+publications:
+- name: IEEE SPAWC
+  year: 2021
+  url: ./Unstable_OU.pdf
+year: 2021

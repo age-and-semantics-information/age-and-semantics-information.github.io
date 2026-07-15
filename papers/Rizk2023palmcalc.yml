@@ -1,0 +1,15 @@
+title: A Palm Calculus Approach to the Distribution of the Age of Information
+authors: Amr Rizk and Jean-Yves Le Boudec
+labels:
+- applications
+- estimation / control
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10288486?casa_token=bNvfaxFnweYAAAAA:oA3RNA8s-YCD51C52GNm-GBSsMe13LN6tntynM3h6oHcWlyYjuuFhiXYKjQ5WQc9kZbhOmhZ
+- name: IEEE Transactions on Information Theory
+  year: 2023
+  url: https://doi.org/10.1109/tit.2023.3326381
+year: 2023

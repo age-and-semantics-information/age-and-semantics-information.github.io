@@ -1,0 +1,20 @@
+title: 'Age of Information in Gossip Networks: A Friendly Introduction and Literature
+  Survey'
+authors: Priyanka Kaswan, Purbesh Mitra, Arunabh Srivastava, and Sennur Ulukus
+labels:
+- energy harvesting
+- estimation / control
+- learning / RL
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2312.16163
+- name: arXiv (Cornell University)
+  year: 2023
+  url: http://arxiv.org/abs/2312.16163
+- name: IEEE Transactions on Communications
+  year: 2025
+  url: https://doi.org/10.1109/tcomm.2024.3522043
+year: 2023

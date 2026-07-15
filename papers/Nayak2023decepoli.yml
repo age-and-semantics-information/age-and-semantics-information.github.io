@@ -1,0 +1,19 @@
+title: A decentralized policy for minimization of Age of Incorrect Information in
+  Slotted ALOHA systems
+authors: Anupam Nayak, Andres E. Kalor, Federico Chiariotti, and Petar Popvski
+labels:
+- VoI / AoII / QAoI
+- edge / IoT / UAV
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2301.10987
+- name: Other
+  year: 2023
+  url: https://doi.org/10.1109/icc45041.2023.10279616
+- name: arXiv (Cornell University)
+  year: 2023
+  url: http://arxiv.org/abs/2301.10987
+year: 2023

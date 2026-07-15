@@ -1,0 +1,15 @@
+title: 'Age of Information Versions: A Semantic View of Markov Source Monitoring'
+authors: Mehrdad Salimnejad, Marios Kountouris, Anthony Ephremides, Νικόλαος Παππάς
+labels:
+- VoI / AoII / QAoI
+- sampling / updating
+- scheduling / optimization
+- semantics / goal-oriented
+publications:
+- name: arXiv (Cornell University)
+  year: 2024
+  url: http://arxiv.org/abs/2406.14594
+- name: IEEE Transactions on Communications
+  year: 2025
+  url: https://doi.org/10.1109/tcomm.2025.3616209
+year: 2024

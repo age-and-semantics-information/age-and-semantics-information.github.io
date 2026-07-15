@@ -1,0 +1,15 @@
+title: Minimizing Age of Incorrect Information in the Presence of Timeout
+authors: Yutao Chen and Anthony Ephremides
+labels:
+- VoI / AoII / QAoI
+- estimation / control
+- queueing analysis
+- theory / fundamentals
+publications:
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2207.02926
+- name: arXiv (Cornell University)
+  year: 2022
+  url: http://arxiv.org/abs/2207.02926
+year: 2022

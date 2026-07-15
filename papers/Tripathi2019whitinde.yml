@@ -1,0 +1,14 @@
+title: A Whittle Index Approach to Minimizing Functions of Age of Information
+authors: Vishrant Tripathi and Eytan Modiano
+labels:
+- queueing analysis
+- scheduling / optimization
+- theory / fundamentals
+publications:
+- name: arXiv
+  year: 2019
+  url: https://arxiv.org/pdf/1908.10438.pdf
+- name: IEEE/ACM Transactions on Networking
+  year: 2024
+  url: https://doi.org/10.1109/tnet.2024.3452006
+year: 2019

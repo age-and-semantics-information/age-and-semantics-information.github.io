@@ -1,0 +1,10 @@
+title: Age-Optimal Updates of Multiple Information Flows
+authors: "Yin Sun, Elif Uysal-Biyikoglu, and Sastry Kompella,\n\n        , 2018. [Technical\
+  \ Report]    [slides]"
+labels:
+- queueing analysis
+publications:
+- name: IEEE INFOCOM Age of Information Workshop
+  year: 2018
+  url: ./paper/conference/multi-flow-conf.pdf
+year: 2018

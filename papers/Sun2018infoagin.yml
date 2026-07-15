@@ -1,0 +1,10 @@
+title: 'Information Aging through Queues: A Mutual Information Perspective'
+authors: "Yin Sun and Benjamin Cyr, , 2018. [Technical Report] \n    [poster] \n \
+  \   [Errata] \n    [Matlab Code]"
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE SPAWC Conference -- Special Session on the Age of Information
+  year: 2018
+  url: ./paper/conference/ageMI_conference.pdf
+year: 2018

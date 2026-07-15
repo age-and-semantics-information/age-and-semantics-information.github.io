@@ -1,0 +1,16 @@
+title: Goal-Oriented Communication for Edge Learning Based On the Information Bottleneck
+authors: Francesco Pezone, Sergio Barbarossa, Paolo Di Lorenzo
+labels:
+- edge / IoT / UAV
+- energy harvesting
+- learning / RL
+- semantics / goal-oriented
+publications:
+- name: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and
+    Signal
+  year: 2022
+  url: https://doi.org/10.1109/icassp43922.2022.9746468
+- name: arXiv (Cornell University)
+  year: 2022
+  url: http://arxiv.org/abs/2202.12639
+year: 2022

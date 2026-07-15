@@ -1,0 +1,13 @@
+title: Hierarchical Deep Reinforcement Learning for Age-of-Information Minimization
+  in IRS-Aided and Wireless-Powered Wireless Networks
+authors: Shimin Gong, Leiyang Cui, Bo Gu, Bin Lyu, Dinh Thai Hoang, Dusit Niyato
+labels:
+- energy harvesting
+- estimation / control
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Wireless Communications
+  year: 2023
+  url: https://doi.org/10.1109/twc.2023.3259721
+year: 2023

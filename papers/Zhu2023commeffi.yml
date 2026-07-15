@@ -1,0 +1,9 @@
+title: Communication-efficient local SGD with age-based worker selection
+authors: Feng Zhu, Jingjing Zhang, and Xin Wang
+labels:
+- queueing analysis
+publications:
+- name: Springer
+  year: 2023
+  url: https://link.springer.com/article/10.1007/s11227-023-05190-7
+year: 2023

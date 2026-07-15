@@ -1,0 +1,12 @@
+title: Edge caching with real-time guarantees
+authors: Le Yang, Fu-Chun Zheng and Shi Jin
+labels:
+- scheduling / optimization
+publications:
+- name: IEEE WCSP
+  year: 2019
+  url: https://arxiv.org/pdf/1912.11847.pdf
+- name: IEEE
+  year: 2022
+  url: https://ieeexplore.ieee.org/abstract/document/10013080/
+year: 2019

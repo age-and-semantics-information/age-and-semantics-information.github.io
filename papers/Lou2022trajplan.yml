@@ -1,0 +1,14 @@
+title: UAV trajectory planning with network age of information minimization
+authors: Yifan Lou, Jin Xu, Junting Chen, and Jianwei Huang
+labels:
+- edge / IoT / UAV
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE
+  year: 2022
+  url: https://ieeexplore.ieee.org/abstract/document/9771925/
+- name: IEEE Transactions on Networking
+  year: 2026
+  url: https://doi.org/10.1109/ton.2026.3676193
+year: 2022

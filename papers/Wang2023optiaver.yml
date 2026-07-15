@@ -1,0 +1,17 @@
+title: Optimizing average age of information in industrial iot systems under delay
+  constraint
+authors: Heng Wang, Xin Xie, and Jingqi Yang
+labels:
+- edge / IoT / UAV
+- learning / RL
+- queueing analysis
+- sampling / updating
+- scheduling / optimization
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10032102?casa_token=C9NxdlYXJe8AAAAA:IJ5bxJIRfO5o4qVOW7hkIp65spNFDm2Iw-Bv3oIS0eUl6ibTnmhP3S7rsXYRiBKQNNb1p6z4Ew
+- name: IEEE Transactions on Industrial Informatics
+  year: 2023
+  url: https://doi.org/10.1109/tii.2023.3240598
+year: 2023

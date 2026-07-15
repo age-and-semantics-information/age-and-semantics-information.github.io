@@ -1,0 +1,10 @@
+title: 'FAS-DQN: Freshness-Aware Scheduling via Reinforcement Learning for Latency-Sensitive
+  Applications'
+authors: Chunyang Zhou, Guohui Li, Jianjun Li, Quan Zhou, and Bing Guo
+labels:
+- learning / RL
+publications:
+- name: IEEE
+  year: 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9622136
+year: 2021

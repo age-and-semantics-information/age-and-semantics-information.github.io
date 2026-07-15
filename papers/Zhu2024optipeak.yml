@@ -1,0 +1,15 @@
+title: 'Optimizing Peak Age of Information in MEC Systems: Computing Preemption and
+  Non-Preemption'
+authors: Jianhang Zhu, Jie Gong
+labels:
+- edge / IoT / UAV
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: IEEE/ACM Transactions on Networking
+  year: 2024
+  url: https://doi.org/10.1109/tnet.2024.3384706
+- name: arXiv (Cornell University)
+  year: 2024
+  url: http://arxiv.org/abs/2404.02700
+year: 2024

@@ -1,0 +1,14 @@
+title: Age-of-information-aware PI controller for load frequency control
+authors: Dan Jiao, Changzheng Shao, Bo HU, Kaigai Xie, Chengrong Lin, and Zhuoxuan
+  Ju
+labels:
+- estimation / control
+- scheduling / optimization
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10374454/
+- name: Protection and Control of Modern Power Systems
+  year: 2023
+  url: https://doi.org/10.1186/s41601-023-00311-z
+year: 2023

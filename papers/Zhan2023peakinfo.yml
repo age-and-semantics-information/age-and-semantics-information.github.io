@@ -1,0 +1,15 @@
+title: 'Peak Age of Information Optimization of Slotted Aloha: FCFS Versus LCFS'
+authors: Wen Zhan, Dewei Wu, Xinghua Sun, Ziyang Guo, Peng Liu, and Jingjing Liu
+labels:
+- energy harvesting
+- queueing analysis
+- sampling / updating
+- scheduling / optimization
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10114593?casa_token=6CCaJfmAIikAAAAA:XF-eWka-421eOUc3F8au9l7QTzzYOXnvb_O8XzE0yXiskztm5TkVF_JI-_T0iLpO_RHqYZjt
+- name: IEEE Transactions on Network Science and Engineering
+  year: 2023
+  url: https://doi.org/10.1109/tnse.2023.3272360
+year: 2023

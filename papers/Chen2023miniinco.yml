@@ -1,0 +1,13 @@
+title: Minimizing Age of Incorrect Information Over a Channel With Random Delay
+authors: Yutao Chen, Anthony Ephremides
+labels:
+- VoI / AoII / QAoI
+- theory / fundamentals
+publications:
+- name: arXiv (Cornell University)
+  year: 2023
+  url: http://arxiv.org/abs/2301.06150
+- name: IEEE/ACM Transactions on Networking
+  year: 2024
+  url: https://doi.org/10.1109/tnet.2024.3389964
+year: 2023

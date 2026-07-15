@@ -1,0 +1,14 @@
+title: 'Optimal Status Update for Caching Enabled IoT Networks: A Dueling Deep R-Network
+  Approach'
+authors: Chao Xu, Yiping Xie, Xijun Wang, Howard H. Yang, Dusit Niyato, and Tony Q.
+  S. Quek
+labels:
+- learning / RL
+publications:
+- name: IEEE
+  year: 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9477102
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2105.13383
+year: 2021

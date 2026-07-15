@@ -1,0 +1,11 @@
+title: Scheduling to Minimize Staleness and Stretch in Real-Time Data Warehouses
+authors: Mohammad Hossein Bateni, Lukasz Golab, Mohammad Taghi Hajiaghayi, and Howard
+  Karloff,
+labels:
+- applications
+publications:
+- name: Proceedings of the twenty-first annual symposium on Parallelism in algorithms
+    an
+  year: 2009
+  url: http://www-math.mit.edu/~hajiagha/Staleness.pdf
+year: 2009

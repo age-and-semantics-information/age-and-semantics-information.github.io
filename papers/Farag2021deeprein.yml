@@ -1,0 +1,15 @@
+title: A Deep Reinforcement Learning Approach for Improving Age of Information in
+  Mission-Critical IoT
+authors: Hossam Farag, Mikael Gidlund, and Čedomir Stefanović
+labels:
+- edge / IoT / UAV
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE
+  year: 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9692982
+- name: arXiv (Cornell University)
+  year: 2023
+  url: http://arxiv.org/abs/2311.13861
+year: 2021

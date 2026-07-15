@@ -1,0 +1,15 @@
+title: Optimal Preemption Policy for Age of Information Minimization with Random Arrival
+  and Known Packet Length
+authors: Xiyue Li, Qi Zhang, Jie Gong
+labels:
+- edge / IoT / UAV
+- learning / RL
+- scheduling / optimization
+publications:
+- name: SSRN Electronic Journal
+  year: 2024
+  url: http://dx.doi.org/10.2139/ssrn.4831413
+- name: ACM Transactions on Sensor Networks
+  year: 2026
+  url: https://doi.org/10.1145/3794849
+year: 2024

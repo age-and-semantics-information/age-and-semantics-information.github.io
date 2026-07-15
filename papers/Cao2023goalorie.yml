@@ -1,0 +1,19 @@
+title: Goal-Oriented Communication, Estimation, and Control over Bidirectional Wireless
+  Links
+authors: Jie Cao, Ernest Kurniawan, Amnart Boonkajay, Nikolaos Pappas, Sumei Sun,
+  and Petar Popovski
+labels:
+- estimation / control
+- scheduling / optimization
+- semantics / goal-oriented
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2312.16061
+- name: arXiv (Cornell University)
+  year: 2023
+  url: http://arxiv.org/abs/2312.16061
+- name: IEEE Transactions on Communications
+  year: 2024
+  url: https://doi.org/10.1109/tcomm.2024.3485572
+year: 2023

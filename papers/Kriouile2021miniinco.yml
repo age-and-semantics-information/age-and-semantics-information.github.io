@@ -1,0 +1,16 @@
+title: Minimizing the Age of Incorrect Information for Real-time Tracking of Markov
+  Remote Sources
+authors: Saad Kriouile and Mohamad Assaad
+labels:
+- VoI / AoII / QAoI
+- edge / IoT / UAV
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2102.03245
+- name: Other
+  year: 2021
+  url: https://doi.org/10.1109/isit45174.2021.9518209
+year: 2021

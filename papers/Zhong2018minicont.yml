@@ -1,0 +1,9 @@
+title: Minimizing Content Staleness in Dynamo-Style Replicated Storage Systems
+authors: Jing Zhong, Roy D. Yates, and Emina Soljanin
+labels:
+- queueing analysis
+publications:
+- name: IEEE INFOCOM AoI Workshop
+  year: 2018
+  url: https://arxiv.org/abs/1804.00742
+year: 2018

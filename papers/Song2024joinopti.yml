@@ -1,0 +1,16 @@
+title: Joint Optimization of Age of Information and Energy Consumption in NR-V2X System
+  Based on Deep Reinforcement Learning
+authors: Shulin Song, Zheng Zhang, Qiong Wu, Pingyi Fan, Qiang Fan
+labels:
+- applications
+- energy harvesting
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Sensors
+  year: 2024
+  url: https://doi.org/10.3390/s24134338
+- name: arXiv (Cornell University)
+  year: 2024
+  url: http://arxiv.org/abs/2407.08458
+year: 2024

@@ -1,0 +1,15 @@
+title: Minimizing the Age of Incorrect Information for Unknown Markovian Source
+authors: Saad Kriouile and Mohamad Assaad
+labels:
+- VoI / AoII / QAoI
+- learning / RL
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2210.09681
+- name: IEEE Transactions on Networking
+  year: 2026
+  url: https://doi.org/10.1109/ton.2026.3688018
+year: 2022

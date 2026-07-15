@@ -1,0 +1,15 @@
+title: Adaptive sampling and transmission for minimizing age of information in metaverse
+authors: Yuquan Xiao, Qinghe Du, Wenchi Cheng, and Wei Zhang
+labels:
+- queueing analysis
+- sampling / updating
+- scheduling / optimization
+- theory / fundamentals
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10371380?casa_token=ATxVFrBD4lkAAAAA:6wn0k-BBLmBRP7Tx5CMuWsQgAZDfoyhmIqFS5EVtF9txcYebQoq6Ns-72Ee2Uxu6ITBmHu0JmQ
+- name: IEEE Journal on Selected Areas in Communications
+  year: 2023
+  url: https://doi.org/10.1109/jsac.2023.3345417
+year: 2023

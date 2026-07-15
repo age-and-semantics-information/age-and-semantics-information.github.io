@@ -1,0 +1,16 @@
+title: Minimizing age of information under arbitrary arrival model with arbitrary
+  packet size
+authors: Kumar Saurav, Rahul Vaze
+labels:
+- scheduling / optimization
+publications:
+- name: Performance Evaluation
+  year: 2023
+  url: https://doi.org/10.1016/j.peva.2023.102373
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2023
+  url: http://dx.doi.org/10.1145/3595244.3595256
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2024
+  url: https://doi.org/10.1145/3649477.3649484
+year: 2023

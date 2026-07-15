@@ -1,0 +1,9 @@
+title: 'MiSTA: Threshold-ALOHA with mini slots'
+authors: Mutlu Ahmetoglu, Orhan Tahir Yavascan, and Elif Uysal
+labels:
+- queueing analysis
+publications:
+- name: IEEE
+  year: 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9527766
+year: 2021

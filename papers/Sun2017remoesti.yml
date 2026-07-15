@@ -1,0 +1,10 @@
+title: Remote Estimation of the Wiener Process over a Channel with Random Delay
+authors: "Yin Sun, Yury Polyanskiy, and Elif Uysal-Biyikoglu, , 2017. [Technical report]\
+  \ \n\n    \n\n    [slides]"
+labels:
+- sampling / updating
+publications:
+- name: IEEE ISIT
+  year: 2017
+  url: ./paper/conference/sampling_Wiener_conf.pdf
+year: 2017

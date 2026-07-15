@@ -1,0 +1,15 @@
+title: Adaptive Packet Length Adjustment for Minimizing Age of Information Over Fading
+  Channels
+authors: Baoquan Yu, Yueming Cai, Xianbang Diao, and Kaixin Cheng
+labels:
+- edge / IoT / UAV
+- scheduling / optimization
+- theory / fundamentals
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10049773/
+- name: IEEE Transactions on Wireless Communications
+  year: 2023
+  url: https://doi.org/10.1109/twc.2023.3244930
+year: 2023

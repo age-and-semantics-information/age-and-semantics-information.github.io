@@ -1,0 +1,13 @@
+title: 'Caching Transient Content for IoT Sensing: Multi-Agent Soft Actor-Critic'
+authors: Xiongwei Wu, Xiuhua Li, Jun Li, P. C. Ching, Victor C. M. Leung,  and H.
+  Vincent Poor
+labels:
+- scheduling / optimization
+publications:
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/pdf/2008.13191.pdf
+- name: IEEE
+  year: 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9446746
+year: 2020

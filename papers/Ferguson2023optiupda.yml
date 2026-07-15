@@ -1,0 +1,13 @@
+title: Optimal Update Times for Stale Information Metrics Including the Age of Information
+authors: Chris Ferguson and Leonard Kleinrock
+labels:
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10371395
+- name: IEEE Journal on Selected Areas in Information Theory
+  year: 2023
+  url: https://doi.org/10.1109/jsait.2023.3344760
+year: 2023

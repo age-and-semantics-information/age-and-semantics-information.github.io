@@ -1,13 +1,17 @@
-title: Optimizing data freshness, throughput, and delay in multi-server information-update systems
+title: Optimizing data freshness, throughput, and delay in multi-server information-update
+  systems
 authors: Bedewy, Sun, Shroff
 labels:
-  - queueing analysis
-  - scheduling / optimization
+- queueing analysis
+- scheduling / optimization
 publications:
-  - name: ISIT
-    year: 2016
-    url: https://ieeexplore.ieee.org/document/7541520
-  - name: arXiv
-    year: 2016
-    url: https://arxiv.org/abs/1608.07050
+- name: ISIT
+  year: 2016
+  url: https://ieeexplore.ieee.org/document/7541520
+- name: arXiv
+  year: 2016
+  url: https://arxiv.org/abs/1608.07050
+- name: IEEE ISIT
+  year: 2016
+  url: ./paper/conference/Age_of_info_ISIT16.pdf
 year: 2016

@@ -1,0 +1,17 @@
+title: Optimal Mobility and Communication Strategy to Maximize the Value of Information
+  in IoT Networks
+authors: Zijing Wang, Mihai-Alin Badiu, and Justin P. Coon
+labels:
+- VoI / AoII / QAoI
+- edge / IoT / UAV
+- estimation / control
+- learning / RL
+- queueing analysis
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2309.08297
+- name: IEEE Internet of Things Journal
+  year: 2024
+  url: https://doi.org/10.1109/jiot.2024.3489774
+year: 2023

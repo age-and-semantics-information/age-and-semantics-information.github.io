@@ -1,0 +1,15 @@
+title: When to Pull Data from Sensors for Minimum Age of Incorrect Information
+authors: Saad Kriouile and Mohamad Assaad
+labels:
+- VoI / AoII / QAoI
+- edge / IoT / UAV
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10349891
+- name: Other
+  year: 2023
+  url: https://doi.org/10.23919/wiopt58741.2023.10349891
+year: 2023

@@ -1,0 +1,12 @@
+title: Optimizing Information Freshness using Low-Power Status Updates via Sleep-Wake
+  Scheduling
+authors: Ahmed M. Bedewy, Yin Sun, Rahul Singh, and Ness B. Shroff, accepted by ,
+  2020. Runner-up for Best Paper Award  [link]
+labels:
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: ACM MobiHoc
+  year: 2020
+  url: https://arxiv.org/pdf/1910.00205.pdf
+year: 2020

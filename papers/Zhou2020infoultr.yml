@@ -1,0 +1,20 @@
+title: 'Age of information in ultra-dense IoT systems: Performance and mean-field
+  game analysis'
+authors: Bo Zhou and Walid Saad
+labels:
+- edge / IoT / UAV
+- energy harvesting
+- estimation / control
+- game theory / pricing
+- queueing analysis
+publications:
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/pdf/2006.15756.pdf
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10173715?casa_token=J404Q5iHx7MAAAAA:HUXkLzwjlMiiCBR4oc1DRKGrqD1YX-fHgwnQbszLOYCKkR8Njv4uwFABPblVtgQD7-4lNi4kJg
+- name: IEEE Transactions on Mobile Computing
+  year: 2023
+  url: https://doi.org/10.1109/tmc.2023.3292515
+year: 2020

@@ -1,0 +1,9 @@
+title: Synchronizing a database to Improve Freshness
+authors: Junghoo Cho and Hector Garcia-Molina,
+labels:
+- applications
+publications:
+- name: ACM SIGMOD
+  year: 1999
+  url: http://oak.cs.ucla.edu/~cho/papers/cho-synch.pdf
+year: 1999

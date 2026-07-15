@@ -1,0 +1,10 @@
+title: 'Low-Latency Networking: Where Latency Lurks and How to Tame It'
+authors: Xiaolin Jiang,  Hossein Shokri-Ghadikolaei,  Gabor Fodor, Eytan Modiano,
+  and Zhibo Pang
+labels:
+- queueing analysis
+publications:
+- name: IEEE
+  year: 2018
+  url: https://ieeexplore.ieee.org/abstract/document/8452158
+year: 2018

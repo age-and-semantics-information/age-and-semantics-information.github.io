@@ -1,0 +1,18 @@
+title: 'The dynamic behavior of frameless ALOHA: Drift analysis, throughput, and age
+  of information'
+authors: Andrea Munari, Francisco Lázaro, Giuseppe Durisi, and Gianluigi Liva
+labels:
+- queueing analysis
+- scheduling / optimization
+- theory / fundamentals
+publications:
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10225599?casa_token=tkQ7NoucSXcAAAAA:v8mig59YeOcst_HfQVbcIjNC8ZwvUuMwyzWhr0zqWCNbMwP4PU7shOzhTZ-HIFkMmEiksWRyQQ
+- name: IEEE Transactions on Communications
+  year: 2023
+  url: https://doi.org/10.1109/tcomm.2023.3307145
+- name: arXiv (Cornell University)
+  year: 2023
+  url: http://arxiv.org/abs/2301.10078
+year: 2023

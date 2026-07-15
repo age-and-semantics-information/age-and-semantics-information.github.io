@@ -1,10 +1,15 @@
-title: Distributed scheduling algorithms for optimizing information freshness in wireless networks
+title: Distributed scheduling algorithms for optimizing information freshness in wireless
+  networks
 authors: Talak, Karaman, Modiano
 labels:
-  - scheduling / optimization
-  - multi-source / multi-hop
+- multi-source / multi-hop
+- queueing analysis
+- scheduling / optimization
 publications:
-  - name: IEEE TWC
-    year: 2019
-    url: https://arxiv.org/abs/1806.06469
+- name: arXiv
+  year: 2018
+  url: https://arxiv.org/abs/1803.06469
+- name: IEEE TWC
+  year: 2019
+  url: https://arxiv.org/abs/1806.06469
 year: 2019

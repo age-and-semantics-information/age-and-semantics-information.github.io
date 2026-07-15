@@ -1,0 +1,15 @@
+title: 'Statistical Age of Information: A Risk-Aware Metric and Its Applications in
+  Status Updates'
+authors: Yuquan Xiao, Qinghe Du, Georgios Karagiannidis
+labels:
+- sampling / updating
+- scheduling / optimization
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Wireless Communications
+  year: 2024
+  url: https://doi.org/10.1109/twc.2024.3520324
+- name: arXiv (Cornell University)
+  year: 2024
+  url: http://arxiv.org/abs/2406.02139
+year: 2024

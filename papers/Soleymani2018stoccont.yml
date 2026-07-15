@@ -1,0 +1,13 @@
+title: 'Stochastic Control with Stale Information-Part I: Fully Observable Systems'
+authors: Touraj Soleymani, John S. Baras, and Karl H. Johansson
+labels:
+- estimation / control
+- queueing analysis
+publications:
+- name: arXiv
+  year: 2018
+  url: https://arxiv.org/pdf/1810.10983.pdf
+- name: arXiv
+  year: 2018
+  url: https://arxiv.org/abs/1810.10983
+year: 2018

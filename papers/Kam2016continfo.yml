@@ -1,0 +1,10 @@
+title: 'Controlling the age of information: Buffer size, deadline, and packet replacement'
+authors: Clement Kam, Sastry Kompella, Gam D. Nguyen, Jeffrey E. Wieselthier, and
+  Anthony Ephremides,
+labels:
+- queueing analysis
+publications:
+- name: IEEE MILCOM
+  year: 2016
+  url: http://ieeexplore.ieee.org/abstract/document/7795343/
+year: 2016

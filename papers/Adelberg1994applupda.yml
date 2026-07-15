@@ -1,0 +1,9 @@
+title: Applying Update Streams in a Soft Real-Time Database System
+authors: B. Adelberg, H. Garcia-Molina, and B. Kao,
+labels:
+- applications
+publications:
+- name: ACM SIGMOD
+  year: 1994
+  url: http://ilpubs.stanford.edu:8090/47/1/1994-14.pdf
+year: 1994

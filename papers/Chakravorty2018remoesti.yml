@@ -1,0 +1,9 @@
+title: Remote estimation over a packet-drop channel with Markovian state
+authors: Jhelum Chakravorty and Aditya Mahajan
+labels:
+- sampling / updating
+publications:
+- name: arXiv
+  year: 2018
+  url: https://arxiv.org/abs/1807.09706
+year: 2018

@@ -1,0 +1,14 @@
+title: 'The Age of Incorrect Information: A New Performance Metric for Status Updates'
+authors: Ali Maatouk, Saad Kriouile, Mohamad Assaad, and Anthony Ephremides
+labels:
+- VoI / AoII / QAoI
+- queueing analysis
+- theory / fundamentals
+publications:
+- name: arXiv
+  year: 2019
+  url: https://arxiv.org/abs/1907.06604
+- name: IEEE/ACM Transactions on Networking
+  year: 2020
+  url: https://doi.org/10.1109/tnet.2020.3005549
+year: 2019

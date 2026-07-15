@@ -1,0 +1,9 @@
+title: Evaluation of Age Control Protocol (ACP) and ACP+ on ESP32
+authors: Umut Guloglu, Sajjad Baghaee, and Elif Uysal
+labels:
+- estimation / control
+publications:
+- name: IEEE
+  year: 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9562140
+year: 2021

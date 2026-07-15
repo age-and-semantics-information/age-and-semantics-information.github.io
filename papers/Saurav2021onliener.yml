@@ -1,0 +1,17 @@
+title: Online Energy Minimization Under A Peak Age of Information Constraint
+authors: Kumar Saurav and Rahul Vaze
+labels:
+- energy harvesting
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/pdf/2103.16425.pdf
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10304273?casa_token=alLunAkxxv8AAAAA:IinUYwmhvQHTckiaKWaC_bvwP1CCpCJ5UFgiR64pbYHdZ_2tA2iR3qx2826idOs3h9Nihru9Wg
+- name: IEEE Journal on Selected Areas in Information Theory
+  year: 2023
+  url: https://doi.org/10.1109/jsait.2023.3329034
+year: 2021

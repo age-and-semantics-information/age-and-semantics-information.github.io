@@ -1,0 +1,14 @@
+title: Minimization of age of incorrect estimates of autoregressive Markov processes
+authors: Bhavya Joshi, Rajshekhar V Bhat, B. N. Bharath, and Rahul Vaze
+labels:
+- VoI / AoII / QAoI
+- estimation / control
+- sampling / updating
+publications:
+- name: IEEE
+  year: 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9589182
+- name: Other
+  year: 2021
+  url: https://doi.org/10.23919/wiopt52861.2021.9589182
+year: 2021

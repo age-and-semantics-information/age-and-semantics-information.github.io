@@ -1,0 +1,12 @@
+title: '2D-AoI: Age-of-Information of Distributed Sensors for Spatio-Temporal Processes'
+authors: Markus Fidler, Flavio Gallistl, Jaya Prakash Champati, Joerg Widmer
+labels:
+- scheduling / optimization
+publications:
+- name: arXiv (Cornell University)
+  year: 2024
+  url: http://arxiv.org/abs/2412.12789
+- name: IEEE Transactions on Communications
+  year: 2025
+  url: https://doi.org/10.1109/tcomm.2025.3628766
+year: 2024

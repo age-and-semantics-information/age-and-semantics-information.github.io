@@ -1,0 +1,19 @@
+title: Optimal Scheduling Policy for Minimizing Age of Information with a Relay
+authors: Jaeyoung Song, Deniz Gunduz, and Wan Choi
+labels:
+- edge / IoT / UAV
+- learning / RL
+- queueing analysis
+- sampling / updating
+- scheduling / optimization
+publications:
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/pdf/2009.02716.pdf
+- name: IEEE
+  year: 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10229126?casa_token=nl-dCdF5uzYAAAAA:p35tBuMGb_G919GViWBharIzxnYx5ZYEx_BVPH0R_FojMhKWMXcoIA34eex3em3oHFcxgT8MSg
+- name: IEEE Internet of Things Journal
+  year: 2023
+  url: https://doi.org/10.1109/jiot.2023.3308113
+year: 2020

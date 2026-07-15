@@ -1,0 +1,14 @@
+title: Age-of-information in distributed systems caused by asynchronous computing
+  modeled as parallel renewal processes
+authors: Adrian Redder
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Research Square
+  year: 2023
+  url: http://dx.doi.org/10.21203/rs.3.rs-3502945/v2
+- name: Statistics and Computing
+  year: 2026
+  url: https://doi.org/10.1007/s11222-026-10885-x
+year: 2023

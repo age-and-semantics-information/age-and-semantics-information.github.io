@@ -1,0 +1,13 @@
+title: 'Wireless scheduling for information freshness and synchrony: Drift-based design
+  and heavy-traffic analysis'
+authors: Changhee Joo and Atilla Eryilmaz,
+labels:
+- queueing analysis
+publications:
+- name: WiOpt
+  year: 2017
+  url: http://netlab.unist.ac.kr/wp-content/uploads/sites/183/2012/07/C44_WiOpt17-JooEryilmaz.pdf
+- name: IEEE/ACM Transactions on Networking
+  year: 2018
+  url: https://ieeexplore.ieee.org/document/8476220
+year: 2017
