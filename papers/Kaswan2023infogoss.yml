@@ -11,9 +11,6 @@ publications:
 - name: arXiv
   year: 2023
   url: https://arxiv.org/abs/2312.16163
-- name: arXiv
-  year: 2023
-  url: http://arxiv.org/abs/2312.16163
 - name: IEEE Transactions on Communications
   year: 2025
   url: https://doi.org/10.1109/tcomm.2024.3522043

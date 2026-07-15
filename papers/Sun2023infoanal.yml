@@ -8,9 +8,6 @@ publications:
 - name: arXiv
   year: 2023
   url: https://arxiv.org/abs/2311.02691
-- name: arXiv
-  year: 2023
-  url: http://arxiv.org/abs/2311.02691
 - name: IEEE Transactions on Communications
   year: 2024
   url: https://doi.org/10.1109/tcomm.2024.3522048

@@ -16,14 +16,29 @@ const StyledCard = styled(Card)(({ theme }) => ({
 
 interface Props { paper: Paper; selectedLabels?: string[]; onLabelClick?: ((label:string)=>void)|null; }
 
+function extractArxivId(url: string): string | null {
+  if (!url) return null;
+  let m = url.match(/arxiv\.org\/abs\/([0-9]+\.[0-9]+)/i);
+  if (m) return m[1];
+  m = url.match(/10\.48550\/arxiv\.([0-9]+\.[0-9]+)/i);
+  if (m) return m[1];
+  m = url.match(/arxiv\.org\/abs\/([a-z\-]+\/\d+)/i);
+  if (m) return m[1];
+  return null;
+}
+
 const PaperCardMobile: React.FC<Props> = ({ paper, selectedLabels=[], onLabelClick=null }) => {
   const sortedLabels = useMemo(()=> sortLabels(paper.labels), [paper.labels]);
   const dedupedPubs = useMemo(()=>{
-    const seen = new Set<string>();
+    const seenUrls = new Set<string>();
+    const seenArxiv = new Set<string>();
     return (paper.publications||[]).filter((p:any)=>{
       const u = p.url || '';
-      if (u && seen.has(u)) return false;
-      if (u) seen.add(u);
+      const arxivId = extractArxivId(u);
+      if (u && seenUrls.has(u)) return false;
+      if (arxivId && seenArxiv.has(arxivId)) return false;
+      if (u) seenUrls.add(u);
+      if (arxivId) seenArxiv.add(arxivId);
       return true;
     });
   }, [paper.publications]);

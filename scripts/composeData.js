@@ -13,6 +13,18 @@ let papers = fs.readdirSync(paper_dir).filter(f=>f.endsWith('.yml')||f.endsWith(
 console.info(`Found ${papers.length} paper files`);
 const seenTitles = new Set();
 const issues={duplicates:[], missing:[], parseErrors:[]};
+
+function extractArxivId(url) {
+  if (!url) return null;
+  let m = url.match(/arxiv\.org\/abs\/([0-9]+\.[0-9]+)/i);
+  if (m) return m[1];
+  m = url.match(/10\.48550\/arxiv\.([0-9]+\.[0-9]+)/i);
+  if (m) return m[1];
+  m = url.match(/arxiv\.org\/abs\/([a-z\-]+\/\d+)/i);
+  if (m) return m[1];
+  return null;
+}
+
 const paper_objs = papers.map(file=>{
   const filePath = join(paper_dir, file);
   try {
@@ -24,14 +36,18 @@ const paper_objs = papers.map(file=>{
     if (missing.length>0) issues.missing.push({file, missing});
     if (data.title && seenTitles.has(data.title)) issues.duplicates.push(file);
     if (data.title) seenTitles.add(data.title);
-    // Deduplicate publications by URL to fix duplicate arXiv badges
+    // Deduplicate publications by URL and arXiv ID to fix duplicate arXiv links like https://arxiv.org/abs/ID and https://doi.org/10.48550/arxiv.ID
     if (data.publications && Array.isArray(data.publications)) {
       const seenUrls = new Set();
+      const seenArxivIds = new Set();
       const deduped = [];
       for (const pub of data.publications) {
         const url = pub.url || '';
+        const arxivId = extractArxivId(url);
         if (url && seenUrls.has(url)) continue;
+        if (arxivId && seenArxivIds.has(arxivId)) continue;
         if (url) seenUrls.add(url);
+        if (arxivId) seenArxivIds.add(arxivId);
         deduped.push(pub);
       }
       data.publications = deduped;

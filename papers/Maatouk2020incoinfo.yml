@@ -8,9 +8,6 @@ publications:
 - name: arXiv
   year: 2020
   url: https://arxiv.org/abs/2012.13214
-- name: arXiv
-  year: 2020
-  url: https://doi.org/10.48550/arxiv.2012.13214
 - name: IEEE
   year: 2022
   url: https://ieeexplore.ieee.org/abstract/document/9921185
