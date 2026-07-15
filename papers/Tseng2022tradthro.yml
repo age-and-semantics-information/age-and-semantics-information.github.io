@@ -1,0 +1,10 @@
+title: 'Trading Throughput for Freshness: Freshness-aware Traffic Engineering and
+  In-Network Freshness Control'
+authors: Shih-Hao Tseng, SooJean Han, Adam Wierman
+labels:
+- estimation / control
+publications:
+- name: ACM Transactions on Modeling and Performance Evaluation of Computing Systems
+  year: 2022
+  url: https://doi.org/10.1145/3576919
+year: 2022

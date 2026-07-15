@@ -1,0 +1,12 @@
+title: 'Beyond Prioritized Replay: Sampling States in Model-Based Reinforcement Learning
+  via Simulated Priorities'
+authors: Jincheng Mei, Yangchen Pan, Amir‐massoud Farahmand, Hengshuai Yao, Martha
+  White
+labels:
+- learning / RL
+- sampling / updating
+publications:
+- name: arXiv (Cornell University)
+  year: 2020
+  url: https://arxiv.org/abs/2007.09569
+year: 2020

@@ -1,0 +1,11 @@
+title: 'CoFB: latency-constrained co-scheduling of flows and batches for deep learning
+  inference service on the CPU–GPU system'
+authors: Qi Zhang, Yi Liu, Tao Liu, Depei Qian
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: The Journal of Supercomputing
+  year: 2023
+  url: http://dx.doi.org/10.1007/s11227-023-05183-6
+year: 2023

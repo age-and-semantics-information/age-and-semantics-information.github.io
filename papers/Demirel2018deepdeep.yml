@@ -1,0 +1,11 @@
+title: 'DeepCAS: A Deep Reinforcement Learning Algorithm for Control-Aware Scheduling'
+authors: Burak Demi̇rel, Arunselvan Ramaswamy, Daniel E. Quevedo, Holger Karl
+labels:
+- estimation / control
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Control Systems Letters
+  year: 2018
+  url: https://doi.org/10.1109/lcsys.2018.2847721
+year: 2018

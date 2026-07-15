@@ -1,0 +1,11 @@
+title: 'DyBatch: Efficient Batching and Fair Scheduling for Deep Learning Inference
+  on Time-sharing Devices'
+authors: Shaojun Zhang, Wei Li, Chen Wang, Zahir Tari, Albert Y. Zomaya
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Other
+  year: 2020
+  url: https://doi.org/10.1109/ccgrid49817.2020.00-32
+year: 2020

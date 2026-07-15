@@ -1,0 +1,11 @@
+title: Queueing Network Controls via Deep Reinforcement Learning
+authors: J. G. Dai, Mark Gluzman
+labels:
+- estimation / control
+- learning / RL
+- queueing analysis
+publications:
+- name: Stochastic Systems
+  year: 2022
+  url: https://doi.org/10.1287/stsy.2021.0081
+year: 2022

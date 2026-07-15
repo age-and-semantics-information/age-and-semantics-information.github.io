@@ -1,0 +1,10 @@
+title: Polling system with multiple queues and state-dependent arrivals for packet-level
+  modeling of 5G NR IAB systems
+authors: Dmitry Nikolaev, Yuliya Gaidamaka, Yevgeni Koucheryavy
+labels:
+- queueing analysis
+publications:
+- name: Performance Evaluation
+  year: 2026
+  url: https://doi.org/10.1016/j.peva.2026.102559
+year: 2026

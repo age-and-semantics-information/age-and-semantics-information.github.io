@@ -1,0 +1,12 @@
+title: Deep reinforcement learning for scheduling in large-scale networked control
+  systems
+authors: Adrian Redder, Arunselvan Ramaswamy, Daniel E. Quevedo
+labels:
+- estimation / control
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IFAC-PapersOnLine
+  year: 2019
+  url: https://doi.org/10.1016/j.ifacol.2019.12.177
+year: 2019

@@ -1,0 +1,9 @@
+title: High-Confidence Off-Policy (or Counterfactual) Variance Estimation
+authors: Yash Chandak, Shiv Shankar, Philip S. Thomas
+labels:
+- estimation / control
+publications:
+- name: arXiv (Cornell University)
+  year: 2021
+  url: http://arxiv.org/abs/2101.09847
+year: 2021

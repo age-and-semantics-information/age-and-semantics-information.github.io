@@ -1,0 +1,9 @@
+title: Optimization criteria for checkpoint placement
+authors: C.M. Krishna, Yann-Hang Lee, Kang G. Shin
+labels:
+- theory / fundamentals
+publications:
+- name: Communications of the ACM
+  year: 1984
+  url: https://doi.org/10.1145/358274.358282
+year: 1984

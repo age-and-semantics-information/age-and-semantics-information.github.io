@@ -1,0 +1,10 @@
+title: Auditing Membership Leakages of Multi-Exit Networks
+authors: Zheng Li, Yiyong Liu, Xinlei He, Ning Yu, Michael Backes, Yang Zhang
+labels:
+- theory / fundamentals
+publications:
+- name: Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications
+    Sec
+  year: 2022
+  url: https://doi.org/10.1145/3548606.3559359
+year: 2022

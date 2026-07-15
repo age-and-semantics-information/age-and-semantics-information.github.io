@@ -1,0 +1,9 @@
+title: Stable Reinforcement Learning with Unbounded State Space
+authors: Devavrat Shah, Qiaomin Xie, Zhi Xu
+labels:
+- learning / RL
+publications:
+- name: Learning for Dynamics and Control
+  year: 2020
+  url: http://proceedings.mlr.press/v120/shah20a/shah20a.pdf
+year: 2020

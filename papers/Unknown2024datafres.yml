@@ -1,0 +1,9 @@
+title: 'Data Freshness in Information-update Systems: Modeling, Scheduling, and Tradeoffs'
+authors: Unknown
+labels:
+- scheduling / optimization
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2024
+  url: https://doi.org/10.1145/3639830.3639849
+year: 2024

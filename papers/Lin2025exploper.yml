@@ -1,0 +1,10 @@
+title: Exploiting Operator-Level Concurrency Control to Guide Deployment for Real-Time
+  Tasks in Edge AI Cluster
+authors: Changyao Lin, Ziyang Zhang, Jie Liu
+labels:
+- estimation / control
+publications:
+- name: Other
+  year: 2025
+  url: https://doi.org/10.1145/3715014.3724064
+year: 2025

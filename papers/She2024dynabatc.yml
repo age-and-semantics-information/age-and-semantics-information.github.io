@@ -1,0 +1,9 @@
+title: Dynamic Batching and Early-Exiting for Accurate and Timely Edge Inference
+authors: Yechao She, Tuo Shi, Jianping Wang, Bin Liu
+labels:
+- theory / fundamentals
+publications:
+- name: Other
+  year: 2024
+  url: https://doi.org/10.1109/vtc2024-spring62846.2024.10682995
+year: 2024

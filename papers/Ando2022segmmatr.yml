@@ -1,0 +1,10 @@
+title: Segmenting Age Matrices to Improve Instruction Scheduling without Increasing
+  Delay and Area
+authors: Hideki Ando
+labels:
+- scheduling / optimization
+publications:
+- name: 2022 IEEE 40th International Conference on Computer Design (ICCD)
+  year: 2022
+  url: https://doi.org/10.1109/iccd56317.2022.00059
+year: 2022

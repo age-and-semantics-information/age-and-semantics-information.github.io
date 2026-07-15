@@ -1,0 +1,11 @@
+title: Reinforcement Learning with Model-Based Approaches for Dynamic Resource Allocation
+  in a Tandem Queue
+authors: Thomas Tournaire, Jean-Gabriel Barthélemy, Hind Castel-Taleb, Emmanuel Hyon
+labels:
+- learning / RL
+- queueing analysis
+publications:
+- name: Lecture notes in computer science
+  year: 2021
+  url: https://doi.org/10.1007/978-3-030-91825-5_15
+year: 2021

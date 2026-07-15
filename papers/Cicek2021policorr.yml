@@ -1,0 +1,11 @@
+title: Off-Policy Correction for Deep Deterministic Policy Gradient Algorithms via
+  Batch Prioritized Experience Replay
+authors: Dogan C. Cicek, Enes Duran, Baturay Sağlam, Furkan B. Mutlu, Süleyman S.
+  Kozat
+labels:
+- theory / fundamentals
+publications:
+- name: arXiv (Cornell University)
+  year: 2021
+  url: http://arxiv.org/abs/2111.01865
+year: 2021

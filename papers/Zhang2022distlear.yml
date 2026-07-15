@@ -1,0 +1,10 @@
+title: Distributed Q-Learning for Stochastic LQ Control with Unknown Uncertainty
+authors: Zhaorong Zhang, Juanjuan Xu, Xun Li
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: arXiv (Cornell University)
+  year: 2022
+  url: http://arxiv.org/abs/2201.05342
+year: 2022

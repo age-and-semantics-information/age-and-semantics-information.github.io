@@ -1,0 +1,11 @@
+title: Learning Optimal Admission Control in Partially Observable Queueing Networks
+authors: Jonatha Anselmi, Bruno Gaujal, Louis-Sébastien Rebuffi
+labels:
+- estimation / control
+- learning / RL
+- queueing analysis
+publications:
+- name: arXiv (Cornell University)
+  year: 2023
+  url: http://arxiv.org/abs/2308.02391
+year: 2023

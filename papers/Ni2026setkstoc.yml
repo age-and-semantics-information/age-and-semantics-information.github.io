@@ -1,0 +1,11 @@
+title: 'SETKNet: Stochastic Event-Triggered Kalman Net With Sensor Scheduling for
+  Remote State Estimation'
+authors: Zichuan Ni, Xiaoxu Lyu, Guanghui Wen, Ling Shi
+labels:
+- estimation / control
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Automation Science and Engineering
+  year: 2026
+  url: https://doi.org/10.1109/tase.2026.3680329
+year: 2026

@@ -1,0 +1,10 @@
+title: Interference-Aware Scheduling for Inference Serving
+authors: Daniel Mendoza, Francisco Romero, Qian Li, Neeraja J. Yadwadkar, Christos
+  Kozyrakis
+labels:
+- scheduling / optimization
+publications:
+- name: Other
+  year: 2021
+  url: https://doi.org/10.1145/3437984.3458837
+year: 2021

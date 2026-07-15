@@ -1,0 +1,11 @@
+title: Adaptive packet scheduling in IoT environment based on Q-learning
+authors: Donghyun Kim, Tae-Ho Lee, Sejun Kim, Byungjun Lee, Hee Yong Youn
+labels:
+- edge / IoT / UAV
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Journal of Ambient Intelligence and Humanized Computing
+  year: 2019
+  url: https://doi.org/10.1007/s12652-019-01351-w
+year: 2019

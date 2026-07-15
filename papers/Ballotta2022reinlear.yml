@@ -1,0 +1,11 @@
+title: A Reinforcement Learning Approach to Sensing Design in Resource-Constrained
+  Wireless Networked Control Systems
+authors: Luca Ballotta, Giovanni Peserico, Francesco Zanini
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: 2022 IEEE 61st Conference on Decision and Control (CDC)
+  year: 2022
+  url: http://dx.doi.org/10.1109/cdc51059.2022.9993151
+year: 2022

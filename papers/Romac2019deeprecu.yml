@@ -1,0 +1,10 @@
+title: Deep Recurrent Q-Learning vs Deep Q-Learning on a simple Partially\n Observable
+  Markov Decision Process with Minecraft
+authors: Clément Romac, Vincent Béraud
+labels:
+- learning / RL
+publications:
+- name: arXiv (Cornell University)
+  year: 2019
+  url: http://arxiv.org/abs/1903.04311
+year: 2019

@@ -1,0 +1,10 @@
+title: 'Distributed Gradient Temporal Difference Off-policy Learning With Eligibility
+  Traces: Weak Convergence'
+authors: Miloš S. Stanković, Marko Beko, Srdjan Stanković
+labels:
+- learning / RL
+publications:
+- name: IFAC-PapersOnLine
+  year: 2020
+  url: https://doi.org/10.1016/j.ifacol.2020.12.2184
+year: 2020

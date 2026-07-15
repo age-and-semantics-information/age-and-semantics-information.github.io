@@ -1,0 +1,9 @@
+title: An N-Point Linear Solver for Line and Motion Estimation with Event Cameras
+authors: Ling Gao, Daniel Gehrig, Hang Su, Davide Scaramuzza, Laurent Kneip
+labels:
+- estimation / control
+publications:
+- name: Other
+  year: 2024
+  url: https://doi.org/10.1109/cvpr52733.2024.01383
+year: 2024

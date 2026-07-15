@@ -1,0 +1,12 @@
+title: A Deep Reinforcement Learning based Online Scheduling Policy for Deep Neural
+  Network Multi-Tenant Multi-Accelerator Systems
+authors: Francesco Giulio Blanco, Enrico Russo, Maurizio Palesi, Davide Patti, Giuseppe
+  Ascia, Vincenzo Catania
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Other
+  year: 2024
+  url: https://doi.org/10.1145/3649329.3657319
+year: 2024

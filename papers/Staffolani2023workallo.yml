@@ -1,0 +1,11 @@
+title: 'RLQ: Workload Allocation With Reinforcement Learning in Distributed Queues'
+authors: Alessandro Staffolani, Victor-Alexandru Darvariu, Paolo Bellavista, Mirco
+  Musolesi
+labels:
+- learning / RL
+- queueing analysis
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 2023
+  url: https://doi.org/10.1109/tpds.2022.3231981
+year: 2023

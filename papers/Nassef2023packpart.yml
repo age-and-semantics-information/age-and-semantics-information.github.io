@@ -1,0 +1,9 @@
+title: Per-Packet Partial Reliability at the Transport Layer for Multipath Networks
+authors: Omar Nassef, Stephen Johnson, Toktam Mahmoodi
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Communications Magazine
+  year: 2023
+  url: http://dx.doi.org/10.1109/mcom.022.2300304
+year: 2023

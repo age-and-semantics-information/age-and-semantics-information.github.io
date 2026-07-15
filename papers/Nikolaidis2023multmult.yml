@@ -1,0 +1,10 @@
+title: 'MultiTASC: A Multi-Tenancy-Aware Scheduler for Cascaded DNN Inference at the
+  Consumer Edge'
+authors: Sokratis Nikolaidis, Stylianos I. Venieris, Iakovos S. Venieris
+labels:
+- theory / fundamentals
+publications:
+- name: Other
+  year: 2023
+  url: http://dx.doi.org/10.1109/iscc58397.2023.10217872
+year: 2023

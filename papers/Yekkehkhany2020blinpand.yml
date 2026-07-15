@@ -1,0 +1,10 @@
+title: 'Blind GB-PANDAS: A Blind Throughput-Optimal Load Balancing Algorithm for Affinity
+  Scheduling'
+authors: Ali Yekkehkhany, Rakesh Nagi
+labels:
+- scheduling / optimization
+publications:
+- name: IEEE/ACM Transactions on Networking
+  year: 2020
+  url: https://doi.org/10.1109/tnet.2020.2978195
+year: 2020

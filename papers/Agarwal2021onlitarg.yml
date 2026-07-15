@@ -1,0 +1,11 @@
+title: 'Online Target Q-learning with Reverse Experience Replay: Efficiently finding
+  the Optimal Policy for Linear MDPs'
+authors: Naman Agarwal, Syomantak Chaudhuri, Prateek Jain, Nagaraj, Dheeraj, Praneeth
+  Netrapalli
+labels:
+- learning / RL
+publications:
+- name: arXiv (Cornell University)
+  year: 2021
+  url: http://arxiv.org/abs/2110.08440
+year: 2021

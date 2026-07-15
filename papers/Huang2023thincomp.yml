@@ -1,0 +1,10 @@
+title: Re-thinking computation offload for efficient inference on IoT devices with
+  duty-cycled radios
+authors: Jin Huang, Hui Guan, Deepak Ganesan
+labels:
+- edge / IoT / UAV
+publications:
+- name: Other
+  year: 2023
+  url: https://doi.org/10.1145/3570361.3592514
+year: 2023

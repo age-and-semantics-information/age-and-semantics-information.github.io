@@ -1,0 +1,11 @@
+title: 'Elastic O-RAN Slicing for Industrial Monitoring and Control: A Distributed
+  Matching Game and Deep Reinforcement Learning Approach'
+authors: Sarder Fakhrul Abedin, Aamir Mahmood, Nguyen H. Tran, Zhu Han, Mikael Gidlund
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Transactions on Vehicular Technology
+  year: 2022
+  url: https://doi.org/10.1109/tvt.2022.3188217
+year: 2022

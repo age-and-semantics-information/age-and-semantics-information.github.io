@@ -1,0 +1,12 @@
+title: 'RL-QN: A Reinforcement Learning Framework for Optimal Control of Queueing
+  Systems'
+authors: Bai Liu, Qiaomin Xie, Eytan Modiano
+labels:
+- estimation / control
+- learning / RL
+- queueing analysis
+publications:
+- name: ACM Transactions on Modeling and Performance Evaluation of Computing Systems
+  year: 2022
+  url: https://doi.org/10.1145/3529375
+year: 2022

@@ -1,0 +1,10 @@
+title: Sampling for Remote Estimation of the Wiener Process over an Unreliable Channel
+authors: Jiayu Pan, Yin Sun, Ness B. Shroff
+labels:
+- estimation / control
+- sampling / updating
+publications:
+- name: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+  year: 2023
+  url: https://doi.org/10.1145/3626791
+year: 2023

@@ -1,0 +1,10 @@
+title: 'PINN-DEKF: Uncertainty-Aware Physics-Informed Differentiable Extended Kalman
+  Filter for State Estimation under Extreme Data Sparsity'
+authors: Tiance Chen, Yuhua Zhao
+labels:
+- estimation / control
+publications:
+- name: SSRN Electronic Journal
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.6690064
+year: 2026

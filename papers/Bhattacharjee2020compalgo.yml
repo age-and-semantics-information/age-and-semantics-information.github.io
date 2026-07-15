@@ -1,0 +1,9 @@
+title: Competitive Algorithms for Minimizing the Maximum Age-of-Information
+authors: Rajarshi Bhattacharjee, Abhishek Sinha
+labels:
+- theory / fundamentals
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2020
+  url: https://doi.org/10.1145/3439602.3439606
+year: 2020

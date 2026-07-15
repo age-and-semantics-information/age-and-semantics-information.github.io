@@ -1,0 +1,12 @@
+title: Deep Reinforcement Learning for Scheduling Uplink IoT Traffic with Strict Deadlines
+authors: Benoît-Marie Robaglia, Apostolos Destounis, Marceau Coupechoux, Dimitrios
+  Tsilimantos
+labels:
+- edge / IoT / UAV
+- learning / RL
+- scheduling / optimization
+publications:
+- name: 2021 IEEE Global Communications Conference (GLOBECOM)
+  year: 2021
+  url: https://doi.org/10.1109/globecom46510.2021.9685561
+year: 2021

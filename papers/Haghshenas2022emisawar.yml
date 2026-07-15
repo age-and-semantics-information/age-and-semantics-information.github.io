@@ -1,0 +1,9 @@
+title: CO<sub>2</sub> Emission Aware Scheduling for Deep Neural Network Training Workloads
+authors: Kawsar Haghshenas, Brian Setz, Marco Aiello
+labels:
+- scheduling / optimization
+publications:
+- name: 2022 IEEE International Conference on Big Data (Big Data)
+  year: 2022
+  url: https://doi.org/10.1109/bigdata55660.2022.10020544
+year: 2022

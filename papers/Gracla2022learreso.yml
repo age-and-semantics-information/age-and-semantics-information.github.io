@@ -1,0 +1,11 @@
+title: Learning Resource Scheduling with High Priority Users using Deep Deterministic
+  Policy Gradients
+authors: Steffen Gracla, Edgar Beck, Carsten Bockelmann, Armin Dekorsy
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: ICC 2022 - IEEE International Conference on Communications
+  year: 2022
+  url: https://doi.org/10.1109/icc45855.2022.9838349
+year: 2022

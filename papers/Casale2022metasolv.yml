@@ -1,0 +1,9 @@
+title: 'LN: A Meta-solver for Layered Queueing Network Analysis'
+authors: Giuliano Casale, Yicheng Gao, Zifeng Niu, Lulai Zhu
+labels:
+- queueing analysis
+publications:
+- name: Lecture notes in computer science
+  year: 2022
+  url: https://doi.org/10.1007/978-3-031-16336-4_12
+year: 2022

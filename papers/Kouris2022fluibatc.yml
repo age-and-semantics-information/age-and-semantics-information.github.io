@@ -1,0 +1,11 @@
+title: 'Fluid Batching: Exit-Aware Preemptive Serving of Early-Exit Neural Networks
+  on Edge NPUs'
+authors: Alexandros Kouris, Stylianos I. Venieris, Stefanos Laskaridis, Nicholas D.
+  Lane
+labels:
+- theory / fundamentals
+publications:
+- name: arXiv (Cornell University)
+  year: 2022
+  url: http://arxiv.org/abs/2209.13443
+year: 2022

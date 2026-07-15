@@ -1,0 +1,11 @@
+title: '<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="mml29" display="inline"
+  overflow="scroll" altimg="si21.gif"><mml:mi>A</mml:mi><mml:mi>c</mml:mi><mml:mi>c</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mi>s</mml:mi><mml:mi>A</mml:mi><mml:mi>u</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi></mml:math>:
+  Capacity-aware security access authentication in federated-IoT-enabled V2G networks'
+authors: Ming Tao, Kaoru Ota, Mianxiong Dong, Zhuzhong Qian
+labels:
+- edge / IoT / UAV
+publications:
+- name: Journal of Parallel and Distributed Computing
+  year: 2017
+  url: https://doi.org/10.1016/j.jpdc.2017.09.004
+year: 2017

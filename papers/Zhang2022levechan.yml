@@ -1,0 +1,10 @@
+title: Leveraging Channel Noise for Sampling and Privacy via Quantized Federated Langevin
+  Monte Carlo
+authors: Yunchuan Zhang, Dongzhu Liu, Osvaldo Simeone
+labels:
+- sampling / updating
+publications:
+- name: arXiv (Cornell University)
+  year: 2022
+  url: http://arxiv.org/abs/2202.13932
+year: 2022

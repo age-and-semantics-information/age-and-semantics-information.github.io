@@ -1,0 +1,11 @@
+title: 'rocorl: Transferable Reinforcement Learning-Based Robust Control for Cyber-Physical
+  Systems With Limited Data Updates'
+authors: Unknown
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Access
+  year: 2020
+  url: https://doi.org/10.1109/access.2020.3044945
+year: 2020

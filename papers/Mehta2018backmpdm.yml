@@ -1,0 +1,10 @@
+title: 'Backprop-MPDM: Faster Risk-Aware Policy Evaluation Through Efficient Gradient
+  Optimization'
+authors: Dhanvin Mehta, Gonzalo Ferrer, Edwin Olson
+labels:
+- theory / fundamentals
+publications:
+- name: Other
+  year: 2018
+  url: https://doi.org/10.1109/icra.2018.8462903
+year: 2018

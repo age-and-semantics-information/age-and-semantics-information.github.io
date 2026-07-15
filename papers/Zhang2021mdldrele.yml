@@ -1,0 +1,10 @@
+title: 'MDLdroidLite: A Release-and-Inhibit Control Approach to Resource-Efficient
+  Deep Neural Networks on Mobile Devices'
+authors: Yu Zhang, Tao Gu, Xi Zhang
+labels:
+- estimation / control
+publications:
+- name: IEEE Transactions on Mobile Computing
+  year: 2021
+  url: https://doi.org/10.1109/tmc.2021.3062575
+year: 2021

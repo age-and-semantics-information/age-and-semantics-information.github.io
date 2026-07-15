@@ -1,0 +1,9 @@
+title: Latency-Reliability Tradeoffs for State Estimation
+authors: Konstantinos Gatsis, Hamed Hassani, George J. Pappas
+labels:
+- estimation / control
+publications:
+- name: IEEE Transactions on Automatic Control
+  year: 2020
+  url: https://doi.org/10.1109/tac.2020.2992563
+year: 2020

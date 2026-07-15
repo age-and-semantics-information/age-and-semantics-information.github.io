@@ -1,0 +1,10 @@
+title: Investigation into the Performance Benefits of Exposing Network Backpressure
+  in UPC++ and GASNet-EX
+authors: Paul Hargrove, Dan Bonachea
+labels:
+- theory / fundamentals
+publications:
+- name: Other
+  year: 2025
+  url: https://doi.org/10.2172/2565906
+year: 2025

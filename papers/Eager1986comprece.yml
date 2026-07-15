@@ -1,0 +1,9 @@
+title: A comparison of receiver-initiated and sender-initiated adaptive load sharing
+authors: Derek L. Eager, Edward D. Lazowska, John Zahorjan
+labels:
+- theory / fundamentals
+publications:
+- name: Performance Evaluation
+  year: 1986
+  url: https://doi.org/10.1016/0166-5316(86)90008-8
+year: 1986

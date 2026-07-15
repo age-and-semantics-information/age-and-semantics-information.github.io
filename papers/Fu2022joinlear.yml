@@ -1,0 +1,11 @@
+title: Joint Learning and Control in Stochastic Queueing Networks with Unknown Utilities
+authors: Xinzhe Fu, Eytan Modiano
+labels:
+- estimation / control
+- learning / RL
+- queueing analysis
+publications:
+- name: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+  year: 2022
+  url: https://doi.org/10.1145/3570619
+year: 2022

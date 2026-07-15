@@ -1,0 +1,11 @@
+title: An Actor-Critic Deep Reinforcement Learning Approach for Transmission Scheduling
+  in Cognitive Internet of Things Systems
+authors: Helin Yang, Xianzhong Xie
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Systems Journal
+  year: 2019
+  url: https://doi.org/10.1109/jsyst.2019.2891520
+year: 2019

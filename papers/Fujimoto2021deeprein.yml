@@ -1,0 +1,11 @@
+title: A Deep Reinforcement Learning Approach to Marginalized Importance Sampling
+  with the Successor Representation
+authors: Scott Fujimoto, David Meger, Doina Precup
+labels:
+- learning / RL
+- sampling / updating
+publications:
+- name: arXiv (Cornell University)
+  year: 2021
+  url: http://arxiv.org/abs/2106.06854
+year: 2021
