@@ -1,0 +1,13 @@
+title: Real-time status - How often should one update?
+authors: Kaul, Yates, Gruteser
+labels:
+  - theory / fundamentals
+  - sampling / updating
+publications:
+  - name: INFOCOM
+    year: 2012
+    url: https://ieeexplore.ieee.org/document/6195309
+  - name: arXiv
+    year: 2011
+    url: https://arxiv.org/abs/1105.5875
+year: 2012

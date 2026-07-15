@@ -1,0 +1,11 @@
+title: Status update over unreliable results - A POMDP framework
+authors: He, Yuan, Ephremides
+labels:
+  - learning / RL
+  - sampling / updating
+  - estimation / control
+publications:
+  - name: INFOCOM
+    year: 2018
+    url: https://ieeexplore.ieee.org/document/8485911
+year: 2018

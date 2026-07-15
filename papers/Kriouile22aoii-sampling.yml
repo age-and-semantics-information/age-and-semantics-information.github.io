@@ -1,0 +1,11 @@
+title: Optimizing Age of Incorrect Information in Real-Time Remote Estimation
+authors: Kriouile, Assaad, Maatouk
+labels:
+  - sampling / updating
+  - VoI / AoII / QAoI
+  - estimation / control
+publications:
+  - name: CDC
+    year: 2022
+    url: https://arxiv.org/abs/2203.04446
+year: 2022

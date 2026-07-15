@@ -1,0 +1,10 @@
+title: On learning how to communicate - A reinforcement learning framework for efficient multi-agent communications
+authors: Wang, Han, Ansari, Modiano
+labels:
+  - learning / RL
+  - multi-source / multi-hop
+publications:
+  - name: MobiHoc
+    year: 2019
+    url: https://dl.acm.org/doi/10.1145/3323679.3326515
+year: 2019
