@@ -18,7 +18,7 @@ const Header = () => {
     <AppBar position="static" elevation={0} sx={{ bgcolor:'background.paper', color:'text.primary', borderBottom:1, borderColor:'divider' }}>
       <Toolbar disableGutters sx={{ minHeight:{xs:56, md:64}, px:{xs:2, md:3} }}>
         <Typography variant={isMobile?'h6':'h6'} noWrap component={RouterLink} to="/" sx={{ mr:{xs:1, md:4}, fontWeight:800, flexGrow:1, fontSize:{xs:'0.95rem', sm:'1.1rem', md:'1.25rem'}, color:'primary.main', textDecoration:'none', letterSpacing:'-0.02em' }}>
-          {isMobile ? 'AoI & Semantics' : 'Age and Semantics of Information'}
+          {isMobile ? 'AoI & Semantics' : 'Age and Semantics of Information (ASoI)'}
         </Typography>
         <Box sx={{ display:{xs:'none', md:'flex'}, alignItems:'center' }}>
           {pages.map(page=>{

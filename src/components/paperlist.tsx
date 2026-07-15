@@ -53,7 +53,7 @@ const PaperList: React.FC<{data: Paper[]}> = ({ data })=>{
     <Container maxWidth="lg" disableGutters sx={{ py:{xs:1, md:1.5}, px:{xs:1, sm:2} }}>
       <Stack spacing={1.5}>
         <Box sx={{ px:{xs:0, sm:1} }}>
-          <Typography variant="h6" fontWeight={700} gutterBottom>Age and Semantics of Information — Paper List</Typography>
+          <Typography variant="h6" fontWeight={700} gutterBottom>Age and Semantics of Information (ASoI) — Paper List</Typography>
           <Typography variant="body2" color="text.secondary">
             A curated community resource for AoI, AoII, VoI, semantics & goal-oriented communications — inspired by <a href="https://algorithms-with-predictions.github.io" target="_blank" rel="noopener">ALPS</a>. 
             Search, filter by topic, and contribute via GitHub.

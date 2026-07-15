@@ -317,18 +317,27 @@ const YearDistributionChart: React.FC<YearDistributionChartProps> = ({
     ...Object.values(yearData).filter((v): v is number => v !== undefined)
   );
   const allYears = Object.keys(yearData).map(y=>parseInt(y)).sort((a, b) => a - b);
-  // Show latest 5 years + 3 sampled earlier to avoid crowding (user request)
+  // Show latest 5 years + 5 periodic earlier (user: latest 5 + another 5 periodic, was too few)
   let years: string[] = [];
-  if (allYears.length <= 8) {
+  if (allYears.length <= 10) {
     years = allYears.map(String);
   } else {
     const latest5 = allYears.slice(-5);
     const earlier = allYears.slice(0, -5);
-    // Sample 3 from earlier: first, middle, last (deterministic, not random)
+    // Sample 5 periodic from earlier: evenly spaced
     const sampled: number[] = [];
-    if (earlier.length > 0) sampled.push(earlier[0]);
-    if (earlier.length > 2) sampled.push(earlier[Math.floor(earlier.length/2)]);
-    if (earlier.length > 1) sampled.push(earlier[earlier.length-1]);
+    const n = earlier.length;
+    if (n > 0) {
+      // Pick 5: first, 1/4, 1/2, 3/4, last
+      const indices = [0, Math.floor(n/4), Math.floor(n/2), Math.floor(3*n/4), n-1];
+      for (const i of indices) {
+        if (i>=0 && i<n && !sampled.includes(earlier[i])) sampled.push(earlier[i]);
+      }
+      // If earlier has <5, just take all
+      if (sampled.length < Math.min(5, n)) {
+        for (const y of earlier) if (!sampled.includes(y)) sampled.push(y);
+      }
+    }
     const combined = [...new Set([...sampled, ...latest5])].sort((a,b)=>a-b);
     years = combined.map(String);
   }
