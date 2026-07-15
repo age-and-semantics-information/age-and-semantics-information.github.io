@@ -1,9 +1,0 @@
-title: Battery-aware centralized schedulers for CPU-bound jobs in mobile Grids
-authors: Matías Hirsch, Juan Manuel Rodríguez, Alejandro Zunino, Cristian Mateos
-labels:
-- theory / fundamentals
-publications:
-- name: Pervasive and Mobile Computing
-  year: 2015
-  url: https://doi.org/10.1016/j.pmcj.2015.08.003
-year: 2015
