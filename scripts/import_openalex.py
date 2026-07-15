@@ -51,6 +51,72 @@ def build_queries():
 QUERIES = build_queries()
 
 
+def is_off_topic(title, venue_name, url):
+    t=title.lower()
+    v=(venue_name or '').lower()
+    u=(url or '').lower()
+    # Venue blacklist
+    if any(x in v for x in ['zenodo','pangaea','geoscientific']):
+        return True
+    if any(x in u for x in ['zenodo.org','pangaea.de']):
+        return True
+    # Title blacklist - geology, humanities, biological aging
+    off_phrases=[
+        'sediment core','pangaea','geoscientific','geoscience','geology','age dating',
+        'biological aging','epigenetic','mammalian aging','art in the age of information society',
+        'normative crises','national security, journalism','hostile propaganda',
+        'public service media','affective media apparatus','selling in the digital age',
+        'modernization of the public governance','higher restraint','substantive essence',
+        'the information society and the cognitive limits','biocronological framework','book review',
+        'information warfare','aging as information loss','information immortality',
+        'dynamic continuity model of self','the art in the age','information society and the cognitive limits'
+    ]
+    for phrase in off_phrases:
+        if phrase in t:
+            return True
+    # Must contain at least one AoI-related exact phrase or strong CS context
+    # For AoI query, require "age of information" or "age-of-information" in title (not just age + information far apart)
+    # For other queries (AoII, semantic) we already have specific filters, so allow
+    # But for generic, if title contains "age dating information" not "age of information", reject
+    if 'age dating' in t:
+        return True
+    # If title is very short and doesn't contain age of information phrase but was fetched via broad query, keep only if CS keyword present
+    # Actually for main AoI query, we want to ensure title contains "age of information" exact
+    # This will prevent geology "Age dating information of sediment core" from passing
+    return False
+
+def is_valid_aoi_title(title):
+    t=title.lower()
+    # Must contain at least one of valid exact phrases
+    valid_exact=[
+        'age of information',
+        'age-of-information',
+        'age of incorrect information',
+        'age of incorrect',
+        'value of information',
+        'semantic communication',
+        'goal-oriented communication',
+        'goal oriented communication',
+        'quality of information',
+        'qaoi',
+        'aoii',
+    ]
+    # For AoI, require exact phrase age of information OR aoi with networking context
+    # We already have it, but check
+    for pat in valid_exact:
+        if pat in t:
+            return True
+    # Also allow titles with freshness + status update + age that are known AoI variants
+    if 'freshness' in t and ('age' in t or 'status' in t):
+        return True
+    if 'status update' in t and 'age' in t:
+        return True
+    # If title contains aoi as separate word?
+    # Keep if contains aoi and networking keyword
+    return False
+
+
+
 def normalize_title(t):
     t = re.sub(r'\s+', ' ', t.lower()).strip()
     t = re.sub(r'[^a-z0-9 ]', '', t)
@@ -202,6 +268,13 @@ def main():
             title = work.get('display_name') or work.get('title')
             if not title or len(title) < 10:
                 continue
+            # Strict filter to avoid geology/biological off-topic like sediment core
+            if not is_valid_aoi_title(title):
+                continue
+            # Check off-topic venue/title
+            # venue will be extracted later, but do quick title check
+            if is_off_topic(title, "", ""):
+                continue
             # Skip if title is too generic or not containing AoI-like
             # For AoI query, should be okay
             norm = normalize_title(title)
@@ -220,6 +293,9 @@ def main():
             venue_name = source.get('display_name','') if source else ''
             if not venue_name:
                 venue_name = 'arXiv' if 'arxiv' in str(url) else 'Other'
+            # Second off-topic check with venue+url
+            if is_off_topic(title, venue_name, url):
+                continue
 
             authors_str = extract_authors(work.get('authorships',[]))
 
