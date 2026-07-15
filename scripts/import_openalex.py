@@ -2,6 +2,7 @@
 Import from OpenAlex for AoI + AoII + goal-oriented + semantics-related
 Dedup by normalized title, merging publications like ALPS
 Supports --since-days for weekly cron
+Uses filter_utils for CS/networking AoI only
 """
 import os, re, time, yaml, json, pathlib, hashlib, sys, argparse, datetime
 from urllib.parse import quote
@@ -9,6 +10,10 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PAPERS_DIR = ROOT / "papers"
+
+# Import shared filters
+sys.path.insert(0, str(ROOT / "scripts"))
+import filter_utils
 
 # Parse args for cron weekly
 parser = argparse.ArgumentParser()
@@ -21,11 +26,9 @@ if SINCE_DAYS > 0:
 else:
     since_date = None
 
-
 def build_queries():
     base_aoi = "title.search:%22age%20of%20information%22"
     if SINCE_DAYS > 0:
-        # Use since_date for AoI query
         base_aoi = f"{base_aoi},from_publication_date:{since_date}"
     else:
         base_aoi = f"{base_aoi},from_publication_date:2023-01-01"
@@ -33,7 +36,6 @@ def build_queries():
     queries = [
         (f"aoi_{'since'+str(SINCE_DAYS) if SINCE_DAYS>0 else '2023+'}", base_aoi, "scheduling / optimization"),
     ]
-    # For other queries, also apply since filter if requested
     def with_since(f):
         if SINCE_DAYS>0:
             return f"{f},from_publication_date:{since_date}"
@@ -49,73 +51,6 @@ def build_queries():
     return queries
 
 QUERIES = build_queries()
-
-
-def is_off_topic(title, venue_name, url):
-    t=title.lower()
-    v=(venue_name or '').lower()
-    u=(url or '').lower()
-    # Venue blacklist
-    if any(x in v for x in ['zenodo','pangaea','geoscientific']):
-        return True
-    if any(x in u for x in ['zenodo.org','pangaea.de']):
-        return True
-    # Title blacklist - geology, humanities, biological aging
-    off_phrases=[
-        'sediment core','pangaea','geoscientific','geoscience','geology','age dating',
-        'biological aging','epigenetic','mammalian aging','art in the age of information society',
-        'normative crises','national security, journalism','hostile propaganda',
-        'public service media','affective media apparatus','selling in the digital age',
-        'modernization of the public governance','higher restraint','substantive essence',
-        'the information society and the cognitive limits','biocronological framework','book review',
-        'information warfare','aging as information loss','information immortality',
-        'dynamic continuity model of self','the art in the age','information society and the cognitive limits'
-    ]
-    for phrase in off_phrases:
-        if phrase in t:
-            return True
-    # Must contain at least one AoI-related exact phrase or strong CS context
-    # For AoI query, require "age of information" or "age-of-information" in title (not just age + information far apart)
-    # For other queries (AoII, semantic) we already have specific filters, so allow
-    # But for generic, if title contains "age dating information" not "age of information", reject
-    if 'age dating' in t:
-        return True
-    # If title is very short and doesn't contain age of information phrase but was fetched via broad query, keep only if CS keyword present
-    # Actually for main AoI query, we want to ensure title contains "age of information" exact
-    # This will prevent geology "Age dating information of sediment core" from passing
-    return False
-
-def is_valid_aoi_title(title):
-    t=title.lower()
-    # Must contain at least one of valid exact phrases
-    valid_exact=[
-        'age of information',
-        'age-of-information',
-        'age of incorrect information',
-        'age of incorrect',
-        'value of information',
-        'semantic communication',
-        'goal-oriented communication',
-        'goal oriented communication',
-        'quality of information',
-        'qaoi',
-        'aoii',
-    ]
-    # For AoI, require exact phrase age of information OR aoi with networking context
-    # We already have it, but check
-    for pat in valid_exact:
-        if pat in t:
-            return True
-    # Also allow titles with freshness + status update + age that are known AoI variants
-    if 'freshness' in t and ('age' in t or 'status' in t):
-        return True
-    if 'status update' in t and 'age' in t:
-        return True
-    # If title contains aoi as separate word?
-    # Keep if contains aoi and networking keyword
-    return False
-
-
 
 def normalize_title(t):
     t = re.sub(r'\s+', ' ', t.lower()).strip()
@@ -133,11 +68,8 @@ def extract_authors(authorships):
 def infer_label(title, abstract, query_label_hint):
     text = (title + " " + (abstract or "")).lower()
     labels = set()
-    # Always include hint if provided
     if query_label_hint:
         labels.add(query_label_hint)
-
-    # Keyword to label mapping
     mapping = {
         "scheduling": "scheduling / optimization",
         "queue": "queueing analysis",
@@ -178,8 +110,6 @@ def infer_label(title, abstract, query_label_hint):
             labels.add(lbl)
     if not labels:
         labels.add("theory / fundamentals")
-    # Limit to 3 labels max to avoid clutter
-    # Keep most specific
     return sorted(list(labels))[:4]
 
 def make_filename(authors, year, title, existing_names):
@@ -217,13 +147,11 @@ def load_existing():
     return existing
 
 def fetch_openalex(filter_str, per_page=100, max_pages=10, sleep=0.2):
-    # Uses cursor pagination
     all_results = []
     cursor = "*"
     base_url = "https://api.openalex.org/works"
     for page in range(max_pages):
-        url = f"{base_url}?filter={filter_str}&per_page={per_page}&cursor={quote(cursor)}&select=id,doi,display_name,title,publication_year,publication_date,authorships,primary_location,open_access,abstract_inverted_index"
-        # print(f"Fetching: {url[:150]}...")
+        url = f"{base_url}?filter={filter_str}&per_page={per_page}&cursor={quote(cursor)}&select=id,doi,display_name,title,publication_year,publication_date,authorships,primary_location,open_access,abstract_inverted_index,concepts"
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "AoI-site/1.0 (mailto:zhongdong@vt.edu)"})
             with urllib.request.urlopen(req, timeout=30) as resp:
@@ -238,13 +166,11 @@ def fetch_openalex(filter_str, per_page=100, max_pages=10, sleep=0.2):
         if page==0:
             print(f"Query [{filter_str}] total count: {count}, fetching {per_page} per page")
         all_results.extend(results)
-        # Check if next cursor
         next_cursor = meta.get('next_cursor')
         if not next_cursor or len(results) < per_page:
             break
         cursor = next_cursor
         time.sleep(sleep)
-        # Safety: if we already have enough for 2023+ AoI we may want all, but limit to avoid too many
         if len(all_results) >= 1000:
             print(f"Reached 1000 results for {filter_str}, stopping")
             break
@@ -255,8 +181,8 @@ def main():
     print(f"Existing papers: {len(existing_map)}")
     existing_filenames = set([p.name for p in PAPERS_DIR.glob("*.yml")])
 
-    new_entries = {}  # normalized title -> entry
-    merged_existing = {}  # key -> data (to write back)
+    new_entries = {}
+    merged_existing = {}
 
     total_fetched = 0
     for qname, filter_str, label_hint in QUERIES:
@@ -268,21 +194,11 @@ def main():
             title = work.get('display_name') or work.get('title')
             if not title or len(title) < 10:
                 continue
-            # Strict filter to avoid geology/biological off-topic like sediment core
-            if not is_valid_aoi_title(title):
-                continue
-            # Check off-topic venue/title
-            # venue will be extracted later, but do quick title check
-            if is_off_topic(title, "", ""):
-                continue
-            # Skip if title is too generic or not containing AoI-like
-            # For AoI query, should be okay
             norm = normalize_title(title)
             if not norm:
                 continue
             year = work.get('publication_year')
             doi = work.get('doi')
-            # URL: prefer DOI, else OpenAlex id, else primary location landing page
             url = doi or work.get('id')
             primary = work.get('primary_location',{})
             if primary:
@@ -293,19 +209,20 @@ def main():
             venue_name = source.get('display_name','') if source else ''
             if not venue_name:
                 venue_name = 'arXiv' if 'arxiv' in str(url) else 'Other'
-            # Second off-topic check with venue+url
-            if is_off_topic(title, venue_name, url):
+
+            # Use shared filter - really understand the paper
+            # First check off-venue and hard off-title via filter_utils
+            keep, reason = filter_utils.should_keep_paper(title, venue_name, url, "", abstract="")
+            if not keep:
+                # print(f"Filtered out: {title[:60]} -> {reason}")
                 continue
 
-            authors_str = extract_authors(work.get('authorships',[]))
-
-            # Abstract: reconstruct from inverted index if present
+            # Additional CS context check for VoI and semantic queries
+            # Fetch abstract for better filtering
             abstract = ""
             inv = work.get('abstract_inverted_index')
             if inv:
                 try:
-                    # invert: word -> positions
-                    # Build array size max pos +1
                     max_pos = max([max(pos) for pos in inv.values()]) if inv else 0
                     arr = [""]*(max_pos+1)
                     for w, poses in inv.items():
@@ -314,33 +231,33 @@ def main():
                                 arr[pos]=w
                     abstract = " ".join(arr)
                 except:
-                    abstract = ""
+                    abstract=""
 
+            # Re-check with abstract for more accurate filtering
+            keep2, reason2 = filter_utils.should_keep_paper(title, venue_name, url, "", abstract=abstract)
+            if not keep2:
+                continue
+
+            authors_str = extract_authors(work.get('authorships',[]))
             labels = infer_label(title, abstract, label_hint)
 
-            # Check if exists in existing papers
             if norm in existing_map:
                 edata = existing_map[norm]["data"]
-                # Check if URL already present
                 existing_urls = set([p.get('url') for p in edata.get('publications',[]) if p.get('url')])
                 if url not in existing_urls:
                     new_pub = {"name": venue_name[:80], "year": year, "url": url}
                     edata.setdefault('publications', []).append(new_pub)
-                    # Merge labels
                     for lbl in labels:
                         if lbl not in edata.get('labels',[]):
                             edata.setdefault('labels', []).append(lbl)
                     merged_existing[norm] = edata
                 continue
 
-            # Check if already in new_entries (duplicate across queries)
             if norm in new_entries:
                 entry = new_entries[norm]
-                # Add publication if new URL
                 existing_urls = set([p['url'] for p in entry['publications']])
                 if url not in existing_urls:
                     entry['publications'].append({"name": venue_name[:80], "year": year, "url": url})
-                    # merge labels
                     for lbl in labels:
                         if lbl not in entry['labels']:
                             entry['labels'].append(lbl)
@@ -358,10 +275,8 @@ def main():
     print(f"New unique papers from OpenAlex: {len(new_entries)}")
     print(f"Existing papers to merge: {len(merged_existing)}")
 
-    # Write back merged existing
     for key, edata in merged_existing.items():
         file_path = existing_map[key]["file"]
-        # dedup pubs by URL
         seen = set()
         dedup = []
         for p in edata.get('publications',[]):
@@ -376,7 +291,6 @@ def main():
         with open(file_path, 'w', encoding='utf-8') as f:
             yaml.dump(edata, f, sort_keys=False, allow_unicode=True)
 
-    # Write new entries
     created = 0
     for norm, entry in new_entries.items():
         entry['labels'] = sorted(list(set(entry['labels'])))[:4]

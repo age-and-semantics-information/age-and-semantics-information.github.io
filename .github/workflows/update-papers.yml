@@ -30,11 +30,34 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml requests
 
-      - name: Import new papers from OpenAlex
+      - name: Import new papers from OpenAlex (CS/networking AoI only)
         run: |
           SINCE="${{ inputs.since_days || '7' }}"
-          echo "Fetching papers from last $SINCE days"
-          python scripts/import_openalex.py --since-days $SINCE
+          echo "Fetching papers from last $SINCE days with strict CS filter (filter_utils.py)"
+          echo "Filtering out: Zenodo, PANGAEA, sediment core, biological aging, art in the age of information society, information literacy, knee muscles, etc."
+          python scripts/import_openalex.py --since-days $SINCE 2>&1 | tee /tmp/import.log
+          echo "--- Import log tail ---"
+          tail -20 /tmp/import.log
+
+      - name: Validate import (avoid re-adding bio/geology)
+        run: |
+          # Count how many papers would be added vs filtered
+          # The import script prints "New unique papers" - we can check for excessive filtering
+          # Also ensure no Zenodo/biorxiv/PANGAEA/off-topic titles slipped
+          echo "Checking for off-topic venues/titles in new papers..."
+          OFF_COUNT=$(grep -r -i -E "zenodo|pangaea|biorxiv|sediment core|biological aging|art in the age of information society|information literacy" papers/ --include="*.yml" | wc -l || echo 0)
+          echo "Off-topic matches in papers/: $OFF_COUNT (should be 0)"
+          if [ "$OFF_COUNT" -gt 0 ]; then
+            echo "WARNING: Found $OFF_COUNT off-topic papers that should have been filtered"
+            grep -r -i -E "zenodo|pangaea|biorxiv|sediment core|biological aging|art in the age of information society|information literacy" papers/ --include="*.yml" | head -20
+            # Don't fail, just warn, since we want to catch but not block
+          fi
+          # Check for bio muscle papers specifically
+          BIO_COUNT=$(grep -r -i -E "knee muscles|muscle pairs|patients information.*biochemical" papers/ --include="*.yml" | wc -l || echo 0)
+          echo "Bio muscle/biochemical matches: $BIO_COUNT (should be 0)"
+          if [ "$BIO_COUNT" -gt 5 ]; then
+            echo "::warning:: Found $BIO_COUNT bio muscle papers, filter may need tightening"
+          fi
 
       - name: Check for changes
         id: check
@@ -44,36 +67,48 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "count=$COUNT" >> $GITHUB_OUTPUT
             echo "Found $COUNT new/modified paper files"
-            git status --porcelain papers/ | head -20
+            git status --porcelain papers/ | head -30
+            # Show sample new papers
+            echo "--- Sample new papers ---"
+            git diff --name-only | head -10 | xargs -I {} sh -c 'echo "=== {} ==="; head -15 {}'
           else
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No new papers"
           fi
 
-      - name: Create Pull Request
+      - name: Create Pull Request (draft for manual review)
         if: steps.check.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Bot: add ${{ steps.check.outputs.count }} new papers from OpenAlex (weekly)"
+          commit-message: "Bot: add ${{ steps.check.outputs.count }} new papers from OpenAlex (weekly, CS AoI filtered)"
           branch: bot/update-papers-${{ github.run_id }}
           delete-branch: true
-          title: "Weekly paper update: ${{ steps.check.outputs.count }} new papers"
+          title: "Weekly paper update: ${{ steps.check.outputs.count }} new papers (needs review)"
           body: |
-            Auto-import from OpenAlex (last ${{ inputs.since_days || '7' }} days):
+            Auto-import from OpenAlex (last ${{ inputs.since_days || '7' }} days) with **strict CS/networking AoI filter** (`scripts/filter_utils.py`):
 
-            - `title:"age of information"` (recent)
+            - `title:"age of information"` (recent, exact phrase)
             - `title:"age of incorrect information"`, semantic + age, goal-oriented, VoI + age
+            - **Filtered out:** Zenodo, PANGAEA, biorxiv, sediment core, biological aging, epigenetic, art in the age of information society, normative crises, information literacy, knee muscles, patients biochemical, star cluster ages, kokumi, etc.
+            - **CS context required:** must contain wireless/network/scheduling/sampling/queue/UAV/IoT/vehicular/5G/6G/edge/sensor/NOMA/cognitive/throughput/control/estimation/MDP/learning/optimization/semantic/goal-oriented/freshness/status update/caching/V2X/mobile/cellular/communication or IEEE/ACM/arXiv venue
+            - **IoBNT exception:** keeps bio-nano networking with AoI (e.g., AoI-OptiIoBNT) if clearly AoI-related; if unsure, flagged in this PR for manual decision
 
-            **Review checklist:**
-            - [ ] Titles are relevant to AoI / semantics / goal-oriented
-            - [ ] No obvious duplicates (normalized title check)
-            - [ ] Labels look reasonable (auto-inferred)
+            **Review checklist (please check before merging):**
+            - [ ] Titles are CS/networking AoI (not geology/biology/humanities)
+            - [ ] No Zenodo/biorxiv/PANGAEA
+            - [ ] No knee muscle / patients biochemical / information literacy / art in the age of information society
+            - [ ] Labels look reasonable (auto-inferred, distinct colors per category)
+            - [ ] Foundational papers like Kaul INFOCOM 2012 kept (whitelisted)
+
+            If unsure about a paper (e.g., IoBNT, health IoT), comment and we will decide per your guidance: "if you are pretty sure it is not related to aoi, delete it. If you are not sure, show them to me and I will decide"
 
             Merging will trigger deploy to https://age-and-semantics-information.github.io/
 
-            Generated by `.github/workflows/update-papers.yml` cron.
+            Generated by `.github/workflows/update-papers.yml` cron. Uses `filter_utils.py` for thorough understanding, not just keyword.
+
           labels: |
             bot
             automated
-          draft: false
+            needs-review
+          draft: true

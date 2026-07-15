@@ -5,6 +5,9 @@ Maps Auburn sections to our 15 labels.
 """
 import re, os, pathlib, yaml, json, hashlib, unicodedata, glob
 from urllib.parse import urlparse
+import sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[0]))
+import filter_utils
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PAPERS_DIR = ROOT / "papers"
@@ -231,6 +234,12 @@ def main():
                         continue
             norm_key = normalize_title_key(title)
             if not norm_key:
+                continue
+
+            # Use shared filter to keep only CS/networking AoI
+            keep, reason = filter_utils.should_keep_paper(title, venue, href, "")
+            if not keep:
+                # print(f"Filtered Auburn: {title[:60]} -> {reason}")
                 continue
 
             pub_name = infer_pub_name(href, venue)
