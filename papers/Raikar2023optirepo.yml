@@ -6,7 +6,7 @@ labels:
 - sampling / updating
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2023
   url: http://arxiv.org/abs/2309.05974
 - name: IEEE

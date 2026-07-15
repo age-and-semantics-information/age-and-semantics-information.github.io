@@ -4,7 +4,7 @@ labels:
 - energy harvesting
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2024
   url: http://arxiv.org/abs/2412.01192
 - name: IEEE Journal on Selected Areas in Communications

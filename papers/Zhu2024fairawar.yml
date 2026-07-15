@@ -5,7 +5,7 @@ labels:
 - edge / IoT / UAV
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2024
   url: http://arxiv.org/abs/2404.02159
 - name: IEEE Transactions on Mobile Computing

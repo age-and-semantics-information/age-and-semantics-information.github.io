@@ -3,7 +3,7 @@ authors: Songhua Li, Lingjie Duan
 labels:
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2023
   url: http://arxiv.org/abs/2308.13303
 - name: IEEE Transactions on Networking

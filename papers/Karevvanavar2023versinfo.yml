@@ -5,7 +5,7 @@ labels:
 - scheduling / optimization
 - theory / fundamentals
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2023
   url: http://arxiv.org/abs/2311.09975
 - name: IEEE Transactions on Wireless Communications

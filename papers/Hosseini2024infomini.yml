@@ -7,7 +7,7 @@ labels:
 - security / privacy
 - theory / fundamentals
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2024
   url: http://arxiv.org/abs/2411.12312
 - name: IEEE Transactions on Wireless Communications

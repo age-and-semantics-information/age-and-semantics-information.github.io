@@ -6,7 +6,7 @@ labels:
 - sampling / updating
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2025
   url: http://arxiv.org/abs/2508.14328
 - name: IEEE Transactions on Networking

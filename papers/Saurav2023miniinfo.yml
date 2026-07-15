@@ -3,7 +3,7 @@ authors: Kumar Saurav, Ashok Kumar Reddy Chavva
 labels:
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2023
   url: http://arxiv.org/abs/2310.14257
 - name: IEEE

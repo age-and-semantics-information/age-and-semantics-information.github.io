@@ -1,5 +1,5 @@
 import { memo, useMemo } from 'react';
-import { Card, CardContent, Box, Stack, Typography } from '@mui/material';
+import { Card, CardContent, Stack, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import LabelChip from './LabelChip';
 import PublicationBadge from './PublicationBadge';
@@ -22,17 +22,19 @@ const PaperCardMobile: React.FC<Props> = ({ paper, selectedLabels=[], onLabelCli
     <StyledCard>
       <CardContent sx={{ py: 1, px: 1.5 }}>
         <Typography variant="subtitle2" fontWeight={700} sx={{ lineHeight: 1.25, mb: 0.5 }}>{paper.title}</Typography>
+        {sortedLabels.length>0 && (
+          <Stack direction="row" spacing={0.5} flexWrap="wrap" gap={0.5} sx={{ mb: 0.5 }}>
+            {sortedLabels.map((label:string)=>(
+              <LabelChip key={label} label={label} isSelected={selectedLabels.includes(label)} onLabelClick={onLabelClick}/>
+            ))}
+          </Stack>
+        )}
         <Stack direction="row" spacing={0.5} flexWrap="wrap" gap={0.5} sx={{ mb: 0.5 }}>
           {paper.publications?.map((pub, idx:number)=>(
             <PublicationBadge key={`pub-${idx}`} publication={pub} paperTitle={paper.title}/>
           ))}
         </Stack>
-        <AuthorLine authors={paper.authors} sx={{ mb: 0.5 }} />
-        <Stack direction="row" spacing={0.5} flexWrap="wrap" gap={0.5}>
-          {sortedLabels.map((label:string)=>(
-            <LabelChip key={label} label={label} isSelected={selectedLabels.includes(label)} onLabelClick={onLabelClick}/>
-          ))}
-        </Stack>
+        <AuthorLine authors={paper.authors} />
       </CardContent>
     </StyledCard>
   );

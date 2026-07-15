@@ -3,7 +3,7 @@ authors: Guillaume Deffuant, Marijn A. Keijzer, Sven Banisch
 labels:
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2023
   url: http://arxiv.org/abs/2305.16855
 - name: HAL (Le Centre pour la Communication Scientifique Directe)

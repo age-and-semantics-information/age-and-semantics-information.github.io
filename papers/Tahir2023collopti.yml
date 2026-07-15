@@ -6,7 +6,7 @@ labels:
 - scheduling / optimization
 - theory / fundamentals
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2023
   url: http://arxiv.org/abs/2312.12977
 - name: IFIP

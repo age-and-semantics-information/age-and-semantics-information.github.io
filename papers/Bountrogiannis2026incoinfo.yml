@@ -5,10 +5,10 @@ labels:
 - VoI / AoII / QAoI
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2026
   url: https://doi.org/10.48550/arxiv.2603.28369
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2026
   url: http://arxiv.org/abs/2603.28369
 year: 2026

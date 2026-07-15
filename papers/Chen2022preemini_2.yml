@@ -4,7 +4,7 @@ labels:
 - VoI / AoII / QAoI
 - theory / fundamentals
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2022
   url: http://arxiv.org/abs/2209.14254
 - name: IEEE Transactions on Networking

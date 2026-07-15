@@ -26,21 +26,25 @@ const PaperCardDesktop: React.FC<Props> = ({ paper, selectedLabels=[], onLabelCl
   return (
     <StyledCard>
       <CardContent sx={{ py: 1, px: 2, '&:last-child': { pb: 1 } }}>
-        <Stack direction="row" justifyContent="space-between" alignItems="flex-start" spacing={2}>
-          <Box sx={{ flex: 1 }}>
-            <Stack direction="row" alignItems="center" spacing={0.5} sx={{ flexWrap: 'wrap', gap: 0.5, mb: 0.5 }}>
-              <PaperTitle variant="subtitle1" sx={{ display: 'inline', mb: 0 }}>{paper.title}</PaperTitle>
+        <Stack spacing={0.5}>
+          <Stack direction="row" justifyContent="space-between" alignItems="flex-start" spacing={2}>
+            <Box sx={{ flex: 1 }}>
+              <PaperTitle variant="subtitle1">{paper.title}</PaperTitle>
+            </Box>
+            <Stack direction="row" alignItems="center" spacing={0.5} sx={{ flexShrink: 0, pt: 0.2 }}>
+              {paper.publications?.map((pub, idx:number)=>(
+                <PublicationBadge key={`pub-${idx}`} publication={pub} paperTitle={paper.title}/>
+              ))}
+            </Stack>
+          </Stack>
+          {sortedLabels.length>0 && (
+            <Stack direction="row" alignItems="center" spacing={0.5} sx={{ flexWrap: 'wrap', gap: 0.5 }}>
               {sortedLabels.map((label:string)=>(
                 <LabelChip key={`label-${label}`} label={label} isSelected={selectedLabels.includes(label)} onLabelClick={onLabelClick} paperTitle={paper.title}/>
               ))}
             </Stack>
-            <AuthorLine authors={paper.authors} />
-          </Box>
-          <Stack direction="row" alignItems="center" spacing={0.5} sx={{ flexShrink: 0 }}>
-            {paper.publications?.map((pub, idx:number)=>(
-              <PublicationBadge key={`pub-${idx}`} publication={pub} paperTitle={paper.title}/>
-            ))}
-          </Stack>
+          )}
+          <AuthorLine authors={paper.authors} />
         </Stack>
       </CardContent>
     </StyledCard>

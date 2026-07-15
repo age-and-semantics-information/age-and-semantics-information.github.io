@@ -8,7 +8,7 @@ labels:
 - sampling / updating
 - scheduling / optimization
 publications:
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2026
   url: http://arxiv.org/abs/2602.13269
 - name: Open MIND

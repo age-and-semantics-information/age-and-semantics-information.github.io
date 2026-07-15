@@ -11,7 +11,7 @@ publications:
 - name: arXiv
   year: 2023
   url: https://arxiv.org/abs/2312.16163
-- name: arXiv (Cornell University)
+- name: arXiv
   year: 2023
   url: http://arxiv.org/abs/2312.16163
 - name: IEEE Transactions on Communications
