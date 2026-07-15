@@ -18,6 +18,15 @@ interface Props { paper: Paper; selectedLabels?: string[]; onLabelClick?: ((labe
 
 const PaperCardMobile: React.FC<Props> = ({ paper, selectedLabels=[], onLabelClick=null }) => {
   const sortedLabels = useMemo(()=> sortLabels(paper.labels), [paper.labels]);
+  const dedupedPubs = useMemo(()=>{
+    const seen = new Set<string>();
+    return (paper.publications||[]).filter((p:any)=>{
+      const u = p.url || '';
+      if (u && seen.has(u)) return false;
+      if (u) seen.add(u);
+      return true;
+    });
+  }, [paper.publications]);
   return (
     <StyledCard>
       <CardContent sx={{ py: 1, px: 1.5 }}>
@@ -30,7 +39,7 @@ const PaperCardMobile: React.FC<Props> = ({ paper, selectedLabels=[], onLabelCli
           </Stack>
         )}
         <Stack direction="row" spacing={0.5} flexWrap="wrap" gap={0.5} sx={{ mb: 0.5 }}>
-          {paper.publications?.map((pub, idx:number)=>(
+          {dedupedPubs.map((pub, idx:number)=>(
             <PublicationBadge key={`pub-${idx}`} publication={pub} paperTitle={paper.title}/>
           ))}
         </Stack>

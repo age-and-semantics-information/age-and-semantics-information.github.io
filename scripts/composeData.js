@@ -24,6 +24,18 @@ const paper_objs = papers.map(file=>{
     if (missing.length>0) issues.missing.push({file, missing});
     if (data.title && seenTitles.has(data.title)) issues.duplicates.push(file);
     if (data.title) seenTitles.add(data.title);
+    // Deduplicate publications by URL to fix duplicate arXiv badges
+    if (data.publications && Array.isArray(data.publications)) {
+      const seenUrls = new Set();
+      const deduped = [];
+      for (const pub of data.publications) {
+        const url = pub.url || '';
+        if (url && seenUrls.has(url)) continue;
+        if (url) seenUrls.add(url);
+        deduped.push(pub);
+      }
+      data.publications = deduped;
+    }
     const {abstract, ...rest} = data;
     return rest;
   } catch(e){ console.error(`Failed ${file}: ${e.message}`); issues.parseErrors.push(file); return null; }

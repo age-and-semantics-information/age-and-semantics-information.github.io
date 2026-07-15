@@ -20,8 +20,16 @@ export const calculateStats = (data: Paper[]): PaperStats => {
   });
   const uniqueVenues = new Set<string>();
   data.forEach(paper=>{
-    paper.publications?.forEach(pub=>{
-      if (pub.name && pub.name!=='arXiv') uniqueVenues.add(pub.name);
+    // Deduplicate publications by URL per paper to avoid counting same venue twice
+    const seenUrls = new Set<string>();
+    const dedupedPubs = (paper.publications||[]).filter(pub=>{
+      const url = pub.url || '';
+      if (url && seenUrls.has(url)) return false;
+      if (url) seenUrls.add(url);
+      return true;
+    });
+    dedupedPubs.forEach(pub=>{
+      if (pub.name && pub.name!=='arXiv' && pub.name!=='Other' && pub.name!=='IEEE') uniqueVenues.add(pub.name);
     });
   });
   const yearDistribution = data.reduce<Record<number,number>>((acc,paper)=>{
@@ -30,7 +38,21 @@ export const calculateStats = (data: Paper[]): PaperStats => {
     else if (paper.year) { acc[paper.year]=(acc[paper.year]||0)+1; }
     return acc;
   },{});
-  const allVenues = data.flatMap(p=> (p.publications||[]).map(pub=>pub.name).filter(n=>n && n!=='arXiv') as string[]);
+  // Collect venues, excluding generic and Other
+  const excludedVenues = new Set(['Other','IEEE','arXiv','MDPI','Springer','Elsevier','Wiley','SSRN Electronic Journal']);
+  const allVenues: string[] = [];
+  data.forEach(paper=>{
+    const seenUrls = new Set<string>();
+    (paper.publications||[]).forEach(pub=>{
+      const url = pub.url || '';
+      if (url && seenUrls.has(url)) return;
+      if (url) seenUrls.add(url);
+      const name = pub.name;
+      if (name && !excludedVenues.has(name)) {
+        allVenues.push(name);
+      }
+    });
+  });
   const venueCounts = allVenues.reduce<Record<string,number>>((acc,v)=>{acc[v]=(acc[v]||0)+1; return acc;},{});
   const venueStats = Object.entries(venueCounts).map(([name,count])=>({name,count})).sort((a,b)=>b.count-a.count).slice(0,8);
   return { totalPapers, totalAuthors: allAuthors.size, totalVenues: uniqueVenues.size, yearDistribution, venueStats };

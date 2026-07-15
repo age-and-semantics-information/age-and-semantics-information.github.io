@@ -316,7 +316,22 @@ const YearDistributionChart: React.FC<YearDistributionChartProps> = ({
   const maxCount = Math.max(
     ...Object.values(yearData).filter((v): v is number => v !== undefined)
   );
-  const years = Object.keys(yearData).sort((a, b) => parseInt(a) - parseInt(b));
+  const allYears = Object.keys(yearData).map(y=>parseInt(y)).sort((a, b) => a - b);
+  // Show latest 5 years + 3 sampled earlier to avoid crowding (user request)
+  let years: string[] = [];
+  if (allYears.length <= 8) {
+    years = allYears.map(String);
+  } else {
+    const latest5 = allYears.slice(-5);
+    const earlier = allYears.slice(0, -5);
+    // Sample 3 from earlier: first, middle, last (deterministic, not random)
+    const sampled: number[] = [];
+    if (earlier.length > 0) sampled.push(earlier[0]);
+    if (earlier.length > 2) sampled.push(earlier[Math.floor(earlier.length/2)]);
+    if (earlier.length > 1) sampled.push(earlier[earlier.length-1]);
+    const combined = [...new Set([...sampled, ...latest5])].sort((a,b)=>a-b);
+    years = combined.map(String);
+  }
 
   return (
     <Card
