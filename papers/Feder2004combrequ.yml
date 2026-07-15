@@ -1,0 +1,10 @@
+title: Combining request scheduling with web caching
+authors: Tomás Feder, Rajeev Motwani, Rina Panigrahy‎, Steve Seiden, Rob van Stee,
+  An Zhu
+labels:
+- scheduling / optimization
+publications:
+- name: Theoretical Computer Science
+  year: 2004
+  url: https://doi.org/10.1016/j.tcs.2004.05.016
+year: 2004

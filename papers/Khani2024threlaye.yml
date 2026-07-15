@@ -1,0 +1,11 @@
+title: Three-layer data center-based intelligent slice admission control algorithm
+  for C-RAN using approximate reinforcement learning
+authors: Mohsen Khani, Shahram Jamali, Mohammad Karim Sohrabi
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Cluster Computing
+  year: 2024
+  url: https://doi.org/10.1007/s10586-023-04252-y
+year: 2024

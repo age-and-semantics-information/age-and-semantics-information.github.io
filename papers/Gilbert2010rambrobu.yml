@@ -1,0 +1,9 @@
+title: 'Rambo: a robust, reconfigurable atomic memory service for dynamic networks'
+authors: Seth Gilbert, Nancy Lynch, Alexander A. Shvartsman
+labels:
+- theory / fundamentals
+publications:
+- name: Distributed Computing
+  year: 2010
+  url: https://doi.org/10.1007/s00446-010-0117-1
+year: 2010

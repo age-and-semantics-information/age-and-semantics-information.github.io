@@ -1,0 +1,12 @@
+title: 'MDPRP: A Q-Learning Approach for the Joint Control of Beaconing Rate and Transmission
+  Power in VANETs'
+authors: Juan Aznar-Poveda, Antonio-Javier García-Sánchez, Esteban Egea-López, Joan
+  Garcı́a-Haro
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Access
+  year: 2021
+  url: https://doi.org/10.1109/access.2021.3050625
+year: 2021

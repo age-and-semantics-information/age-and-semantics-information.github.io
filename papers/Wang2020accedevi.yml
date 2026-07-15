@@ -1,0 +1,10 @@
+title: Accelerating on-device DNN inference during service outage through scheduling
+  early exit
+authors: Zizhao Wang, Wei Bao, Dong Yuan, Liming Ge, Nguyen H. Tran, Albert Y. Zomaya
+labels:
+- scheduling / optimization
+publications:
+- name: Computer Communications
+  year: 2020
+  url: https://doi.org/10.1016/j.comcom.2020.08.005
+year: 2020

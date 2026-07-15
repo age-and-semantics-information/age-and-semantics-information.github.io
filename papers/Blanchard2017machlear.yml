@@ -1,0 +1,9 @@
+title: 'Machine learning with adversaries: byzantine tolerant gradient descent'
+authors: Peva Blanchard, El Mahdi El Mhamdi, Rachid Guerraoui, Julien Stainer
+labels:
+- learning / RL
+publications:
+- name: Neural Information Processing Systems
+  year: 2017
+  url: https://papers.nips.cc/paper/6617-machine-learning-with-adversaries-byzantine-tolerant-gradient-descent.pdf
+year: 2017

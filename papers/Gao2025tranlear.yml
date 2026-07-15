@@ -1,0 +1,12 @@
+title: Transfer Learning for Joint Trajectory Control and Task Offloading in Large-Scale
+  Partially Observable UAV-Assisted MEC
+authors: Zhen Gao, Gang Wang, Lei Yang, Yu Dai
+labels:
+- edge / IoT / UAV
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Transactions on Mobile Computing
+  year: 2025
+  url: https://doi.org/10.1109/tmc.2025.3579748
+year: 2025

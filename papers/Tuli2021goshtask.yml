@@ -1,0 +1,9 @@
+title: 'GOSH: Task Scheduling Using Deep Surrogate Models in Fog Computing Environments'
+authors: Shreshth Tuli, Giuliano Casale, Nicholas R. Jennings
+labels:
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 2021
+  url: https://doi.org/10.1109/tpds.2021.3136672
+year: 2021

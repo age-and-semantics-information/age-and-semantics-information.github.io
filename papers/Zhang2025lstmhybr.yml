@@ -1,0 +1,11 @@
+title: A CNN-LSTM hybrid network with transfer learning for accurate lithium-ion battery
+  state of health estimation
+authors: Xugang Zhang, Lichao Wang, Qingshan Gong, Yan Wang
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Journal of Energy Storage
+  year: 2025
+  url: https://doi.org/10.1016/j.est.2025.119450
+year: 2025

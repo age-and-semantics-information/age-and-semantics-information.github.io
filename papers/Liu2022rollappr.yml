@@ -1,0 +1,11 @@
+title: Rollout approach to sensor scheduling for remote state estimation under integrity
+  attack
+authors: Hanxiao Liu, Yuchao Li, Karl Henrik Johansson, Jonas Mårtensson, Lihua Xie
+labels:
+- estimation / control
+- scheduling / optimization
+publications:
+- name: Automatica
+  year: 2022
+  url: https://doi.org/10.1016/j.automatica.2022.110473
+year: 2022

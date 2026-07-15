@@ -1,0 +1,11 @@
+title: Adaptive Control of Local Updating and Model Compression for Efficient Federated
+  Learning
+authors: Yang Xu, Yunming Liao, Hongli Xu, Zhenguo Ma, Lun Wang, Jianchun Liu
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Transactions on Mobile Computing
+  year: 2022
+  url: https://doi.org/10.1109/tmc.2022.3186936
+year: 2022

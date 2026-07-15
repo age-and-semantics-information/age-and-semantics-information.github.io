@@ -1,0 +1,11 @@
+title: '$QRTT$: Stateful Round Trip Time Estimation for Wireless Embedded Systems
+  Using $Q$-Learning'
+authors: A. B. M. Alim Al Islam, Vijay Raghunathan
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Embedded Systems Letters
+  year: 2012
+  url: https://doi.org/10.1109/les.2012.2229961
+year: 2012

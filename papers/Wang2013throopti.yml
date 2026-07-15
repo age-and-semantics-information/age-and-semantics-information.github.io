@@ -1,0 +1,10 @@
+title: A throughput optimal algorithm for map task scheduling in mapreduce with data
+  locality
+authors: Weina Wang, K. J. Zhu, Lei Ying, Jian Tan, Li Zhang
+labels:
+- scheduling / optimization
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2013
+  url: https://doi.org/10.1145/2479942.2479947
+year: 2013

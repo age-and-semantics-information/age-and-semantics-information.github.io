@@ -1,0 +1,9 @@
+title: Fault-tolerant distributed algorithm for election in complete networks
+authors: Hosame Abu-Amara
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Computers
+  year: 1988
+  url: https://doi.org/10.1109/12.2189
+year: 1988

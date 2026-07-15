@@ -1,0 +1,9 @@
+title: Segment based power-efficient scheduling for real-time DAG tasks on edge devices
+authors: Lei Yu, Tianqi Zhong, Peng Bi, Lan Wang, Fei Teng
+labels:
+- scheduling / optimization
+publications:
+- name: Parallel Computing
+  year: 2023
+  url: https://doi.org/10.1016/j.parco.2023.103022
+year: 2023

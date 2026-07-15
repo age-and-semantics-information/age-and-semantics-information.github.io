@@ -1,0 +1,10 @@
+title: 'Graft: Efficient Inference Serving for Hybrid Deep Learning With SLO Guarantees
+  via DNN Re-Alignment'
+authors: Jing Wu, Lin Wang, Qirui Jin, Fangming Liu
+labels:
+- learning / RL
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 2023
+  url: https://doi.org/10.1109/tpds.2023.3340518
+year: 2023

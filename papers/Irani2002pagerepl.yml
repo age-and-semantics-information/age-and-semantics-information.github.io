@@ -1,0 +1,9 @@
+title: Page Replacement with Multi-Size Pages and Applications to Web Caching
+authors: Sandy Irani
+labels:
+- theory / fundamentals
+publications:
+- name: Algorithmica
+  year: 2002
+  url: https://doi.org/10.1007/s00453-001-0125-4
+year: 2002

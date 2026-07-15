@@ -1,0 +1,9 @@
+title: Mobile Task Offloading Under Unreliable Edge Performance
+authors: Md Rajib Hossen, Mohammad A. Islam
+labels:
+- theory / fundamentals
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2021
+  url: https://doi.org/10.1145/3466826.3466838
+year: 2021

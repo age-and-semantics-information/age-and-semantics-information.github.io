@@ -1,0 +1,11 @@
+title: 'Mantis: Efficient Predictions of Execution Time, Energy Usage, Memory Usage
+  and Network Usage on Smart Mobile Devices'
+authors: Yongin Kwon, Sang-Min Lee, Hayoon Yi, Donghyun Kwon, Seungjun Yang, Byung-Gon
+  Chun, Ling Huang, Petros Maniatis, Mayur Naik, Yunheung Paek
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Mobile Computing
+  year: 2014
+  url: https://doi.org/10.1109/tmc.2014.2374153
+year: 2014

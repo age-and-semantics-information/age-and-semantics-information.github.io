@@ -1,0 +1,10 @@
+title: 'TBDB: Token Bucket-Based Dynamic Batching for Resource Scheduling Supporting
+  Neural Network Inference in Intelligent Consumer Electronics'
+authors: Honghao Gao, Binyang Qiu, Ye Wang, Yu Si, Yueshen Xu, Xinheng Wang
+labels:
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Consumer Electronics
+  year: 2023
+  url: https://doi.org/10.1109/tce.2023.3339633
+year: 2023

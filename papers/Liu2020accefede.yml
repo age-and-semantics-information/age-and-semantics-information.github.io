@@ -1,0 +1,9 @@
+title: Accelerating Federated Learning via Momentum Gradient Descent
+authors: Wei Liu, Li Chen, Yunfei Chen, Wenyi Zhang
+labels:
+- learning / RL
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 2020
+  url: https://doi.org/10.1109/tpds.2020.2975189
+year: 2020

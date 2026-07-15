@@ -1,0 +1,9 @@
+title: Self-stabilizing end-to-end communication
+authors: Baruch Awerbuch, Boaz Patt-Shamir, George Varghese
+labels:
+- theory / fundamentals
+publications:
+- name: Journal of High Speed Networks
+  year: 1996
+  url: https://doi.org/10.3233/jhs-1996-5404
+year: 1996

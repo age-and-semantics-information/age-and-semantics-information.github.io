@@ -1,0 +1,10 @@
+title: Experimental Validation of a Likelihood-Based Stochastic Knock Controller
+authors: Andreas Thomasson, Haoyun Shi, Tobias Lindell, Lars Eriksson, Tielong Shen,
+  James C. Peyton Jones
+labels:
+- estimation / control
+publications:
+- name: IEEE Transactions on Control Systems Technology
+  year: 2015
+  url: https://doi.org/10.1109/tcst.2015.2483566
+year: 2015

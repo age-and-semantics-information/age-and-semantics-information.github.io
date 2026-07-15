@@ -1,0 +1,9 @@
+title: Stochastic bandits with side observations on networks
+authors: Swapna Buccapatnam, Atilla Eryılmaz, Ness B. Shroff
+labels:
+- theory / fundamentals
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2014
+  url: https://doi.org/10.1145/2637364.2591989
+year: 2014

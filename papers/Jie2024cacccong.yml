@@ -1,0 +1,11 @@
+title: 'CACC: A Congestion-Aware Control Mechanism to Reduce INT Overhead and PFC
+  Pause Delay'
+authors: Xiwen Jie, Jiangping Han, Guanglei Chen, Hang Wang, Peilin Hong, Kaiping
+  Xue
+labels:
+- estimation / control
+publications:
+- name: IEEE Transactions on Network and Service Management
+  year: 2024
+  url: https://doi.org/10.1109/tnsm.2024.3449699
+year: 2024

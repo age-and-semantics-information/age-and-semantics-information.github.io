@@ -1,0 +1,9 @@
+title: Performance Analysis of the Raft Consensus Algorithm for Private Blockchains
+authors: Dongyan Huang, Xiaoli Ma, Shengli Zhang
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Systems Man and Cybernetics Systems
+  year: 2019
+  url: https://doi.org/10.1109/tsmc.2019.2895471
+year: 2019

@@ -1,0 +1,9 @@
+title: Distributed Stochastic Dual Subgradient for Constraint-Coupled Optimization
+authors: Andrea Camisa, Ivano Notarnicola, Giuseppe Notarstefano
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Control Systems Letters
+  year: 2021
+  url: https://doi.org/10.1109/lcsys.2021.3084531
+year: 2021

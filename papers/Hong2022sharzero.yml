@@ -1,0 +1,9 @@
+title: Sharp Zero-Queueing Bounds for Multi-Server Jobs
+authors: Yige Hong
+labels:
+- queueing analysis
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2022
+  url: https://doi.org/10.1145/3512798.3512822
+year: 2022

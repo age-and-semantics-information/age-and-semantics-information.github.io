@@ -1,0 +1,11 @@
+title: Multi-Armed Bandit-Based Client Scheduling for Federated Learning
+authors: Wenchao Xia, Tony Q. S. Quek, Kun Guo, Wanli Wen, Howard H. Yang, Hongbo
+  Zhu
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Wireless Communications
+  year: 2020
+  url: https://doi.org/10.1109/twc.2020.3008091
+year: 2020

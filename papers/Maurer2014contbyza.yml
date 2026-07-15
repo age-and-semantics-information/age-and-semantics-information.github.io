@@ -1,0 +1,9 @@
+title: Containing Byzantine Failures with Control Zones
+authors: Alexandre Maurer, Sébastien Tixeuil
+labels:
+- estimation / control
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 2014
+  url: https://doi.org/10.1109/tpds.2014.2308190
+year: 2014

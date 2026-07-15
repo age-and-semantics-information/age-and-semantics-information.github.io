@@ -1,0 +1,12 @@
+title: 'CEFL: Online Admission Control, Data Scheduling, and Accuracy Tuning for Cost-Efficient
+  Federated Learning Across Edge Nodes'
+authors: Zhi Zhou, Song Yang, Lingjun Pu, Shuai Yu
+labels:
+- estimation / control
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Internet of Things Journal
+  year: 2020
+  url: https://doi.org/10.1109/jiot.2020.2984332
+year: 2020

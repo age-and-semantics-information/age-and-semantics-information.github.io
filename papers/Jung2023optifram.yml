@@ -1,0 +1,9 @@
+title: Optimization framework for splitting DNN inference jobs over computing networks
+authors: Sehun Jung, Hyang-Won Lee
+labels:
+- theory / fundamentals
+publications:
+- name: Computer Networks
+  year: 2023
+  url: https://doi.org/10.1016/j.comnet.2023.109814
+year: 2023

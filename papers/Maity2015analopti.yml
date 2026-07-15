@@ -1,0 +1,11 @@
+title: Analysis and optimal control of a queue with infinite buffer under batch-size
+  dependent versatile bulk-service rule
+authors: Arunava Maity, Umesh Gupta
+labels:
+- estimation / control
+- queueing analysis
+publications:
+- name: OPSEARCH
+  year: 2015
+  url: https://doi.org/10.1007/s12597-015-0197-6
+year: 2015

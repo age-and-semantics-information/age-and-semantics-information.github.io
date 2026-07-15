@@ -1,0 +1,10 @@
+title: 'GeoQuorums: implementing atomic memory in mobile ad hoc networks'
+authors: Shlomi Dolev, Seth Gilbert, Nancy Lynch, Alexander A. Shvartsman, Jennifer
+  L. Welch
+labels:
+- theory / fundamentals
+publications:
+- name: Distributed Computing
+  year: 2005
+  url: https://doi.org/10.1007/s00446-005-0140-9
+year: 2005

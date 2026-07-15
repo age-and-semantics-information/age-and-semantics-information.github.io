@@ -1,0 +1,9 @@
+title: 'Queec: QoE-aware Edge Computing for IoT Devices under Dynamic Workloads'
+authors: Borui Li, Wei Dong, Gaoyang Guan, Jiadong Zhang, Tao Gu, Jiajun Bu, Yi Gao
+labels:
+- edge / IoT / UAV
+publications:
+- name: ACM Transactions on Sensor Networks
+  year: 2021
+  url: https://doi.org/10.1145/3442363
+year: 2021

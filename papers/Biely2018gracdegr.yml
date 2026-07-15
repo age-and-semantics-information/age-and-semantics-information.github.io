@@ -1,0 +1,9 @@
+title: Gracefully degrading consensus and k -set agreement in directed dynamic networks
+authors: Martin Biely, Peter Robinson, Ulrich Schmid, Manfred Schwarz, Kyrill Winkler
+labels:
+- theory / fundamentals
+publications:
+- name: Theoretical Computer Science
+  year: 2018
+  url: https://doi.org/10.1016/j.tcs.2018.02.019
+year: 2018

@@ -1,0 +1,11 @@
+title: Estimating CPI Stacks From Multiplexed Performance Counter Data Using Machine
+  Learning
+authors: Daniel Puckett, Tyler Tomer, Paul V. Gratz, Jiang Hu, Galen Shipman, Jered
+  Dominguez-Trujillo, Kevin J. Sheridan
+labels:
+- learning / RL
+publications:
+- name: IEEE Computer Architecture Letters
+  year: 2025
+  url: https://doi.org/10.1109/lca.2025.3556644
+year: 2025

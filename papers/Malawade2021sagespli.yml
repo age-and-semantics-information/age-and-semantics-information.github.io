@@ -1,0 +1,11 @@
+title: 'SAGE: A Split-Architecture Methodology for Efficient End-to-End Autonomous
+  Vehicle Control'
+authors: Arnav Vaibhav Malawade, Mohanad Odema, Sebastien Lajeunesse-degroot, Mohammad
+  Abdullah Al Faruque
+labels:
+- estimation / control
+publications:
+- name: ACM Transactions on Embedded Computing Systems
+  year: 2021
+  url: https://doi.org/10.1145/3477006
+year: 2021

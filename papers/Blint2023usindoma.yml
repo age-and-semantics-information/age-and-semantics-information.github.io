@@ -1,0 +1,11 @@
+title: Using Domain-Augmented Federated Learning to Model Thermostatically Controlled
+  Loads
+authors: Attila Bálint, Haroon Raja, Johan Driesen, Hussain Kazmi
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Transactions on Smart Grid
+  year: 2023
+  url: https://doi.org/10.1109/tsg.2023.3243467
+year: 2023

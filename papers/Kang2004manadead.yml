@@ -1,0 +1,9 @@
+title: Managing deadline miss ratio and sensor data freshness in real-time databases
+authors: Kyoung‐Don Kang, Sang H. Son, John A. Stankovic
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Knowledge and Data Engineering
+  year: 2004
+  url: https://doi.org/10.1109/tkde.2004.61
+year: 2004

@@ -1,0 +1,11 @@
+title: Dynamic Scheduling for Stochastic Edge-Cloud Computing Environments Using A3C
+  Learning and Residual Recurrent Neural Networks
+authors: Shreshth Tuli, Shashikant Ilager, Kotagiri Ramamohanarao, Rajkumar Buyya
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Mobile Computing
+  year: 2020
+  url: https://doi.org/10.1109/tmc.2020.3017079
+year: 2020

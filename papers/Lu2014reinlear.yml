@@ -1,0 +1,11 @@
+title: A reinforcement-learning approach for admission control in distributed network
+  service systems
+authors: Xiaonong Lu, Baoqun Yin, Haipeng Zhang
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Journal of Combinatorial Optimization
+  year: 2014
+  url: https://doi.org/10.1007/s10878-014-9820-3
+year: 2014

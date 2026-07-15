@@ -1,0 +1,10 @@
+title: 'AdaNS: Adaptive negative sampling for unsupervised graph representation learning'
+authors: Yu Wang, Liang Hu, Wanfu Gao, Xiaofeng Cao, Yi Chang
+labels:
+- learning / RL
+- sampling / updating
+publications:
+- name: Pattern Recognition
+  year: 2022
+  url: https://doi.org/10.1016/j.patcog.2022.109266
+year: 2022

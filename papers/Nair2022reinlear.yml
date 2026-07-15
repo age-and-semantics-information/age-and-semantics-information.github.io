@@ -1,0 +1,11 @@
+title: A reinforcement learning algorithm for rescheduling preempted tasks in fog
+  nodes
+authors: Biji Nair, S. Mary Saira Bhanu
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Journal of Scheduling
+  year: 2022
+  url: https://doi.org/10.1007/s10951-022-00725-x
+year: 2022

@@ -1,0 +1,10 @@
+title: Dimensioning payload size for fast retransmission of MQTT packets in the wake
+  of network disconnections
+authors: Marco Domingues, José N. Faria, David Portugal
+labels:
+- theory / fundamentals
+publications:
+- name: EURASIP Journal on Wireless Communications and Networking
+  year: 2024
+  url: https://doi.org/10.1186/s13638-023-02327-3
+year: 2024

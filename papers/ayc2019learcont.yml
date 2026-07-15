@@ -1,0 +1,10 @@
+title: Learning to Control Renewal Processes with Bandit Feedback
+authors: Semih Çaycı, Atilla Eryılmaz, R. Srikant
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+  year: 2019
+  url: https://doi.org/10.1145/3341617.3326158
+year: 2019

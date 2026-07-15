@@ -1,0 +1,9 @@
+title: Q-Learning and Enhanced Policy Iteration in Discounted Dynamic Programming
+authors: Dimitri P. Bertsekas, Huizhen Yu
+labels:
+- learning / RL
+publications:
+- name: Mathematics of Operations Research
+  year: 2012
+  url: https://doi.org/10.1287/moor.1110.0532
+year: 2012

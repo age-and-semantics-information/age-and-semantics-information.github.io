@@ -1,0 +1,11 @@
+title: EV Idle Time Estimation on Charging Infrastructure, Comparing Supervised Machine
+  Learning Regressions
+authors: Alexandre Lucas, Ricardo Barranco, Nazir Refa
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Energies
+  year: 2019
+  url: https://doi.org/10.3390/en12020269
+year: 2019

@@ -1,0 +1,10 @@
+title: 'DynO: Dynamic Onloading of Deep Neural Networks from Cloud to Device'
+authors: Mário Almeida, Stefanos Laskaridis, Stylianos I. Venieris, Ilias Leontiadis,
+  Nicholas D. Lane
+labels:
+- theory / fundamentals
+publications:
+- name: ACM Transactions on Embedded Computing Systems
+  year: 2022
+  url: https://doi.org/10.1145/3510831
+year: 2022

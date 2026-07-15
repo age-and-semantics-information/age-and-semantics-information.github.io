@@ -1,0 +1,10 @@
+title: Optimal pricing and capacity sizing for the<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"
+  altimg="si1.gif" display="inline" overflow="scroll"><mml:mi>G</mml:mi><mml:mi>I</mml:mi><mml:mo>/</mml:mo><mml:mi>G</mml:mi><mml:mi>I</mml:mi><mml:mo>/</mml:mo><mml:mn>1</mml:mn></mml:math>queue
+authors: Chihoon Lee, Amy R. Ward
+labels:
+- queueing analysis
+publications:
+- name: Operations Research Letters
+  year: 2014
+  url: https://doi.org/10.1016/j.orl.2014.09.005
+year: 2014

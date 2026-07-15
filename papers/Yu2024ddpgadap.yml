@@ -1,0 +1,10 @@
+title: 'DDPG-AdaptConfig: A deep reinforcement learning framework for adaptive device
+  selection and training configuration in heterogeneity federated learning'
+authors: Xinlei Yu, Zhipeng Gao, Zijian Xiong, Chen Zhao, Yang Yang
+labels:
+- learning / RL
+publications:
+- name: Future Generation Computer Systems
+  year: 2024
+  url: https://doi.org/10.1016/j.future.2024.107528
+year: 2024

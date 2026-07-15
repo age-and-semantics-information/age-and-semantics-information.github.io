@@ -1,0 +1,11 @@
+title: Transmission Scheduling for Remote State Estimation Over Packet Dropping Links
+  in the Presence of an Eavesdropper
+authors: Alex S. Leong, Daniel E. Quevedo, Daniel Dolz, Subhrakanti Dey
+labels:
+- estimation / control
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Automatic Control
+  year: 2018
+  url: https://doi.org/10.1109/tac.2018.2883246
+year: 2018

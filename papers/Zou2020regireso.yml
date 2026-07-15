@@ -1,0 +1,11 @@
+title: 'A3C-DO: A Regional Resource Scheduling Framework Based on Deep Reinforcement
+  Learning in Edge Scenario'
+authors: Junfeng Zou, Tongbo Hao, Yu Chen, Hai Jin
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Computers
+  year: 2020
+  url: https://doi.org/10.1109/tc.2020.2987567
+year: 2020

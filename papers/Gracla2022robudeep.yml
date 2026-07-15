@@ -1,0 +1,10 @@
+title: Robust Deep Reinforcement Learning Scheduling via Weight Anchoring
+authors: Steffen Gracla, Edgar Beck, Carsten Bockelmann, Armin Dekorsy
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Communications Letters
+  year: 2022
+  url: https://doi.org/10.1109/lcomm.2022.3214574
+year: 2022

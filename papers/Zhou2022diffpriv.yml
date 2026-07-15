@@ -1,0 +1,9 @@
+title: Differentially Private Reinforcement Learning with Linear Function Approximation
+authors: Xingyu Zhou
+labels:
+- learning / RL
+publications:
+- name: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+  year: 2022
+  url: https://doi.org/10.1145/3508028
+year: 2022

@@ -1,0 +1,9 @@
+title: Implementing distributed shared memory for dynamic networks
+authors: Peter M. Musial, Nicolas Nicolaou, Alexander A. Shvartsman
+labels:
+- theory / fundamentals
+publications:
+- name: Communications of the ACM
+  year: 2014
+  url: https://doi.org/10.1145/2500874
+year: 2014

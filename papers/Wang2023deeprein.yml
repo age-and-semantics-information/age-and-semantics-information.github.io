@@ -1,0 +1,11 @@
+title: Deep Reinforcement Learning-based scheduling for optimizing system load and
+  response time in edge and fog computing environments
+authors: Zhiyu Wang, Mohammad Goudarzi, Mingming Gong, Rajkumar Buyya
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Future Generation Computer Systems
+  year: 2023
+  url: https://doi.org/10.1016/j.future.2023.10.012
+year: 2023

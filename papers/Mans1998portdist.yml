@@ -1,0 +1,9 @@
+title: Portable distributed priority queues with MPI
+authors: Bernard Mans
+labels:
+- queueing analysis
+publications:
+- name: Concurrency Practice and Experience
+  year: 1998
+  url: https://doi.org/10.1002/(sici)1096-9128(199803)10:3<175::aid-cpe294>3.0.co;2-y
+year: 1998

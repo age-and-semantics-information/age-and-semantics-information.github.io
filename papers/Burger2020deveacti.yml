@@ -1,0 +1,10 @@
+title: Developing Action Policies with Q-Learning and Shallow Neural Networks on Reconfigurable
+  Embedded Devices
+authors: Alwyn Burger, Gregor Schiele, David King
+labels:
+- learning / RL
+publications:
+- name: ACM Transactions on Autonomous and Adaptive Systems
+  year: 2020
+  url: https://doi.org/10.1145/3487920
+year: 2020

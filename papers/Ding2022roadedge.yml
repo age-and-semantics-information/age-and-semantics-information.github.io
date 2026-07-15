@@ -1,0 +1,12 @@
+title: Roadmap for edge AI
+authors: Aaron Yi Ding, Ella Peltonen, Tobias Meuser, Atakan Aral, Christian Becker,
+  Schahram Dustdar, Thomas Hießl, Dieter Kranzlmüller, Madhusanka Liyanage, Setareh
+  Maghsudi, Nitinder Mohan, Jörg Ott, Jan S. Rellermeyer, Stefan Schulte, Henning
+  Schulzrinne, Gürkan Solmaz, Sasu Tarkoma, Blesson Varghese, Lars Wolf
+labels:
+- theory / fundamentals
+publications:
+- name: ACM SIGCOMM Computer Communication Review
+  year: 2022
+  url: https://doi.org/10.1145/3523230.3523235
+year: 2022

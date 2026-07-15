@@ -1,0 +1,10 @@
+title: Characterizing the Performance of Accelerated Jetson Edge Devices for Training
+  Deep Learning Models
+authors: Prashanthi S.K, Sai Anuroop Kesanapalli, Yogesh Simmhan
+labels:
+- learning / RL
+publications:
+- name: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+  year: 2022
+  url: https://doi.org/10.1145/3570604
+year: 2022

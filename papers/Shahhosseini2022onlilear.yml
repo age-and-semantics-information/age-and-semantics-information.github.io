@@ -1,0 +1,11 @@
+title: Online Learning for Orchestration of Inference in Multi-user End-edge-cloud
+  Networks
+authors: Sina Shahhosseini, Dongjoo Seo, Anil Kanduri, Tianyi Hu, Sung-Soo Lim, Bryan
+  Donyanavard, Amir M. Rahmani, Nikil Dutt
+labels:
+- learning / RL
+publications:
+- name: ACM Transactions on Embedded Computing Systems
+  year: 2022
+  url: https://doi.org/10.1145/3520129
+year: 2022

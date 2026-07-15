@@ -1,0 +1,12 @@
+title: Posterior Sampling-Based Reinforcement Learning for Control of Unknown Linear
+  Systems
+authors: Yi Ouyang, Mukul Gagrani, Rahul Jain
+labels:
+- estimation / control
+- learning / RL
+- sampling / updating
+publications:
+- name: IEEE Transactions on Automatic Control
+  year: 2019
+  url: https://doi.org/10.1109/tac.2019.2950156
+year: 2019

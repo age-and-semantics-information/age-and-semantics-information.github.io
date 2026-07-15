@@ -1,0 +1,9 @@
+title: Heavy traffic queue length behavior in a switch under the MaxWeight algorithm
+authors: Siva Theja Maguluri, R. Srikant
+labels:
+- queueing analysis
+publications:
+- name: Stochastic Systems
+  year: 2016
+  url: https://doi.org/10.1214/15-ssy193
+year: 2016

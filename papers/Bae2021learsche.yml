@@ -1,0 +1,10 @@
+title: Learning to Schedule Network Resources Throughput and Delay Optimally Using
+  Q<sup>+</sup>-Learning
+authors: Jeongmin Bae, Joohyun Lee, Song Chong
+labels:
+- learning / RL
+publications:
+- name: IEEE/ACM Transactions on Networking
+  year: 2021
+  url: https://doi.org/10.1109/tnet.2021.3051663
+year: 2021

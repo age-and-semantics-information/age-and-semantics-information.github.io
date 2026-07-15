@@ -1,0 +1,12 @@
+title: 'GA-DRL: Graph Neural Network-Augmented Deep Reinforcement Learning for DAG
+  Task Scheduling Over Dynamic Vehicular Clouds'
+authors: Zhang Liu, Lianfen Huang, Zhibin Gao, Manman Luo, Seyyedali Hosseinalipour,
+  Huaiyu Dai
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Network and Service Management
+  year: 2024
+  url: https://doi.org/10.1109/tnsm.2024.3387707
+year: 2024

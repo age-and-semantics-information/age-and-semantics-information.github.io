@@ -1,0 +1,9 @@
+title: Learn-and-Adapt Stochastic Dual Gradients for Network Resource Allocation
+authors: Tianyi Chen, Qing Ling, Georgios B. Giannakis
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Control of Network Systems
+  year: 2017
+  url: https://doi.org/10.1109/tcns.2017.2774043
+year: 2017

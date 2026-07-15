@@ -1,0 +1,10 @@
+title: A Convergent O(n) Temporal-difference Algorithm for Off-policy Learning with
+  Linear Function Approximation
+authors: Richard S. Sutton, Hamid Reza Maei, Csaba Szepesvári
+labels:
+- learning / RL
+publications:
+- name: Neural Information Processing Systems
+  year: 2008
+  url: https://papers.nips.cc/paper/3626-a-convergent-on-temporal-difference-algorithm-for-off-policy-learning-with-linear-function-approximation.pdf
+year: 2008

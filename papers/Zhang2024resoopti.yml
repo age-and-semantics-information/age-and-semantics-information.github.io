@@ -1,0 +1,10 @@
+title: A resource optimization scheduling model and algorithm for heterogeneous computing
+  clusters based on GNN and RL
+authors: Zhen Zhang, Xu Chen, Kun Liu, Shaohua Xu, Long Huang
+labels:
+- scheduling / optimization
+publications:
+- name: The Journal of Supercomputing
+  year: 2024
+  url: https://doi.org/10.1007/s11227-024-06383-4
+year: 2024

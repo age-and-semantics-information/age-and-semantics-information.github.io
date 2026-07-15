@@ -1,0 +1,10 @@
+title: 'RALF: Accuracy-Aware Scheduling for Feature Store Maintenance'
+authors: Sarah Wooders, Xiangxi Mo, Amit Narang, Kevin Lin, Ion Stoica, Joseph M.
+  Hellerstein, Natacha Crooks, Joseph E. Gonzalez
+labels:
+- scheduling / optimization
+publications:
+- name: Proceedings of the VLDB Endowment
+  year: 2023
+  url: https://doi.org/10.14778/3632093.3632116
+year: 2023

@@ -1,0 +1,9 @@
+title: Real-Time Pose Estimation for Event Cameras with Stacked Spatial LSTM Networks.
+authors: Anh V. Nguyen, Thanh-Toan Do, Darwin G. Caldwell, Nikos G. Tsagarakis
+labels:
+- estimation / control
+publications:
+- name: Other
+  year: 2017
+  url: https://dblp.uni-trier.de/db/journals/corr/corr1708.html#abs-1708-09011
+year: 2017

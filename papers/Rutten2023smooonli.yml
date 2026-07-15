@@ -1,0 +1,9 @@
+title: Smoothed Online Optimization with Unreliable Predictions
+authors: Daan Rutten, Nicolas Christianson, Debankur Mukherjee, Adam Wierman
+labels:
+- theory / fundamentals
+publications:
+- name: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+  year: 2023
+  url: https://doi.org/10.1145/3579442
+year: 2023

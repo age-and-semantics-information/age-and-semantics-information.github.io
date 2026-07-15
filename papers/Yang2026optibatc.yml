@@ -1,0 +1,10 @@
+title: Optimal Batch-Size Control for Low-Latency Federated Learning With Device Heterogeneity
+authors: Huiling Yang, Zhanwei Wang, Kaibin Huang
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Transactions on Communications
+  year: 2026
+  url: https://doi.org/10.1109/tcomm.2026.3666674
+year: 2026

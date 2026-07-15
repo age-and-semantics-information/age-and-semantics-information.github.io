@@ -1,0 +1,9 @@
+title: Scalable eventually consistent counters over unreliable networks
+authors: Paulo Sérgio Almeida, Carlos Baquero
+labels:
+- theory / fundamentals
+publications:
+- name: Distributed Computing
+  year: 2017
+  url: https://doi.org/10.1007/s00446-017-0322-2
+year: 2017

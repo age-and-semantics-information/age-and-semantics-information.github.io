@@ -1,0 +1,11 @@
+title: Energy-aware self-adaptive real-time job scheduling in a cloud environment
+  using deep reinforcement learning focused on quality of service
+authors: Hossein Azari, Saeed Jalili
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Cluster Computing
+  year: 2025
+  url: https://doi.org/10.1007/s10586-024-04945-y
+year: 2025

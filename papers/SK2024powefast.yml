@@ -1,0 +1,10 @@
+title: 'PowerTrain: Fast, generalizable time and power prediction models to optimize
+  DNN training on accelerated edges'
+authors: Prashanthi S.K, Saisamarth Taluri, S Beautlin, Lakshya Karwa, Yogesh Simmhan
+labels:
+- theory / fundamentals
+publications:
+- name: Future Generation Computer Systems
+  year: 2024
+  url: https://doi.org/10.1016/j.future.2024.07.001
+year: 2024

@@ -1,0 +1,10 @@
+title: '<scp>DRA‐MQoS</scp>: An<scp>MQoS</scp>scheduling algorithm based on resource
+  feature matching in federated edge cloud'
+authors: Yujin Li, Bo Liu, Enju Wu, Jianqiang Li, Zhangbing Zhou, Wenbo Zhang
+labels:
+- scheduling / optimization
+publications:
+- name: Concurrency and Computation Practice and Experience
+  year: 2022
+  url: https://doi.org/10.1002/cpe.7478
+year: 2022

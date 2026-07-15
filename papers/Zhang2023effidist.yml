@@ -1,0 +1,10 @@
+title: Efficient Distributed Transaction Processing in Heterogeneous Networks
+authors: Qian Zhang, Jingyao Li, Hongyao Zhao, Quanqing Xu, Wei Lü, Jinliang Xiao,
+  Fusheng Han, Chuanhui Yang, Xiaoyong Du
+labels:
+- theory / fundamentals
+publications:
+- name: Proceedings of the VLDB Endowment
+  year: 2023
+  url: https://doi.org/10.14778/3583140.3583153
+year: 2023

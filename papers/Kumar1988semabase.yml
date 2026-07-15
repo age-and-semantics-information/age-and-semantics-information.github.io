@@ -1,0 +1,9 @@
+title: Semantics based transaction management techniques for replicated data
+authors: Akhil Kumar, Michael Stonebraker
+labels:
+- semantics / goal-oriented
+publications:
+- name: ACM SIGMOD Record
+  year: 1988
+  url: https://doi.org/10.1145/971701.50215
+year: 1988

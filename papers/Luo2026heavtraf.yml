@@ -1,0 +1,10 @@
+title: Heavy-traffic Optimality of Skip-the-Longest-Queues in Heterogeneous Service
+  Systems
+authors: Yishun Luo, Martín Zubeldía
+labels:
+- queueing analysis
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2026
+  url: https://doi.org/10.1145/3797823.3797825
+year: 2026

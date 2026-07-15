@@ -1,0 +1,14 @@
+title: Approximating <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si6.svg"
+  display="inline" id="d1e1380"> <mml:mrow> <mml:mi>G</mml:mi> <mml:mrow> <mml:mo>(</mml:mo>
+  <mml:mi>t</mml:mi> <mml:mo>)</mml:mo> </mml:mrow> <mml:mo>/</mml:mo> <mml:mi>G</mml:mi>
+  <mml:mi>I</mml:mi> <mml:mo>/</mml:mo> <mml:mn>1</mml:mn> </mml:mrow> </mml:math>
+  queues with deep learning
+authors: Eliran Sherzer, Opher Baron, Dmitry Krass, Yehezkel S. Resheff
+labels:
+- learning / RL
+- queueing analysis
+publications:
+- name: European Journal of Operational Research
+  year: 2024
+  url: https://doi.org/10.1016/j.ejor.2024.12.030
+year: 2024

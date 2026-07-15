@@ -1,0 +1,10 @@
+title: Theoretical analysis for communication-induced checkpointing protocols with
+  rollback-dependency trackability
+authors: Jichiang Tsai, Sy‐Yen Kuo, Yimin Wang
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 1998
+  url: https://doi.org/10.1109/71.730526
+year: 1998

@@ -1,0 +1,10 @@
+title: 'Dual-Quorum: A Highly Available and Consistent Replication System for Edge
+  Services'
+authors: Lei Gao, Michael Dahlin, Jiandan Zheng, Lorenzo Alvisi, Arun Iyengar
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Dependable and Secure Computing
+  year: 2008
+  url: https://doi.org/10.1109/tdsc.2008.36
+year: 2008

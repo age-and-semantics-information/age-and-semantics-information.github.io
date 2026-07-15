@@ -1,0 +1,9 @@
+title: Age-Aware Fairness in Blockchain Transaction Ordering for Reducing Tail Latency
+authors: Yaakov Sokolik, Mohammad Nassar, Ori Rottenstreich
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Networking
+  year: 2024
+  url: https://doi.org/10.1109/tnet.2024.3503758
+year: 2024

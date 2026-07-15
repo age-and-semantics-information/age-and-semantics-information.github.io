@@ -1,0 +1,9 @@
+title: 'BLOT: Bandit Learning-Based Offloading of Tasks in Fog-Enabled Networks'
+authors: Zhaowei Zhu, Ting Liu, Yang Yang, Xiliang Luo
+labels:
+- learning / RL
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 2019
+  url: https://doi.org/10.1109/tpds.2019.2927978
+year: 2019

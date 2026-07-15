@@ -1,0 +1,10 @@
+title: Network bandwidth variation‐adapted state transfer for geo‐replicated state
+  machines and its application to dynamic replica replacement
+authors: Tairi Chiba, Ren Ohmura, Junya Nakamura
+labels:
+- theory / fundamentals
+publications:
+- name: Concurrency and Computation Practice and Experience
+  year: 2022
+  url: https://doi.org/10.1002/cpe.7408
+year: 2022

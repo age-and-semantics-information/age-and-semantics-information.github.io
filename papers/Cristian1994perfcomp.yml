@@ -1,0 +1,9 @@
+title: A performance comparison of asynchronous atomic broadcast protocols
+authors: Flaviu Cristian, Richard Beijer, S. Mishra
+labels:
+- theory / fundamentals
+publications:
+- name: Distributed Systems Engineering
+  year: 1994
+  url: https://doi.org/10.1088/0967-1846/1/4/001
+year: 1994

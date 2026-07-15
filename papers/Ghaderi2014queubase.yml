@@ -1,0 +1,9 @@
+title: 'Queue-based random-access algorithms: Fluid limits and stability issues'
+authors: Javad Ghaderi, Sem Borst, Phil Whiting
+labels:
+- queueing analysis
+publications:
+- name: Stochastic Systems
+  year: 2014
+  url: https://doi.org/10.1214/13-ssy104
+year: 2014

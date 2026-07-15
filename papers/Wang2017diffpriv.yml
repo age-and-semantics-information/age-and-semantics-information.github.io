@@ -1,0 +1,10 @@
+title: 'Differential Privacy in Linear Distributed Control Systems: Entropy Minimizing
+  Mechanisms and Performance Tradeoffs'
+authors: Yu Wang, Zhenqi Huang, Sayan Mitra, Geir E. Dullerud
+labels:
+- estimation / control
+publications:
+- name: IEEE Transactions on Control of Network Systems
+  year: 2017
+  url: https://doi.org/10.1109/tcns.2017.2658190
+year: 2017

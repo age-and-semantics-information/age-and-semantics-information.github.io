@@ -1,0 +1,11 @@
+title: Off-policy learning based on weighted importance sampling with linear computational
+  complexity
+authors: A. Rupam Mahmood, Richard S. Sutton
+labels:
+- learning / RL
+- sampling / updating
+publications:
+- name: Uncertainty in Artificial Intelligence
+  year: 2015
+  url: http://auai.org/uai2015/proceedings/papers/165.pdf
+year: 2015

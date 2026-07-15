@@ -1,0 +1,10 @@
+title: 'DLB: A Dynamic Load Balance Strategy for Distributed Training of Deep Neural
+  Networks'
+authors: Qing Ye, Yuhao Zhou, Mingjia Shi, Yanan Sun, Jiancheng Lv
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Emerging Topics in Computational Intelligence
+  year: 2022
+  url: https://doi.org/10.1109/tetci.2022.3220224
+year: 2022

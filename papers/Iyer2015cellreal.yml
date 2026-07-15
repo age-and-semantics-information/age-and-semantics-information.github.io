@@ -1,0 +1,9 @@
+title: 'CellIQ: real-time cellular network analytics at scale'
+authors: Anand Iyer, Li Erran Li, Ion Stoica
+labels:
+- theory / fundamentals
+publications:
+- name: Networked Systems Design and Implementation
+  year: 2015
+  url: https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-iyer.pdf
+year: 2015

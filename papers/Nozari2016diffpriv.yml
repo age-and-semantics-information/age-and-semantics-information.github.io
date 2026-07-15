@@ -1,0 +1,9 @@
+title: Differentially Private Distributed Convex Optimization via Functional Perturbation
+authors: Erfan Nozari, Pavankumar Tallapragada, Jorge Cortés
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Control of Network Systems
+  year: 2016
+  url: https://doi.org/10.1109/tcns.2016.2614100
+year: 2016

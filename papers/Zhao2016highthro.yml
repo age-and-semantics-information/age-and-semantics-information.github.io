@@ -1,0 +1,10 @@
+title: High-throughput state-machine replication using software transactional memory
+authors: Wenbing Zhao, William Yang, Honglei Zhang, Jack Yang, Xiong Luo, Yueqin Zhu,
+  Mary Qu Yang, Chaomin Luo
+labels:
+- theory / fundamentals
+publications:
+- name: The Journal of Supercomputing
+  year: 2016
+  url: https://doi.org/10.1007/s11227-016-1747-2
+year: 2016

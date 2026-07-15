@@ -1,0 +1,10 @@
+title: 'GPINND: A deep-learning-based state of health estimation for lithium-ion battery'
+authors: Yuzhu Lei, Guanding Yu
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Journal of Power Sources
+  year: 2026
+  url: https://doi.org/10.1016/j.jpowsour.2026.240053
+year: 2026

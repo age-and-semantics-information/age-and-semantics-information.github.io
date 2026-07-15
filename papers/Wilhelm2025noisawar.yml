@@ -1,0 +1,10 @@
+title: Noise-Aware Client Selection for Carbon-Efficient Federated Learning via Gradient
+  Norm Thresholding
+authors: Pascal Wilhelm, Inese Yilmaz, Odej Kao
+labels:
+- learning / RL
+publications:
+- name: ACM SIGEnergy Energy Informatics Review
+  year: 2025
+  url: https://doi.org/10.1145/3757892.3757907
+year: 2025

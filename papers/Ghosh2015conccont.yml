@@ -1,0 +1,10 @@
+title: A new concurrency control mechanism for multi-threaded environment using transactional
+  memory
+authors: Ammlan Ghosh, Rituparna Chaki, Nabendu Chaki
+labels:
+- estimation / control
+publications:
+- name: The Journal of Supercomputing
+  year: 2015
+  url: https://doi.org/10.1007/s11227-015-1507-8
+year: 2015

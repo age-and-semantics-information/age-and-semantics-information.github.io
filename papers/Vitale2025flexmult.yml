@@ -1,0 +1,11 @@
+title: A Flexible Multi-Agent Deep Reinforcement Learning Framework for Dynamic Routing
+  and Scheduling of Latency-Critical Services
+authors: Vincenzo Norman Vitale, Antonia M. Tulino, Andreas F. Molisch, Jaime Llorca
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Networking
+  year: 2025
+  url: https://doi.org/10.1109/ton.2025.3649614
+year: 2025

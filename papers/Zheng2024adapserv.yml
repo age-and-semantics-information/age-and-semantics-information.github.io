@@ -1,0 +1,10 @@
+title: Adaptive service rate control of an M/M/1 queue with server breakdowns
+authors: Yi Zheng, Juxihong Julaiti, Guodong Pang
+labels:
+- estimation / control
+- queueing analysis
+publications:
+- name: Queueing Systems
+  year: 2024
+  url: https://doi.org/10.1007/s11134-023-09900-z
+year: 2024

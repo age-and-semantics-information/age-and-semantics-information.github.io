@@ -1,0 +1,9 @@
+title: Distributed empirical risk minimization with differential privacy
+authors: Changxin Liu, Karl Henrik Johansson, Yang Shi
+labels:
+- theory / fundamentals
+publications:
+- name: Automatica
+  year: 2024
+  url: https://doi.org/10.1016/j.automatica.2024.111514
+year: 2024

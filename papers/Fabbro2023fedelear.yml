@@ -1,0 +1,11 @@
+title: 'Federated TD Learning Over Finite-Rate Erasure Channels: Linear Speedup Under
+  Markovian Sampling'
+authors: Nicolò Dal Fabbro, Aritra Mitra, George J. Pappas
+labels:
+- learning / RL
+- sampling / updating
+publications:
+- name: IEEE Control Systems Letters
+  year: 2023
+  url: https://doi.org/10.1109/lcsys.2023.3287499
+year: 2023

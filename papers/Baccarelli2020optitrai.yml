@@ -1,0 +1,11 @@
+title: Optimized training and scalable implementation of Conditional Deep Neural Networks
+  with early exits for Fog-supported IoT applications
+authors: Enzo Baccarelli, Simone Scardapane, Michele Scarpiniti, Alireza Momenzadeh,
+  Aurelio Uncini
+labels:
+- edge / IoT / UAV
+publications:
+- name: Information Sciences
+  year: 2020
+  url: https://doi.org/10.1016/j.ins.2020.02.041
+year: 2020

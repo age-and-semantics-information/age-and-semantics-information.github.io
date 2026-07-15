@@ -1,0 +1,11 @@
+title: A Federated Transfer Learning Framework for Lithium-Ion Battery State of Health
+  Estimation Based on Fast-Charging Segments
+authors: Yunpeng Liu, Moin Ahmed, Jiangtao Feng, Zhiyu Mao, Zhongwei Chen
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Transactions on Transportation Electrification
+  year: 2025
+  url: https://doi.org/10.1109/tte.2025.3594553
+year: 2025

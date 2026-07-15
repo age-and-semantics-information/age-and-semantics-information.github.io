@@ -1,0 +1,10 @@
+title: Game-Theoretic Deep Reinforcement Learning to Minimize Carbon Emissions and
+  Energy Costs for AI Inference Workloads in Geo-Distributed Data Centers
+authors: Ninad Hogade, Sudeep Pasricha
+labels:
+- learning / RL
+publications:
+- name: IEEE Transactions on Sustainable Computing
+  year: 2024
+  url: https://doi.org/10.1109/tsusc.2024.3520969
+year: 2024

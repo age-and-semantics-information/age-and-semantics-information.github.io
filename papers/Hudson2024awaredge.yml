@@ -1,0 +1,11 @@
+title: QoS-aware edge AI placement and scheduling with multiple implementations in
+  FaaS-based edge computing
+authors: Nathaniel Hudson, Hana Khamfroush, Matt Baughman, Daniel E. Lucani, Kyle
+  Chard, Ian Foster
+labels:
+- scheduling / optimization
+publications:
+- name: Future Generation Computer Systems
+  year: 2024
+  url: https://doi.org/10.1016/j.future.2024.03.035
+year: 2024

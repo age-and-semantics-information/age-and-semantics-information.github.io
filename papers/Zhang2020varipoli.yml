@@ -1,0 +1,10 @@
+title: Variational Policy Gradient Method for Reinforcement Learning with General
+  Utilities
+authors: Junyu Zhang, Alec Koppel, Amrit Singh Bedi, Csaba Szepesvári, Mengdi Wang
+labels:
+- learning / RL
+publications:
+- name: Neural Information Processing Systems
+  year: 2020
+  url: https://proceedings.neurips.cc/paper/2020/file/30ee748d38e21392de740e2f9dc686b6-Paper.pdf
+year: 2020

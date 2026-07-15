@@ -1,0 +1,12 @@
+title: Communication Scheduling by Deep Reinforcement Learning for Remote Traffic
+  State Estimation With Bayesian Inference
+authors: Bile Peng, Yuhang Xie, Gonzalo Seco‐Granados, Henk Wymeersch, Eduard A. Jorswieck
+labels:
+- estimation / control
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Vehicular Technology
+  year: 2022
+  url: https://doi.org/10.1109/tvt.2022.3145105
+year: 2022

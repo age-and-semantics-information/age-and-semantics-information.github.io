@@ -1,0 +1,10 @@
+title: 'Performance optimization for state machine replication based on application
+  semantics: A review'
+authors: Wenbing Zhao
+labels:
+- semantics / goal-oriented
+publications:
+- name: Journal of Systems and Software
+  year: 2015
+  url: https://doi.org/10.1016/j.jss.2015.11.006
+year: 2015

@@ -1,0 +1,12 @@
+title: 'TinyDeepUAV: A Tiny Deep Reinforcement Learning Framework for UAV Task Offloading
+  in Edge-Based Consumer Electronics'
+authors: Sujit Bebortta, Subhranshu Sekhar Tripathy, Surbhi Bhatia, Maryam M. Al Dabel,
+  Ahlam Almusharraf, Ali Kashif Bashir
+labels:
+- edge / IoT / UAV
+- learning / RL
+publications:
+- name: IEEE Transactions on Consumer Electronics
+  year: 2024
+  url: https://doi.org/10.1109/tce.2024.3445290
+year: 2024

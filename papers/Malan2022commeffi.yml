@@ -1,0 +1,9 @@
+title: Communication-Efficient Federated Learning With Gradual Layer Freezing
+authors: Erich Malan, Valentino Peluso, Andrea Calimera, Enrico Macii
+labels:
+- learning / RL
+publications:
+- name: IEEE Embedded Systems Letters
+  year: 2022
+  url: https://doi.org/10.1109/les.2022.3190682
+year: 2022

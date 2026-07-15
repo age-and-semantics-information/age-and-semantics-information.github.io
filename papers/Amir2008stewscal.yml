@@ -1,0 +1,10 @@
+title: 'Steward: Scaling Byzantine Fault-Tolerant Replication to Wide Area Networks'
+authors: Yair Amir, Claudiu Danilov, Danny Dolev, Jonathan Kirsch, John W. Lane, Cristina
+  Nita-Rotaru, John Olsen, David Zage
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Dependable and Secure Computing
+  year: 2008
+  url: https://doi.org/10.1109/tdsc.2008.53
+year: 2008

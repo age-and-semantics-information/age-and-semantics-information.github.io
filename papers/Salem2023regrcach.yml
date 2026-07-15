@@ -1,0 +1,9 @@
+title: No-regret Caching via Online Mirror Descent
+authors: Tareq Si Salem, Giovanni Neglia, Stratis Ioannidis
+labels:
+- theory / fundamentals
+publications:
+- name: ACM Transactions on Modeling and Performance Evaluation of Computing Systems
+  year: 2023
+  url: https://doi.org/10.1145/3605209
+year: 2023

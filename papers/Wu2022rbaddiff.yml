@@ -1,0 +1,10 @@
+title: 'DP-RBAdaBound: A differentially private randomized block-coordinate adaptive
+  gradient algorithm for training deep neural networks'
+authors: Qingtao Wu, Meiwen Li, Junlong Zhu, Ruijuan Zheng, Ling Xing, Mingchuan Zhang
+labels:
+- theory / fundamentals
+publications:
+- name: Expert Systems with Applications
+  year: 2022
+  url: https://doi.org/10.1016/j.eswa.2022.118574
+year: 2022

@@ -1,0 +1,10 @@
+title: Anatomizing Deep Learning Inference in Web Browsers
+authors: Qipeng Wang, Shiqi Jiang, Zhenpeng Chen, Xu Cao, Yuanchun Li, Aoyu Li, Yun
+  Ma, Ting Cao, Xuanzhe Liu
+labels:
+- learning / RL
+publications:
+- name: ACM Transactions on Software Engineering and Methodology
+  year: 2024
+  url: https://doi.org/10.1145/3688843
+year: 2024

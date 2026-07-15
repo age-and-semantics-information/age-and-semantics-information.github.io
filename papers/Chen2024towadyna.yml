@@ -1,0 +1,12 @@
+title: 'Toward Dynamic Resource Allocation and Client Scheduling in Hierarchical Federated
+  Learning: A Two-Phase Deep Reinforcement Learning Approach'
+authors: Xiaojing Chen, Zhenyuan Li, Wei Ni, Xin Wang, Shunqing Zhang, Yanzan Sun,
+  Shugong Xu, Qingqi Pei
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Communications
+  year: 2024
+  url: https://doi.org/10.1109/tcomm.2024.3420733
+year: 2024

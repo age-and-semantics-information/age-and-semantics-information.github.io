@@ -1,0 +1,9 @@
+title: Least-recently-used caching with dependent requests
+authors: Predrag R. Jelenković, Ana Radovanović
+labels:
+- theory / fundamentals
+publications:
+- name: Theoretical Computer Science
+  year: 2004
+  url: https://doi.org/10.1016/j.tcs.2004.07.029
+year: 2004

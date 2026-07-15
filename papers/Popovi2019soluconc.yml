@@ -1,0 +1,9 @@
+title: A solution of concurrent queue on local and distributed Python STM
+authors: Marko Popović, Branislav Kordic, Miroslav Popović, Ilija Bašičević
+labels:
+- queueing analysis
+publications:
+- name: Telfor Journal
+  year: 2019
+  url: https://doi.org/10.5937/telfor1901064p
+year: 2019

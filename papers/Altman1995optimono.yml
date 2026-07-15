@@ -1,0 +1,11 @@
+title: Optimality of monotonic policies for two-action Markovian decision processes,
+  with applications to control of queues with delayed information
+authors: Eitan Altman, Shaler Stidham
+labels:
+- estimation / control
+- queueing analysis
+publications:
+- name: Queueing Systems
+  year: 1995
+  url: https://doi.org/10.1007/bf01149165
+year: 1995

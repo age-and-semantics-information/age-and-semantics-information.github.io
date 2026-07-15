@@ -1,0 +1,11 @@
+title: 'SCAFFOLD: Stochastic Controlled Averaging for On-Device Federated Learning.'
+authors: Sai Praneeth Karimireddy, Satyen Kale, Mehryar Mohri, Sashank J. Reddi, Sebastian
+  U. Stich, Ananda Theertha Suresh
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Other
+  year: 2019
+  url: http://dblp.uni-trier.de/db/journals/corr/corr1910.html#abs-1910-06378
+year: 2019

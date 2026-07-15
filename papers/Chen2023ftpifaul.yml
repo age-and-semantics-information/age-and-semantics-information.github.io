@@ -1,0 +1,10 @@
+title: 'FTPipeHD: A Fault-Tolerant Pipeline-Parallel Distributed Training Approach
+  for Heterogeneous Edge Devices'
+authors: Yuhao Chen, Qianqian Yang, Shibo He, Zhiguo Shi, Jiming Chen, Mohsen Guizani
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Mobile Computing
+  year: 2023
+  url: https://doi.org/10.1109/tmc.2023.3272567
+year: 2023

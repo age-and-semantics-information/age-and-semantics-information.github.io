@@ -1,0 +1,9 @@
+title: Scheduling Continuous-Time Kalman Filters
+authors: Jérôme Le Ny, Éric Féron, Munther A. Dahleh
+labels:
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Automatic Control
+  year: 2010
+  url: https://doi.org/10.1109/tac.2010.2095970
+year: 2010

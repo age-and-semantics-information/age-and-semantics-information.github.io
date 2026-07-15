@@ -1,0 +1,9 @@
+title: Exploiting network effects in the provisioning of large scale systems
+authors: Jayakrishnan Nair, Adam Wierman, Bert Zwart
+labels:
+- theory / fundamentals
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2011
+  url: https://doi.org/10.1145/2034832.2034837
+year: 2011

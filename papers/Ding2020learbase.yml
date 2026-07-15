@@ -1,0 +1,10 @@
+title: Q-learning based dynamic task scheduling for energy-efficient cloud computing
+authors: Ding Ding, Xiaocong Fan, Yihuan Zhao, Kaixuan Kang, Qian Yin, Jing Zeng
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Future Generation Computer Systems
+  year: 2020
+  url: https://doi.org/10.1016/j.future.2020.02.018
+year: 2020

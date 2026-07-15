@@ -1,0 +1,10 @@
+title: 'Marrying Stochastic Gradient Descent with Bandits: Learning Algorithms for
+  Inventory Systems with Fixed Costs'
+authors: Hao Yuan, Qi Luo, Cong Shi
+labels:
+- learning / RL
+publications:
+- name: Management Science
+  year: 2021
+  url: https://doi.org/10.1287/mnsc.2020.3799
+year: 2021

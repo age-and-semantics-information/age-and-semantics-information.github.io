@@ -1,0 +1,12 @@
+title: 'Optimal sensor scheduling for remote state estimation with limited bandwidth:
+  a deep reinforcement learning approach'
+authors: Lixin Yang, Hongxia Rao, Ming Lin, Yong Xu, Peng Shi
+labels:
+- estimation / control
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Information Sciences
+  year: 2021
+  url: https://doi.org/10.1016/j.ins.2021.12.043
+year: 2021

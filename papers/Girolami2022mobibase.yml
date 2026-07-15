@@ -1,0 +1,10 @@
+title: A mobility-based deployment strategy for edge data centers
+authors: Michele Girolami, Piergiorgio Vitello, Andrea Capponi, Claudio Fiandrino,
+  Luca Foschini, Paolo Bellavista
+labels:
+- theory / fundamentals
+publications:
+- name: Journal of Parallel and Distributed Computing
+  year: 2022
+  url: https://doi.org/10.1016/j.jpdc.2022.03.007
+year: 2022

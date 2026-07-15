@@ -1,0 +1,9 @@
+title: Assigning labels in an unknown anonymous network with a leader
+authors: Pierre Fraigniaud, Andrzej Pelc, David Peleg, Stéphane Pérennès
+labels:
+- theory / fundamentals
+publications:
+- name: Distributed Computing
+  year: 2001
+  url: https://doi.org/10.1007/pl00008935
+year: 2001

@@ -1,0 +1,10 @@
+title: Optimizing Job Reliability Through Contention-Free, Distributed Checkpoint
+  Scheduling
+authors: Yu Xiang, Hang Liu, Tian Lan, H. Howie Huang, Suresh Subramaniam
+labels:
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Network and Service Management
+  year: 2020
+  url: https://doi.org/10.1109/tnsm.2020.3030937
+year: 2020

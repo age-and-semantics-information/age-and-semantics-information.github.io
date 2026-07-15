@@ -1,0 +1,10 @@
+title: 'FLeet: Online Federated Learning via Staleness Awareness and Performance Prediction'
+authors: Georgios Damaskinos, Rachid Guerraoui, Anne-Marie Kermarrec, Vlad Nitu, Rhicheek
+  Patra, François Taı̈ani
+labels:
+- learning / RL
+publications:
+- name: ACM Transactions on Intelligent Systems and Technology
+  year: 2022
+  url: https://doi.org/10.1145/3527621
+year: 2022

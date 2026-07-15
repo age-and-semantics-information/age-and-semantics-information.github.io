@@ -1,0 +1,10 @@
+title: A Distributed Load Balancing Technique for Multitenant Edge Servers With Bottleneck
+  Resources
+authors: Sumit Kumar, Vipin Maurya, Ruchir Gupta
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Reliability
+  year: 2023
+  url: https://doi.org/10.1109/tr.2023.3335969
+year: 2023

@@ -1,0 +1,9 @@
+title: Graph Signal Compression by Joint Quantization and Sampling
+authors: Pei Li, Nir Shlezinger, Haiyang Zhang, Baoyun Wang, Yonina C. Eldar
+labels:
+- sampling / updating
+publications:
+- name: IEEE Transactions on Signal Processing
+  year: 2022
+  url: https://doi.org/10.1109/tsp.2022.3205474
+year: 2022

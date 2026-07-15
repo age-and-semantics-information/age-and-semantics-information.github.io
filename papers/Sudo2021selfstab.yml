@@ -1,0 +1,9 @@
+title: Self-Stabilizing Population Protocols With Global Knowledge
+authors: Yuichi Sudo, Masahiro Shibata, Junya Nakamura, Yonghwan Kim, Toshimitsu Masuzawa
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 2021
+  url: https://doi.org/10.1109/tpds.2021.3076769
+year: 2021

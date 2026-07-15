@@ -1,0 +1,10 @@
+title: An Optimal Transmission Strategy for Kalman Filtering Over Packet Dropping
+  Links With Imperfect Acknowledgements
+authors: Mojtaba Nourian, Alex S. Leong, Subhrakanti Dey, Daniel E. Quevedo
+labels:
+- theory / fundamentals
+publications:
+- name: IEEE Transactions on Control of Network Systems
+  year: 2014
+  url: https://doi.org/10.1109/tcns.2014.2337975
+year: 2014

@@ -1,0 +1,10 @@
+title: State Dependent Control of Closed Queueing Networks
+authors: Siddhartha Banerjee, Yash Kanoria, Pengyu Qian
+labels:
+- estimation / control
+- queueing analysis
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2018
+  url: https://doi.org/10.1145/3292040.3219619
+year: 2018

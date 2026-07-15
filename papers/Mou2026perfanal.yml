@@ -1,0 +1,12 @@
+title: Performance analysis and optimisation of wireless sensor networks with startup
+  times and ( <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si4.svg"
+  display="inline" id="d1e5089"> <mml:mrow> <mml:mi>V</mml:mi> <mml:mo>,</mml:mo>
+  <mml:mi>N</mml:mi> </mml:mrow> </mml:math> )-policy sleep scheduling
+authors: Yongcong Mou, Yinghui Tang, Miaomiao Yu
+labels:
+- scheduling / optimization
+publications:
+- name: Computer Communications
+  year: 2026
+  url: https://doi.org/10.1016/j.comcom.2026.108427
+year: 2026

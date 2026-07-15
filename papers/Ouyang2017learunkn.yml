@@ -1,0 +1,10 @@
+title: 'Learning Unknown Markov Decision Processes: A Thompson Sampling Approach'
+authors: Yi Ouyang, Mukul Gagrani, Ashutosh Nayyar, Rahul Jain
+labels:
+- learning / RL
+- sampling / updating
+publications:
+- name: Neural Information Processing Systems
+  year: 2017
+  url: https://papers.nips.cc/paper/6732-learning-unknown-markov-decision-processes-a-thompson-sampling-approach.pdf
+year: 2017

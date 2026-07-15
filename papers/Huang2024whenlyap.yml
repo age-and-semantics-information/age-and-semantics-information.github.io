@@ -1,0 +1,11 @@
+title: When Lyapunov Drift Based Queue Scheduling Meets Adversarial Bandit Learning
+authors: J.Y. Huang, Leana Golubchik, Longbo Huang
+labels:
+- learning / RL
+- queueing analysis
+- scheduling / optimization
+publications:
+- name: IEEE/ACM Transactions on Networking
+  year: 2024
+  url: https://doi.org/10.1109/tnet.2024.3374755
+year: 2024

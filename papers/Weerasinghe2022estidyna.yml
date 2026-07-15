@@ -1,0 +1,11 @@
+title: Estimating the dynamic lifetime of transient context in near real-time for
+  cost-efficient adaptive caching
+authors: Shakthi Weerasinghe, Arkady Zaslavsky, Seng W. Loke, Alexey Medvedev, Amin
+  Abken
+labels:
+- theory / fundamentals
+publications:
+- name: ACM SIGAPP Applied Computing Review
+  year: 2022
+  url: https://doi.org/10.1145/3558053.3558057
+year: 2022

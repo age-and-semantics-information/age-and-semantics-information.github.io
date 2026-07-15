@@ -1,0 +1,9 @@
+title: SLO-Aware Inference Scheduler for Heterogeneous Processors in Edge Platforms
+authors: Wonik Seo, Sang-Hoon Cha, Yeonjae Kim, Jaehyuk Huh, Jongse Park
+labels:
+- theory / fundamentals
+publications:
+- name: ACM Transactions on Architecture and Code Optimization
+  year: 2021
+  url: https://doi.org/10.1145/3460352
+year: 2021

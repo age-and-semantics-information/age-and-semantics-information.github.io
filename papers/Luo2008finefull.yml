@@ -1,0 +1,10 @@
+title: 'FINE: A Fully Informed aNd Efficient communication-induced checkpointing protocol
+  for distributed systems'
+authors: Yi Luo, D. Manivannan
+labels:
+- theory / fundamentals
+publications:
+- name: Journal of Parallel and Distributed Computing
+  year: 2008
+  url: https://doi.org/10.1016/j.jpdc.2008.07.012
+year: 2008

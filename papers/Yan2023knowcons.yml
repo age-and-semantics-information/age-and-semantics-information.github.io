@@ -1,0 +1,10 @@
+title: A knowledge-constrained CNN-BiLSTM model for lithium-ion batteries state-of-charge
+  estimation
+authors: Bei Yan, Wenjian Zheng, Diyin Tang, Yuanjun Laili, Yalan Xing
+labels:
+- estimation / control
+publications:
+- name: Microelectronics Reliability
+  year: 2023
+  url: https://doi.org/10.1016/j.microrel.2023.115112
+year: 2023

@@ -1,0 +1,9 @@
+title: Exponential Tail Bounds on Queues
+authors: Prakirt Raj Jhunjhunwala, Daniela Hurtado-Lange, Siva Theja Maguluri
+labels:
+- queueing analysis
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2023
+  url: https://doi.org/10.1145/3626570.3626580
+year: 2023

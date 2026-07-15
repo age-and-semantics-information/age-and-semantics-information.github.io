@@ -1,0 +1,11 @@
+title: Transmission scheduling for multi-process multi-sensor remote estimation via
+  approximate dynamic programming
+authors: Ali Forootani, Raffaele Iervolino, Massimo Tipaldi, Subhrakanti Dey
+labels:
+- estimation / control
+- scheduling / optimization
+publications:
+- name: Automatica
+  year: 2021
+  url: https://doi.org/10.1016/j.automatica.2021.110061
+year: 2021

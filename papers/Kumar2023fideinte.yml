@@ -1,0 +1,9 @@
+title: 'FIDEL: Fog integrated federated learning framework to train neural networks'
+authors: Aditya Kumar, Satish Narayana Srirama
+labels:
+- learning / RL
+publications:
+- name: Software Practice and Experience
+  year: 2023
+  url: https://doi.org/10.1002/spe.3265
+year: 2023

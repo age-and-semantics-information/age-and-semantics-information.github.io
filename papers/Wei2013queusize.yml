@@ -1,0 +1,13 @@
+title: Queue size distribution and capacity optimum design for<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"
+  altimg="si48.gif" display="inline" overflow="scroll"><mml:mi>N</mml:mi></mml:math>-policy<mml:math
+  xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si49.gif" display="inline"
+  overflow="scroll"><mml:mi>G</mml:mi><mml:mi>e</mml:mi><mml:msup><mml:mrow><mml:mi>o</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msup><mml:mo>/</mml:mo><mml:mi>G</mml:mi><mml:mo>/</mml:mo><mml:mn>1</mml:mn></mml:math>queue
+  with setup time and variable input rate
+authors: Yingyuan Wei, Miaomiao Yu, Yinghui Tang, Jianxiong Gu
+labels:
+- queueing analysis
+publications:
+- name: Mathematical and Computer Modelling
+  year: 2013
+  url: https://doi.org/10.1016/j.mcm.2012.12.032
+year: 2013

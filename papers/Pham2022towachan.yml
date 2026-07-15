@@ -1,0 +1,12 @@
+title: Towards Channel-Wise Bidirectional Representation Learning with Fixed-Point
+  Positional Encoding for SoH Estimation of Lithium-Ion Battery
+authors: Thien Pham, Loi Truong, Hung Nguyen Bui, Thang Q. Tran, Akhil Garg, Liang
+  Gao, Tho Quan
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Electronics
+  year: 2022
+  url: https://doi.org/10.3390/electronics12010098
+year: 2022

@@ -1,0 +1,12 @@
+title: 'ColO-RAN: Developing Machine Learning-Based xApps for Open RAN Closed-Loop
+  Control on Programmable Experimental Platforms'
+authors: Michele Polese, Leonardo Bonati, Salvatore D’Oro, Stefano Basagni, Tommaso
+  Melodia
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Transactions on Mobile Computing
+  year: 2022
+  url: https://doi.org/10.1109/tmc.2022.3188013
+year: 2022

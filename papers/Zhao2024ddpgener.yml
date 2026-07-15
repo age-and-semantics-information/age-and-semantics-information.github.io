@@ -1,0 +1,12 @@
+title: 'Ets-ddpg: an energy-efficient and QoS-guaranteed edge task scheduling approach
+  based on deep reinforcement learning'
+authors: Jiale Zhao, Yunni Xia, Xiaoning Sun, Tingyan Long, Qinglan Peng, Shangzhi
+  Guo, Fei Meng, Yumin Dong, Qing Xia
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Wireless Networks
+  year: 2024
+  url: https://doi.org/10.1007/s11276-024-03820-3
+year: 2024

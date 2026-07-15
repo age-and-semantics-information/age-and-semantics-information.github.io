@@ -1,0 +1,12 @@
+title: Stabilized adaptive sampling control for reliable real-time learning-based
+  surveillance systems
+authors: Dohyun Kim, Soohyun Park, Joongheon Kim, Jae Young Bang, Soyi Jung
+labels:
+- estimation / control
+- learning / RL
+- sampling / updating
+publications:
+- name: Journal of Communications and Networks
+  year: 2021
+  url: https://doi.org/10.23919/jcn.2021.000009
+year: 2021

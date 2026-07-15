@@ -1,0 +1,10 @@
+title: Efficiently Breaking the Curse of Horizon in Off-Policy Evaluation with Double
+  Reinforcement Learning
+authors: Nathan Kallus, Masatoshi Uehara
+labels:
+- learning / RL
+publications:
+- name: Operations Research
+  year: 2022
+  url: https://doi.org/10.1287/opre.2021.2249
+year: 2022

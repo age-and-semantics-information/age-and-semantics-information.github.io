@@ -1,0 +1,12 @@
+title: 'MOSO: multi-objective snake optimizer with density estimation and grid indexing
+  mechanism for edge computing task offloading and scheduling optimization'
+authors: Shihui Zhang, Jie‐Sheng Wang, Siwen Zhang, Yu-Xuan Xing, Xiaotian Wang, Xianhang
+  Sui
+labels:
+- estimation / control
+- scheduling / optimization
+publications:
+- name: Cluster Computing
+  year: 2025
+  url: https://doi.org/10.1007/s10586-024-04902-9
+year: 2025

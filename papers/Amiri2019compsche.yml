@@ -1,0 +1,10 @@
+title: Computation Scheduling for Distributed Machine Learning With Straggling Workers
+authors: Mohammad Mohammadi Amiri, Denız Gündüz
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Signal Processing
+  year: 2019
+  url: https://doi.org/10.1109/tsp.2019.2952051
+year: 2019

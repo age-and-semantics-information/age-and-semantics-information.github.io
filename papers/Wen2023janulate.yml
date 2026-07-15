@@ -1,0 +1,11 @@
+title: 'Janus: Latency-Aware Traffic Scheduling for IoT Data Streaming in Edge Environments'
+authors: Zhenyu Wen, Renyu Yang, Bin Qian, Yubo Xuan, Lingling Lu, Zheng Wang, Hao
+  Peng, Jie Xu, Albert Y. Zomaya, Rajiv Ranjan
+labels:
+- edge / IoT / UAV
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Services Computing
+  year: 2023
+  url: https://doi.org/10.1109/tsc.2023.3312131
+year: 2023

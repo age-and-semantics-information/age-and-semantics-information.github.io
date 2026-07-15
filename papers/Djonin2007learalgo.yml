@@ -1,0 +1,11 @@
+title: '${Q}$-Learning Algorithms for Constrained Markov Decision Processes With Randomized
+  Monotone Policies: Application to MIMO Transmission Control'
+authors: D.V. Djonin, Vikram Krishnamurthy
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: IEEE Transactions on Signal Processing
+  year: 2007
+  url: https://doi.org/10.1109/tsp.2007.893228
+year: 2007

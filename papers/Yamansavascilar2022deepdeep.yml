@@ -1,0 +1,10 @@
+title: 'DeepEdge: A Deep Reinforcement Learning Based Task Orchestrator for Edge Computing'
+authors: Baris Yamansavascilar, Ahmet Cihat Baktır, Cagatay Sonmez, Atay Özgövde,
+  Cem Ersoy
+labels:
+- learning / RL
+publications:
+- name: IEEE Transactions on Network Science and Engineering
+  year: 2022
+  url: https://doi.org/10.1109/tnse.2022.3217311
+year: 2022

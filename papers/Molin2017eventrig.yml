@@ -1,0 +1,9 @@
+title: 'Event-Triggered State Estimation: An Iterative Algorithm and Optimality Properties'
+authors: Adam Molin, Sandra Hirche
+labels:
+- estimation / control
+publications:
+- name: IEEE Transactions on Automatic Control
+  year: 2017
+  url: https://doi.org/10.1109/tac.2017.2701005
+year: 2017

@@ -1,0 +1,10 @@
+title: 'Learning Unknown Service Rates in Queues: A Multiarmed Bandit Approach'
+authors: Subhashini Krishnasamy, Rajat Sen, Ramesh Johari, Sanjay Shakkottai
+labels:
+- learning / RL
+- queueing analysis
+publications:
+- name: Operations Research
+  year: 2020
+  url: https://doi.org/10.1287/opre.2020.1995
+year: 2020

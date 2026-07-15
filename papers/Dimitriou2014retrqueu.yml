@@ -1,0 +1,10 @@
+title: A retrial queue for modeling fault-tolerant systems with checkpointing and
+  rollback recovery
+authors: Ioannis Dimitriou
+labels:
+- queueing analysis
+publications:
+- name: Computers & Industrial Engineering
+  year: 2014
+  url: https://doi.org/10.1016/j.cie.2014.10.018
+year: 2014

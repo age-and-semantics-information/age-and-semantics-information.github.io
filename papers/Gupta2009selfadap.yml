@@ -1,0 +1,9 @@
+title: Self-adaptive admission control policies for resource-sharing systems
+authors: Varun Gupta, Mor Harchol‐Balter
+labels:
+- estimation / control
+publications:
+- name: ACM SIGMETRICS Performance Evaluation Review
+  year: 2009
+  url: https://doi.org/10.1145/2492101.1555385
+year: 2009

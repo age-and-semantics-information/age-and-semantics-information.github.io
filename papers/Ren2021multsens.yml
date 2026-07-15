@@ -1,0 +1,10 @@
+title: Multi-sensor Kalman filtering over packet-dropping networks subject to Round-Robin
+  protocol scheduling
+authors: Xiuxiu Ren, Guang‐Hong Yang
+labels:
+- scheduling / optimization
+publications:
+- name: Journal of the Franklin Institute
+  year: 2021
+  url: https://doi.org/10.1016/j.jfranklin.2021.07.047
+year: 2021

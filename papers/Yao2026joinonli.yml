@@ -1,0 +1,11 @@
+title: Joint online estimation of state of charge and internal temperature of lithium-ion
+  batteries with multi-task learning
+authors: Jiaqi Yao, Dominik Droese, Julia Kowal
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Journal of Energy Storage
+  year: 2026
+  url: https://doi.org/10.1016/j.est.2026.121468
+year: 2026

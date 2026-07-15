@@ -1,0 +1,9 @@
+title: Generation of Spacecraft Operations Procedures Using Deep Reinforcement Learning
+authors: Andrew T. Harris, Trace Valade, Thibaud Teil, Hanspeter Schaub
+labels:
+- learning / RL
+publications:
+- name: Journal of Spacecraft and Rockets
+  year: 2021
+  url: https://doi.org/10.2514/1.a35169
+year: 2021

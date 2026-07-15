@@ -1,0 +1,10 @@
+title: 'EdgeWise: Energy-efficient CNN Computation on Edge Devices under Stochastic
+  Communication Delays'
+authors: Mehdi Ghasemi, Daler Rakhmatov, Carole-Jean Wu, Sarma Vrudhula
+labels:
+- theory / fundamentals
+publications:
+- name: ACM Transactions on Embedded Computing Systems
+  year: 2022
+  url: https://doi.org/10.1145/3530908
+year: 2022

@@ -1,0 +1,11 @@
+title: 'Eris: An Online Auction for Scheduling Unbiased Distributed Learning Over
+  Edge Networks'
+authors: Jinlong Pang, Ziyi Han, Ruiting Zhou, Renli Zhang, John C. S. Lui, Hao Chen
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Mobile Computing
+  year: 2023
+  url: https://doi.org/10.1109/tmc.2023.3333368
+year: 2023

@@ -1,0 +1,11 @@
+title: A Resource Scheduling Algorithm for Multi-Target 3D Imaging in Radar Network
+  Based on Deep Reinforcement Learning
+authors: Huan Yao, Hao Lou, Dan Wang, Yijun Chen, Junkun Yan
+labels:
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Remote Sensing
+  year: 2024
+  url: https://doi.org/10.3390/rs16234472
+year: 2024

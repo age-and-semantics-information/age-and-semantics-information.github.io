@@ -1,0 +1,10 @@
+title: Orchestrating real-time IoT workflows in a fog computing environment utilizing
+  partial computations with end-to-end error propagation
+authors: Georgios L. Stavrinides, Helen D. Karatza
+labels:
+- edge / IoT / UAV
+publications:
+- name: Cluster Computing
+  year: 2021
+  url: https://doi.org/10.1007/s10586-021-03327-y
+year: 2021

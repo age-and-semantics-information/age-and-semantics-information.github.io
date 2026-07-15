@@ -1,0 +1,9 @@
+title: Deadline-Aware MapReduce Job Scheduling with Dynamic Resource Availability
+authors: Dazhao Cheng, Xiaobo Zhou, Yinggen Xu, Liu Liu, Changjun Jiang
+labels:
+- scheduling / optimization
+publications:
+- name: IEEE Transactions on Parallel and Distributed Systems
+  year: 2018
+  url: https://doi.org/10.1109/tpds.2018.2873373
+year: 2018

@@ -1,0 +1,9 @@
+title: 'Unifying PAC and Regret: Uniform PAC Bounds for Episodic Reinforcement Learning'
+authors: Christoph Dann, Tor Lattimore, Emma Brunskill
+labels:
+- learning / RL
+publications:
+- name: Neural Information Processing Systems
+  year: 2017
+  url: https://papers.nips.cc/paper/7154-unifying-pac-and-regret-uniform-pac-bounds-for-episodic-reinforcement-learning.pdf
+year: 2017

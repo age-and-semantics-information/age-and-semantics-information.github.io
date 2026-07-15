@@ -1,0 +1,10 @@
+title: 'FedKL: Tackling Data Heterogeneity in Federated Reinforcement Learning by
+  Penalizing KL Divergence'
+authors: Zhijie Xie, Shenghui Song
+labels:
+- learning / RL
+publications:
+- name: IEEE Journal on Selected Areas in Communications
+  year: 2023
+  url: https://doi.org/10.1109/jsac.2023.3242734
+year: 2023

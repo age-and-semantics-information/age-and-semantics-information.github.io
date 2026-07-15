@@ -1,0 +1,10 @@
+title: 'PTMB: An online satellite task scheduling framework based on pre-trained Markov
+  decision process for multi-task scenario'
+authors: Kun Liu, Xuefei Li, Jing Li, Jia Chen, Xin Shen
+labels:
+- scheduling / optimization
+publications:
+- name: Knowledge-Based Systems
+  year: 2023
+  url: https://doi.org/10.1016/j.knosys.2023.111339
+year: 2023

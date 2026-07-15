@@ -1,0 +1,9 @@
+title: 'Multicast Pull Scheduling: When Fairness Is Fine'
+authors: Edmonds, Pruhs
+labels:
+- scheduling / optimization
+publications:
+- name: Algorithmica
+  year: 2003
+  url: https://doi.org/10.1007/s00453-003-1018-5
+year: 2003

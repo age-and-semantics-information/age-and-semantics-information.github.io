@@ -1,0 +1,10 @@
+title: Adaptive Sampling for Linear State Estimation
+authors: Maben Rabi, George V. Moustakides, John S. Baras
+labels:
+- estimation / control
+- sampling / updating
+publications:
+- name: SIAM Journal on Control and Optimization
+  year: 2012
+  url: https://doi.org/10.1137/090757125
+year: 2012

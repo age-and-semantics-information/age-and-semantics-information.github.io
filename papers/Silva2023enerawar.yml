@@ -1,0 +1,11 @@
+title: Energy-Aware Federated Learning With Distributed User Sampling and Multichannel
+  ALOHA
+authors: Rafael Valente da Silva, Onel L. Alcaraz López, Richard Demo Souza
+labels:
+- learning / RL
+- sampling / updating
+publications:
+- name: IEEE Communications Letters
+  year: 2023
+  url: https://doi.org/10.1109/lcomm.2023.3312793
+year: 2023

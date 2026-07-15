@@ -1,0 +1,12 @@
+title: Deep Q-Learning-Based Transmission Power Control of a High Altitude Platform
+  Station with Spectrum Sharing
+authors: Seongjun Jo, Wooyeol Yang, Haing Kun Choi, Eonsu Noh, Han‐Shin Jo, Jaedon
+  Park
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Sensors
+  year: 2022
+  url: https://doi.org/10.3390/s22041630
+year: 2022

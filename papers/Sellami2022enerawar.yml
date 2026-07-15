@@ -1,0 +1,12 @@
+title: Energy-aware task scheduling and offloading using deep reinforcement learning
+  in SDN-enabled IoT network
+authors: Bassem Sellami, Akram Hakiri, Sadok Ben Yahia, Pascal Berthou
+labels:
+- edge / IoT / UAV
+- learning / RL
+- scheduling / optimization
+publications:
+- name: Computer Networks
+  year: 2022
+  url: https://doi.org/10.1016/j.comnet.2022.108957
+year: 2022

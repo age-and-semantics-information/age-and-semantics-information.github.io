@@ -1,0 +1,11 @@
+title: 'Fedstellar: A Platform for Decentralized Federated Learning'
+authors: Enrique Tomás Martínez Beltrán, Ángel Luis Perales Gómez, Chao Feng, Pedro
+  Miguel Sánchez Sánchez, Sergio López Bernal, Gérôme Bovet, Manuel Gil Pérez, Gregorio
+  Martínez Pérez, Alberto Huertas Celdrán
+labels:
+- learning / RL
+publications:
+- name: Expert Systems with Applications
+  year: 2023
+  url: https://doi.org/10.1016/j.eswa.2023.122861
+year: 2023

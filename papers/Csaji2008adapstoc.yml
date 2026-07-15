@@ -1,0 +1,10 @@
+title: 'Adaptive Stochastic Resource Control: A Machine Learning Approach'
+authors: B. C. Csaji, L. Monostori
+labels:
+- estimation / control
+- learning / RL
+publications:
+- name: Journal of Artificial Intelligence Research
+  year: 2008
+  url: https://doi.org/10.1613/jair.2548
+year: 2008

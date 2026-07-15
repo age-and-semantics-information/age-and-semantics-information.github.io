@@ -1,0 +1,10 @@
+title: Evaluation of TCP Congestion Control Algorithms with traffic control policies
+  in a PEP-based geosynchronous satellite scenario
+authors: Daniel Ramos, Óscar Esparza, Jorge Mata Díaz, Juanjo Alins
+labels:
+- estimation / control
+publications:
+- name: Computer Networks
+  year: 2023
+  url: https://doi.org/10.1016/j.comnet.2023.110131
+year: 2023
